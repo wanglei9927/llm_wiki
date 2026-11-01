@@ -20,6 +20,22 @@
 
 ---
 
+## 2026-11-01 — 消化 dsh-superagent-prototype 素材并生成 DSH 入门学习路径（完整处理）
+
+- **操作**：用户（dsh 小白）要求系统学习 dsh 并上手；webfetch 抓取 2 条推文（@IAmHuTu、@meow2149）、superagent-prototype 仓库 README、官网 deepseek.com/harness，共 3 篇新素材；按用户诉求首次生成综合分析（学习路径）页
+- **新增页面**：
+  - 原始素材 3 篇（raw/tweets/2026-11-01-superagent-prototype-tweets.md 合并两条推文；raw/articles/2026-11-01-dsh-superagent-prototype-readme.md；raw/articles/2026-11-01-deepseek-harness-official-site.md）
+  - 素材摘要 3 篇（superagent-prototype-tweets 合并摘要、dsh-superagent-prototype 仓库深读、official-site 官网全景）
+  - **综合分析 1 篇（DSH 入门学习路径：五步路线 + 概念词典 + 安装对比 + 常见坑 + 资源清单 + 视角对比）**
+- **更新页面**：
+  - [[DeepSeek Harness]] 实体页（观点节追加官网/社区/原型仓库 3 个视角，sources 回填至 6 篇）
+  - [[AI编程开发]] 主题页（Agent 基础设施节追加 Super-agent 落地两路与实验数据，sources 回填）
+- **关键新信息**：桌面端安装包（小白最简入口）；创造模式对话生成插件；官方"智能体团队（实验性）"插件；superagent-prototype 实验数据（中位数 12.4 分钟 / P95 15.7 vs 传统 29.5 分钟）；"注意力经济学"设计哲学
+- **当前知识库规模**：合并冲突解决后实际为 31 篇素材（与 Claude Code 会话并行，本条目记录为合并前快照 30 篇）
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化工程素材：wiki-summarize 知识库梳理技能
 
 - **操作**：梳理 `.claude/skills/wiki-summarize` 的 SKILL.md、扫描脚本与复用说明，整理为可复用知识页（完整处理）

@@ -2,7 +2,7 @@
 tags: [AI编程, DeepSeek, Cursor, 开发效率, 架构图, 游戏开发, Spring AI, RAG, Agent]
 created: 2026-04-29
 updated: 2026-11-01
-sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-readme, 2026-11-01-claude-code-practical-dev-techniques]
+sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-readme, 2026-11-01-claude-code-practical-dev-techniques, 2026-11-01-deepseek-harness-guides, 2026-11-01-deepseek-harness-official-site, 2026-11-01-superagent-prototype-tweets, 2026-11-01-dsh-superagent-prototype]
 ---
 
 # AI 编程开发全景
@@ -356,8 +356,9 @@ IDE: PyCharm Community Edition（免费）
 - 事件触发（群消息/邮件/代码评论/CI 结果自动投喂）+ Watchdog 自恢复，支撑 7×24 挂机运行
 - 上手极简：`npx @deepseek-ai/dsh web` → Web UI（127.0.0.1:3080）→ 配 DeepSeek API key → 选工作区 → 发任务；agent 可读写工作区文件、跑命令、委派工作、维护计划，敏感操作按权限策略先审批
 - 注意：developer preview 阶段，官方警告将有破坏性变更，运行前读 SAFETY.md；与"Agent 远程化"节对照——Telegram Bridge 是轻量自建方案，dsh 是官方全家桶
+- Super-agent 落地两路：①官网"智能体团队（实验性）"插件（产品内形态）；②dsh-superagent-prototype 独立仓库（监听 GitHub/飞书的值守 agent，独立会话干活、原对话回 PR；初步实验任务完成中位数 12.4 分钟 vs 传统方案 P95 29.5 分钟）；小白入门路径见综合分析页 [[DSH 入门学习路径]]
 
-相关实体：[[DeepSeek Harness]]、[[DeepSeek]]、[[AI Agent 智能体]]
+相关实体：[[DeepSeek Harness]]、[[DeepSeek]]、[[AI Agent 智能体]]、[[DSH 入门学习路径]]
 
 ## Claude Code 实战开发术（2026-11）
 
