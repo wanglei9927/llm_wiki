@@ -2,7 +2,7 @@
 tags: [AI编程, DeepSeek, Cursor, 开发效率, 架构图, 游戏开发, Spring AI, RAG, Agent]
 created: 2026-04-29
 updated: 2026-11-01
-sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-readme]
+sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-readme, 2026-11-01-claude-code-practical-dev-techniques]
 ---
 
 # AI 编程开发全景
@@ -359,6 +359,18 @@ IDE: PyCharm Community Edition（免费）
 
 相关实体：[[DeepSeek Harness]]、[[DeepSeek]]、[[AI Agent 智能体]]
 
+## Claude Code 实战开发术（2026-11）
+
+来自 [[2026-11-01-claude-code-practical-dev-techniques]]：
+
+- Anthropic 团队自报：Claude Code 自身约 90% 的代码由 Claude 编写；6–9 月变更量翻倍以上，回滚比例下降 40% 以上
+- 核心转变：不是减少验证，而是把可自动验证的部分交给 Claude；人只看不可逆决策与最终责任
+- 六个实战术：要证据、独立 Claude 评审、修复循环设上限、安全闭环、不可逆部分人工确认、随时可回滚
+- 关键纪律：Claude 的 OK 不等于人的 OK；评审 3 次、同一 bug 修复 2 次为上限
+- 安全：发布前 `/security-review`；不要在下载文件夹启动 agent，防止 `AGENTS.md` / `CLAUDE.md` 注入
+
+相关主题：[[Claude Code 实战开发术]] · 相关实体：[[Claude Code]]
+
 ## 相关页面
 
 - [[DeepSeek]]
@@ -370,3 +382,5 @@ IDE: PyCharm Community Edition（免费）
 - [[CodeArts CLI]]
 - [[CodeArts Telegram Bridge]]
 - [[DeepSeek Harness]]
+- [[Claude Code]]
+- [[Claude Code 实战开发术]]

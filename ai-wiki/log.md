@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-11-01 — 消化 X 长文：Claude Code 实战开发术【完全版】
+
+- **操作**：经本地代理用 Jina Reader 抓取 @29meat_ai 日文长文（约 3.5 万字节），完整处理
+- **新增页面**：
+  - 原始素材 1 篇（raw/tweets/2026-11-01-claude-code-practical-dev-techniques.md）
+  - 素材摘要 1 篇（Claude Code 实战开发术：六条实战术、Prompt 模板、端到端流程与 NG 清单）
+  - 实体页 1 篇（Claude Code）
+  - 主题页 1 篇（Claude Code 实战开发术）
+- **更新页面**：
+  - [[AI编程开发]] 主题页（新增实战术小节，sources 回填）
+  - index.md、wiki/overview.md
+- **当前知识库规模**：28 篇素材，6 个主题页，27 个实体页
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化工程素材：wiki-summarize 知识库梳理技能
 
 - **操作**：梳理 `.claude/skills/wiki-summarize` 的 SKILL.md、扫描脚本与复用说明，整理为可复用知识页（完整处理）
