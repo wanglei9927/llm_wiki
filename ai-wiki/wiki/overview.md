@@ -38,7 +38,7 @@
 
 | 类型 | 数量 | 入口 |
 |------|------|------|
-| 素材摘要 | 23 | `wiki/sources/` 目录 |
+| 素材摘要 | 24 | `wiki/sources/` 目录 |
 | 实体页 | 24 | `wiki/entities/` 目录 |
 | 主题页 | 5 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
@@ -48,6 +48,7 @@
 
 ## 最近更新
 
+- **2026-11-01**：消化 @Super_Nius 推文「DeepSeek Harness：Super-agent 双层架构」（deepseek-harness 项目解读），新增 1 篇摘要，更新 DeepSeek、AI Agent 智能体 2 个实体页，知识库达到 24 篇素材
 - **2026-11-01**：消化 @Tao_Builds 推文「PixelFX 232 种游戏特效开源」（首个 X/Twitter 素材），新增 1 篇摘要，知识库达到 23 篇素材
 - **2026-11-01**：消化工程实战素材「CodeArts Telegram Bridge」，新增 2 个实体页（CodeArts CLI、CodeArts Telegram Bridge），知识库达到 22 篇素材
 - **2026-11-01**：运行 lint 健康检查，为 8 篇摘要页补充"实操内容保留"/"原文精彩摘录"节，全部质量检查通过

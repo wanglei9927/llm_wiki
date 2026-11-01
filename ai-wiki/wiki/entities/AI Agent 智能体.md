@@ -3,11 +3,11 @@ type: entity
 name: AI Agent 智能体
 category: 核心技术
 tags: [Agent, 智能体, ReAct, 工具调用, 自主行动]
-sources: [2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-programming-tech]
+sources: [2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-01-deepseek-harness-tweet]
   - 2026-04-29-yupi-ai-guide-core-concepts.md
   - 2026-04-29-yupi-ai-guide-programming-tech.md
 created: 2026-04-29
-updated: 2026-04-29
+updated: 2026-11-01
 ---
 
 # AI Agent 智能体
@@ -71,6 +71,12 @@ AI Agent（智能体）是 AI 技术的高级形态。与传统的大模型对�
 - 构建智能体的开发范式
 - 打造能够依据推理自主采取行动的 AI 系统
 - 开发涉及知识：任务规划、工具调用、交互 I/O、异常处理
+
+来自 [[2026-11-01-deepseek-harness-tweet]]：
+- 单会话 Agent 是"孤岛"：同时推进多任务需用户自己来回切换、自己记上下文
+- DeepSeek Harness 提出 Super-agent 双层架构：Router 层负责对话、记全局、派活；Worker 层为每个任务开独立隔离会话并行执行，完成后向 Router 汇报
+- 配套事件触发（群消息、邮件、代码评论、CI 结果自动投喂）与 Watchdog 看门狗（故障自恢复）
+- 争议：有开发者（@r8tba）实现过类似"会议模式"后删除，认为方向错误；另有观点称 Claude Code 的 project 机制与之类似
 
 ### 开发流程示例：视频网站开发
 1. 深入理解任务内容

@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-11-01 — 消化 X 推文：DeepSeek Harness（Super-agent 架构）
+
+- **操作**：消化 @Super_Nius 2026-10-31 推文（DeepSeek deepseek-harness 项目解读，短素材简化处理；webfetch 自动抓取成功）
+- **新增页面**：
+  - 原始素材 1 篇（raw/tweets/2026-11-01-deepseek-harness-tweet.md）
+  - 素材摘要 1 篇（DeepSeek Harness：Super-agent 双层架构开源项目）
+- **更新页面**：
+  - [[DeepSeek]] 实体页（编程开发场景与"不同素材中的观点"追加 Super-agent 架构信息，sources 回填）
+  - [[AI Agent 智能体]] 实体页（"不同素材中的观点"追加会话孤岛问题与双层架构，sources 回填）
+- **待创建概念**（纯文本标注）：DeepSeek Harness / Super-agent、事件触发 Agent（各仅 1 篇素材提及，积累后创建实体页）
+- **当前知识库规模**：24 篇素材，5 个主题页，24 个实体页
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化 X 推文：PixelFX 232 种游戏特效开源
 
 - **操作**：消化 @Tao_Builds 2026-10-31 推文（PixelFX 项目推荐，短素材简化处理；webfetch 自动抓取成功）
