@@ -17,7 +17,8 @@ description: |
 
 - **llm-wiki 风格知识库**：根目录含 `.wiki-schema.md`，有 `raw/`（原始素材）+ `wiki/`（entities/topics/sources/...）+ `index.md` / `overview.md` / `log.md` 结构
 - **任意 Markdown 知识目录**：降级模式，同样可用（见文末）
-- **本仓库特例**：`E:\llm_wiki` 下同时存在 `ai-wiki/` 与 `stock-wiki/` 两个独立知识库，**每个库单独产出一份 SUMMARY.md**，不要混在一起写
+- **多知识库目录**：一个目录下有多个 `*/.wiki-schema.md`（例如 `E:\llm_wiki` 的 `ai-wiki/` 与 `stock-wiki/`）时，**每个库单独产出一份 SUMMARY.md**，不要混在一起写
+- **用户级安装**：本 skill 通过 junction 链到 `~/.claude/skills/wiki-summarize`，任何项目窗口都能触发；默认知识库路径写在 `~/.llm-wiki-path`（单个路径，或每行一个）
 
 ## 执行流程（六步，不可跳步）
 
@@ -26,9 +27,15 @@ description: |
 本仓库可能同时有多个 agent 在读写，**任何写入之前必须先同步**，否则你读到的是旧快照，
 写出来的报告会和别人的改动冲突。
 
+先确定远端（按顺序，命中即止）：
+
+1. 仓库配置了 `mywiki` 远程 → 用它（本仓库约定）
+2. 否则用当前分支上游：`git rev-parse --abbrev-ref --symbolic-full-name @{u}`
+3. 都没有 → `origin`
+
 ```bash
-git -C "<仓库根>" fetch mywiki
-git -C "<仓库根>" -c rebase.autoStash=true pull --rebase mywiki main
+git -C "<仓库根>" fetch <远端>
+git -C "<仓库根>" -c rebase.autoStash=true pull --rebase <远端> <分支>
 ```
 
 - 工作区有未提交改动时，`rebase.autoStash=true` 会自动 stash 再恢复
@@ -122,16 +129,15 @@ raw/ 各分类：已消化（对应 wiki 页存在）/ 疑似未消化 清单
 
 ```bash
 # 1. 提交前再同步一次（第 0 步之后可能又有其他 agent 推了东西）
-git -C "<仓库根>" fetch mywiki
-git -C "<仓库根>" -c rebase.autoStash=true pull --rebase mywiki main
+git -C "<仓库根>" fetch <远端>
+git -C "<仓库根>" -c rebase.autoStash=true pull --rebase <远端> <分支>
 
-# 2. 提交
+# 2. 提交（身份取仓库现有的 git 配置；本仓库约定用 wanglei9927）
 git -C "<仓库根>" add -A
-git -C "<仓库根>" -c user.name=wanglei9927 -c user.email=leiwang9927@gmail.com \
-  commit -m "梳理知识库：<库名>"
+git -C "<仓库根>" commit -m "梳理知识库：<库名>"
 
 # 3. 推送
-git -C "<仓库根>" push mywiki main
+git -C "<仓库根>" push <远端> <分支>
 ```
 
 - **推送被拒（non-fast-forward）** = 期间又有人推了：回到第 1 步重新 `pull --rebase` 再推，**不要用 `--force`**
