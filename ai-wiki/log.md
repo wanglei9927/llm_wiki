@@ -4,6 +4,14 @@
 
 ---
 
+## 2026-11-01 — CodeArts Telegram Bridge 实体页更新：开机自启配置
+
+- **操作**：补充 systemd user 服务开机自启配置（codearts-tg + enable-linger）、重启后重连说明、代理前提条件
+- **实体页**：[[CodeArts Telegram Bridge]] 实用信息节更新
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化工程实战素材 CodeArts Telegram Bridge
 
 - **操作**：消化自产工程总结素材（CodeArts↔Telegram 桥接项目技术记录）
