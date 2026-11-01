@@ -2,12 +2,12 @@
 tags: [DeepSeek Harness, dsh, 入门教程, 学习路径, AI Agent, 桌面端, Super-agent]
 created: 2026-11-01
 updated: 2026-11-01
-sources: [2026-11-01-deepseek-harness-readme, 2026-11-01-deepseek-harness-guides, 2026-11-01-deepseek-harness-official-site, 2026-11-01-superagent-prototype-tweets, 2026-11-01-dsh-superagent-prototype, 2026-11-01-deepseek-harness-tweet]
+sources: [2026-11-01-deepseek-harness-readme, 2026-11-01-deepseek-harness-guides, 2026-11-01-deepseek-harness-official-site, 2026-11-01-superagent-prototype-tweets, 2026-11-01-dsh-superagent-prototype, 2026-11-01-deepseek-harness-tweet, 2026-11-01-dsh-go-tweet]
 ---
 
 # DSH 入门学习路径（小白版）
 
-> 综合自 6 篇素材（官网 + GitHub 官方文档 + 3 条推文）| 生成日期：2026-11-01 | 目标读者：零基础想上手 dsh 的你
+> 综合自 7 篇素材（官网 + GitHub 官方文档 + 4 条推文）| 生成日期：2026-11-01 | 目标读者：零基础想上手 dsh 的你
 
 ## 背景概述
 
@@ -84,6 +84,7 @@ DeepSeek Harness（命令 `dsh`）是 DeepSeek 开源的智能体框架（agent 
 | 社区插件 | https://github.com/topics/dsh-plugin | 第三方插件发现 |
 | Cordis 论文 | https://arxiv.org/abs/2608.25512 | "一切皆插件"的理论基础 |
 | 社区 | Discord / 企业微信 / 微信公众号 | 提问与跟进（README 有入口） |
+| DSH Go（社区安卓客户端） | github.com/ccch1mneyyy/dsh-Go | Android 8+ 本机跑 dsh 引擎 / SSH 接管电脑；**建议单独申请 API Key，勿用主力 Key** |
 
 ## 本知识库的 dsh 素材索引
 
@@ -94,6 +95,7 @@ DeepSeek Harness（命令 `dsh`）是 DeepSeek 开源的智能体框架（agent 
 5. [[2026-11-01-deepseek-harness-official-site]] — 官网：桌面端、创造模式、插件清单
 6. [[2026-11-01-superagent-prototype-tweets]] — 原型发布推文与实验数据
 7. [[2026-11-01-dsh-superagent-prototype]] — 原型仓库深读
+8. [[2026-11-01-dsh-go-tweet]] — DSH Go：安卓手机运行 DSH 引擎的社区客户端
 
 ## 尚待解决的问题（可作为后续学习方向）
 

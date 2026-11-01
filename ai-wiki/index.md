@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：31
-- Wiki 页面总数：67
+- 素材总数：32
+- Wiki 页面总数：68
 
 ---
 
@@ -84,7 +84,7 @@
 - [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（17 篇）
+### 编程开发类（18 篇）
 
 - [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -103,6 +103,7 @@
 - [[2026-11-01-deepseek-harness-official-site]] - DeepSeek Harness 官网：产品形态与功能全景
 - [[2026-11-01-superagent-prototype-tweets]] - dsh-superagent-prototype 发布推文与实验数据
 - [[2026-11-01-dsh-superagent-prototype]] - dsh-superagent-prototype：Super-agent 落地原型
+- [[2026-11-01-dsh-go-tweet]] - DSH Go：安卓手机运行 DSH 引擎的社区客户端
 
 ### 工程实战类（2 篇）
 

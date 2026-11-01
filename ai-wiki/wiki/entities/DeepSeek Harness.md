@@ -2,7 +2,7 @@
 tags: [DeepSeek, DeepSeek Harness, dsh, AI Agent, 插件化, agent harness, Cordis, 开源项目]
 created: 2026-11-01
 updated: 2026-11-01
-sources: [2026-11-01-deepseek-harness-readme, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-guides, 2026-11-01-deepseek-harness-official-site, 2026-11-01-superagent-prototype-tweets, 2026-11-01-dsh-superagent-prototype]
+sources: [2026-11-01-deepseek-harness-readme, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-guides, 2026-11-01-deepseek-harness-official-site, 2026-11-01-superagent-prototype-tweets, 2026-11-01-dsh-superagent-prototype, 2026-11-01-dsh-go-tweet]
 ---
 
 # DeepSeek Harness
@@ -71,6 +71,12 @@ Agent 的读写文件、执行命令等敏感操作，按当前权限策略在 W
 - Super-agent 落地实现：面向单个 GitHub 仓库的 proactive coding agent（打包为 dsh bundle），监听 GitHub（可选飞书），独立会话+独立目录干活、原对话回 PR、Web 面板显示待人工事项
 - 工作哲学："take as little human attention as possible, and give as much value as possible"——只在被要求或规则允许时行动，只在有人必须行动或能利用结果时说话
 - 官方定位仅为研究原型、非生产就绪（与论文实现不完全一致）；推荐让 coding agent 读 SETUP.md 代为安装
+
+### 来自 2026-11-01-dsh-go-tweet（社区生态视角，@NFT_Chen）
+- 社区第三方项目 DSH Go 把完整 DSH 引擎装进安卓手机（Android 8+ arm64）：内置 Ubuntu 环境免 Root 免 Termux 本机直接跑；开源一天 3000+ Star，"非官方但完成度极高"
+- 断档接力：SSH/Remote 一键接管电脑/服务器会话；插件、语音输入、图片、屏幕操控全支持，原生界面+网页模式一键切换；桌宠 Deepy 和鲸娘
+- 评论区安全建议（@leehoo48415921）：非官方包单独开一个 API Key 专用于它，勿用主力 Key
+- 局限：无 iOS 版；第三方项目与官方无隶属关系
 
 ## 实用信息
 
@@ -145,4 +151,5 @@ print(result.final_response)
 - [[2026-11-01-deepseek-harness-official-site]]
 - [[2026-11-01-superagent-prototype-tweets]]
 - [[2026-11-01-dsh-superagent-prototype]]
+- [[2026-11-01-dsh-go-tweet]]
 - [[DSH 入门学习路径]]
