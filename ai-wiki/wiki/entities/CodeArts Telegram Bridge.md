@@ -67,6 +67,8 @@ CLI agent 绑定在电脑终端上，通勤、开会、沙发上时彻底失联�
 ## 实用信息
 
 - **运行**：`./start.sh -d` 后台（日志 logs/bot.log）、`--status`、`--stop`；首次运行自动创建 venv 并装依赖（`python3 -m venv --without-pip` + get-pip.py，绕过 PEP 668）
+- **开机自启（2026-11-01 已配置）**：systemd user 服务 `codearts-tg`（`~/.config/systemd/user/codearts-tg.service`，Restart=on-failure）+ `loginctl enable-linger` 实现不登录桌面也开机即启。管理：`systemctl --user status/restart codearts-tg`、日志 `journalctl --user -u codearts-tg -f`。前提：代理软件（Clash，7897）需开机运行，bot 有重试机制，代理就绪后自动恢复
+- **重启后重连**：无需任何操作——Telegram 对话关系、白名单、会话上下文（.bridge_session）全部持久在本机文件，bot 进程拉起即恢复
 - **配置**：`.env` 填 `TELEGRAM_BOT_TOKEN`、`ALLOWED_USER_IDS`，可选 `PROXY_URL`（默认 http://127.0.0.1:7897）、`CODEARTS_TIMEOUT`
 - **systemd**：README 提供 user service 模板，开机自启 + 崩溃自动拉起
 - **实测**（2026-11-01）：跨进程会话延续（记数字 42 后追问答对）；手机连发"你好"与 GitHub 研究任务，处理零错误
