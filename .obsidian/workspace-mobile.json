@@ -11,12 +11,14 @@
             "id": "192ed2c1604fe046",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-03.webp"
+                "file": "ai-wiki/wiki/entities/CodeArts CLI.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "2026-11-01-dsh-go-03"
+              "icon": "lucide-file",
+              "title": "CodeArts CLI"
             }
           }
         ]
@@ -148,7 +150,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-03.webp",
+            "file": "ai-wiki/wiki/entities/CodeArts CLI.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -173,19 +175,22 @@
   },
   "active": "192ed2c1604fe046",
   "lastOpenFiles": [
+    "ai-wiki/wiki/synthesis/2026-04-29-deepseek-content-creation-deep-dive.md",
+    "ai-wiki/index.md",
+    "ai-wiki/wiki/sources/2026-11-01-dsh-go-tweet.md",
+    "ai-wiki/wiki/entities/DeepSeek Harness.md",
+    "ai-wiki/raw/tweets/2026-11-01-dsh-go-tweet.md",
+    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-03.webp",
     "ai-wiki/log.md",
     "ai-wiki/raw/tweets/assets/2026-11-01-dsh-plugins-01.webp",
     "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-02.webp",
     "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-01.webp",
     "ai-wiki/raw/tweets/2026-11-01-superagent-prototype-tweets.md",
-    "ai-wiki/wiki/entities/DeepSeek Harness.md",
     "ai-wiki/raw/tweets/2026-11-01-deepseek-harness-tweet.md",
     "ai-wiki/wiki/entities/AI Agent 智能体.md",
     "ai-wiki/wiki/synthesis/DSH 入门学习路径.md",
     "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-04.webp",
-    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-03.webp",
     "ai-wiki/raw/tweets/assets",
-    "ai-wiki/raw/tweets/2026-11-01-dsh-go-tweet.md",
     "ai-wiki/raw/notes/2026-11-01-codearts-telegram-bridge.md",
     "图片1.png",
     "stock-data/ScreenShot_2026-04-29_192005_049.png",
@@ -193,8 +198,6 @@
     "stock-data/ScreenShot_2026-04-29_191654_213.png",
     "stock-data/ScreenShot_2026-04-29_191440_631.png",
     "stock-data/2025123000018_c.md",
-    "ai-wiki/wiki/sources/2026-11-01-dsh-go-tweet.md",
-    "ai-wiki/wiki/synthesis/2026-04-29-deepseek-content-creation-deep-dive.md",
     "ai-wiki/wiki/sources/2026-11-01-deepseek-harness-readme.md",
     "ai-wiki/wiki/sources/2026-11-01-deepseek-harness-tweet.md",
     "ai-wiki/raw/articles/2026-11-01-deepseek-harness-readme.md",
