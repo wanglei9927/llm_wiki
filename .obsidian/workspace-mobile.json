@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai-wiki/wiki/synthesis/DSH 入门学习路径.md",
+                "file": "ai-wiki/raw/tweets/2026-11-01-superagent-prototype-tweets.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSH 入门学习路径"
+              "title": "2026-11-01-superagent-prototype-tweets"
             }
           }
         ]
@@ -150,7 +150,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ai-wiki/wiki/sources/2026-11-01-codearts-telegram-bridge.md",
+            "file": "图片1.png",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -160,7 +160,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,10 +175,18 @@
   },
   "active": "192ed2c1604fe046",
   "lastOpenFiles": [
+    "ai-wiki/raw/tweets/2026-11-01-dsh-go-tweet.md",
+    "ai-wiki/raw/notes/2026-11-01-codearts-telegram-bridge.md",
+    "图片1.png",
+    "stock-data/ScreenShot_2026-04-29_192005_049.png",
+    "stock-data/ScreenShot_2026-04-29_193621_472.png",
+    "stock-data/ScreenShot_2026-04-29_191654_213.png",
+    "stock-data/ScreenShot_2026-04-29_191440_631.png",
+    "stock-data/2025123000018_c.md",
+    "ai-wiki/log.md",
+    "ai-wiki/wiki/synthesis/DSH 入门学习路径.md",
     "ai-wiki/wiki/entities/AI Agent 智能体.md",
     "ai-wiki/wiki/entities/DeepSeek Harness.md",
-    "ai-wiki/wiki/synthesis/DSH 入门学习路径.md",
-    "ai-wiki/raw/tweets/2026-11-01-dsh-go-tweet.md",
     "ai-wiki/wiki/sources/2026-11-01-dsh-go-tweet.md",
     "ai-wiki/wiki/synthesis/2026-04-29-deepseek-content-creation-deep-dive.md",
     "ai-wiki/wiki/sources/2026-11-01-deepseek-harness-readme.md",
@@ -199,9 +207,6 @@
     "stock-wiki/wiki/entities/Talkie.md",
     "stock-wiki/wiki/entities/智谱清言.md",
     "stock-wiki/wiki/entities/GLM系列模型.md",
-    "stock-wiki/wiki/entities/Hailuo AI.md",
-    "stock-wiki/wiki/entities/MiniMax.md",
-    "stock-wiki/wiki/entities/MiniMax M系列.md",
     "stock-wiki/wiki/topics",
     "stock-wiki/wiki/entities",
     "stock-wiki/wiki/sources",
@@ -211,13 +216,8 @@
     "stock-wiki",
     "ai-wiki/raw/xiaohongshu",
     "ai-wiki/raw/notes",
-    "stock-data/ScreenShot_2026-04-29_191654_213.png",
-    "stock-data/ScreenShot_2026-04-29_192005_049.png",
     "stock-data/ScreenShot_2026-04-29_191630_951.png",
     "stock-data/ScreenShot_2026-04-29_191556_158.png",
-    "stock-data/ScreenShot_2026-04-29_191720_516.png",
-    "stock-data/ScreenShot_2026-04-29_193621_472.png",
-    "stock-data/ScreenShot_2026-04-29_191440_631.png",
-    "图片1.png"
+    "stock-data/ScreenShot_2026-04-29_191720_516.png"
   ]
 }
