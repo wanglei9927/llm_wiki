@@ -60,6 +60,24 @@ source_path: raw/articles/2026-04-29-deepseek-vscode-integration.md
 - 多文件代码修改：跨文件级别的代码重构能力
 - 本地模型支持：通过 Ollama 运行本地大模型
 
+## 原文精彩摘录
+
+> 使用 Roo Code 插件接入 DeepSeek API，支持 Ollama 本地模型。
+>
+> —— 出处：《DeepSeek装进VSCode，编程非常丝滑！》"核心信息"
+
+> 问题：DeepSeek API 太火爆，使用不稳定
+>
+> —— 出处：《DeepSeek装进VSCode，编程非常丝滑！》"问题与替代方案"
+
+> 替代方案：通义灵码
+> - 专门针对编程场景优化
+> - 底座：通义千问 Qwen 2.5-Max（全球第七，1332分）
+> - 2.0版本大招：AI程序员 - 多文件代码修改
+> - 安装：应用商店搜索通义灵码
+>
+> —— 出处：《DeepSeek装进VSCode，编程非常丝滑！》"问题与替代方案"
+
 ## 相关页面
 
 - DeepSeek

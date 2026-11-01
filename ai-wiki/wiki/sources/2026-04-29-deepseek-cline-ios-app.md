@@ -95,6 +95,27 @@ source_path: raw/articles/2026-04-29-deepseek-cline-ios-app.md
 - 支持手势操作
 - 分享功能集成
 
+## 原文精彩摘录
+
+> Cursor确实好用但贵，研究DeepSeek+Cline替代方案
+> 目标：做一个趣味图片打码App
+>
+> ——《背景》
+
+> Cline是AI驱动、自动编程的Agent
+> 可以AI自动生成代码
+>
+> ——《完整开发流程 · 1. 安装Cline》
+
+> 支持：硅基流动Key + DeepSeek官方Key
+> 硅基流动注册：https://cloud.siliconflow.cn/i/SUlI8b1c
+>
+> ——《完整开发流程 · 2. 配置Cline》
+
+> Cline开始自动编程。第一版可能样式简陋、功能不好用，没关系迭代就好
+>
+> ——《完整开发流程 · 5. 迭代开发》
+
 ## 相关页面
 
 - DeepSeek
