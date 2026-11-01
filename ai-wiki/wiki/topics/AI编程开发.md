@@ -335,6 +335,18 @@ IDE: PyCharm Community Edition（免费）
 5. **关注营销和运营能力**：酒香也怕巷子深，技术强只是基础
 6. **学习 AI 应用开发**：不仅会用 AI 工具开发项目，还要能自主开发 AI 项目，把 AI 能力接入自己的项目
 
+## Agent 远程化：CLI 桥接移动端（2026-11）
+
+来自 [[2026-11-01-codearts-telegram-bridge]]：
+
+- CLI agent 绑定终端是"最后一块拼图"问题：人离开电脑就失去控制权
+- 解法是 Telegram bot（long polling，零基础设施）+ 本机桥接进程 + CLI 无头模式
+- 关键洞察：**不需要官方 SDK**——`codearts run <消息> --format json` 的 NDJSON 事件流（text 事件带回复与 sessionID）足以驱动完整桥接，会话跨进程延续
+- 安全三原则：用户白名单强制、消息走 argv 不经 shell、Token 只进 gitignore 的 .env
+- 已验证：手机发"你好"与 GitHub 研究任务，CodeArts 在电脑沙箱内真实执行并回传
+
+相关实体：[[CodeArts Telegram Bridge]]、[[CodeArts CLI]]
+
 ## 相关页面
 
 - [[DeepSeek]]
@@ -343,3 +355,5 @@ IDE: PyCharm Community Edition（免费）
 - [[AI内容创作]]
 - [[鱼皮 AI 指南]]
 - [[独立开发者]]
+- [[CodeArts CLI]]
+- [[CodeArts Telegram Bridge]]

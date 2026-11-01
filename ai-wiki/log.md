@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-11-01 — 消化工程实战素材 CodeArts Telegram Bridge
+
+- **操作**：消化自产工程总结素材（CodeArts↔Telegram 桥接项目技术记录）
+- **新增页面**：
+  - 素材摘要 1 篇（CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端）
+  - 实体页 2 篇（CodeArts CLI、CodeArts Telegram Bridge）
+- **更新页面**：
+  - [[AI编程开发]] 主题页（新增"Agent 远程化"内容与相关页面）
+  - index.md / overview.md 统计与最近更新
+- **当前知识库规模**：22 篇素材，5 个主题页，24 个实体页
+- **管理约定**：此后与 CodeArts 协作沉淀的知识总结统一进入本知识库管理
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 摘要页质量修复
 
 - **操作**：运行 lint-wiki.sh 健康检查，按结果修复 8 篇素材摘要页

@@ -1,14 +1,14 @@
 # 知识库索引
 
-> 最后更新：2026-04-29
+> 最后更新：2026-11-01
 
 ---
 
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：21
-- Wiki 页面总数：31
+- 素材总数：22
+- Wiki 页面总数：34
 
 ---
 
@@ -38,6 +38,8 @@
 - [[豆包]] - 字节跳动推出的人工智能助手
 - [[语雀 AI]] - 蚂蚁集团语雀文档的 AI 能力，内嵌 DeepSeek
 - [[独立开发者]] - 独自开发产品的开发者群体，追求财务自由
+- [[CodeArts CLI]] - 华为云 AI 编程 CLI Agent，自带完整无头能力与目录信任机制
+- [[CodeArts Telegram Bridge]] - 把 Telegram 变成 CodeArts 远程终端的轻量桥接机器人
 
 ---
 
@@ -89,6 +91,10 @@
 - [[2026-04-29-yupi-ai-guide-tools]] - AI 程序员实用工具链：从开发到写作的完整指南
 - [[2026-04-29-yupi-ai-guide-programming-tips]] - AI 编程高级技巧：如何让 AI 生成几万行代码不出 Bug
 - [[2026-04-29-yupi-ai-guide-programming-tech]] - AI 编程技术全景：从开发框架到部署上线的完整知识体系
+
+### 工程实战类（1 篇）
+
+- [[2026-11-01-codearts-telegram-bridge]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
 
 ---
 
