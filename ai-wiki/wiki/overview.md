@@ -29,6 +29,8 @@
 - **AI 办公自动化**：Excel/Word VBA 集成、高效使用方法
 - **AI 编程开发**：IDE 集成、本地部署、架构图、游戏开发、App 开发、Spring AI、LangChain4j、LangGraph、RAG、Agent、MCP
 - **提示词工程方法论**
+- **知识库工程**：wiki-summarize 整体盘点与 SUMMARY.md 报告
+- **AI 编程工程化**：Claude Code 的验证、评审、安全与回滚实践
 
 ---
 
@@ -38,16 +40,20 @@
 
 | 类型 | 数量 | 入口 |
 |------|------|------|
-| 素材摘要 | 25 | `wiki/sources/` 目录 |
-| 实体页 | 25 | `wiki/entities/` 目录 |
-| 主题页 | 5 | `wiki/topics/` 目录 |
+| 素材摘要 | 31 | `wiki/sources/` 目录 |
+| 实体页 | 27 | `wiki/entities/` 目录 |
+| 主题页 | 6 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
-| 综合分析 | 0 | `wiki/synthesis/` 目录 |
+| 综合分析 | 1 | `wiki/synthesis/` 目录 |
 
 ---
 
 ## 最近更新
 
+- **2026-11-01**：消化 X 长文「Claude Code 实战开发术」，新增 1 篇摘要、1 个实体页（Claude Code）与 1 个主题页（Claude Code 实战开发术），记录证据式完成、独立评审、循环上限、安全闭环与回滚实践，知识库达到 28 篇素材
+- **2026-11-01**：消化 dsh-superagent-prototype 素材（2 条推文 + 原型 README + 官网），并生成首篇综合分析「DSH 入门学习路径」（小白五步上手），知识库达到 31 篇素材（与 Claude Code 会话合并后实际值）
+- **2026-11-01**：消化工程素材「wiki-summarize 知识库梳理技能」，新增 1 篇摘要与 1 个实体页，记录知识库整体盘点、六步流程、扫描器与 SUMMARY 报告规范，知识库达到 27 篇素材
+- **2026-11-01**：消化 DeepSeek Harness 实操文档（模型配置 / CLI 入口模式 / Python SDK），新增 1 篇实操摘要并充实 DeepSeek Harness 实体页的配置与 SDK 用法，知识库达到 26 篇素材
 - **2026-11-01**：消化 DeepSeek Harness 官方 README 与 Web UI 指南（推文项目的深挖），完整处理：新增 1 实体页（DeepSeek Harness）+ 1 摘要，更新 DeepSeek、AI Agent 智能体、AI编程开发 3 页，知识库达到 25 篇素材
 - **2026-11-01**：消化 @Super_Nius 推文「DeepSeek Harness：Super-agent 双层架构」（deepseek-harness 项目解读），新增 1 篇摘要，更新 DeepSeek、AI Agent 智能体 2 个实体页，知识库达到 24 篇素材
 - **2026-11-01**：消化 @Tao_Builds 推文「PixelFX 232 种游戏特效开源」（首个 X/Twitter 素材），新增 1 篇摘要，知识库达到 23 篇素材

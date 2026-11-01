@@ -4,6 +4,65 @@
 
 ---
 
+## 2026-11-01 — 消化 X 长文：Claude Code 实战开发术【完全版】
+
+- **操作**：经本地代理用 Jina Reader 抓取 @29meat_ai 日文长文（约 3.5 万字节），完整处理
+- **新增页面**：
+  - 原始素材 1 篇（raw/tweets/2026-11-01-claude-code-practical-dev-techniques.md）
+  - 素材摘要 1 篇（Claude Code 实战开发术：六条实战术、Prompt 模板、端到端流程与 NG 清单）
+  - 实体页 1 篇（Claude Code）
+  - 主题页 1 篇（Claude Code 实战开发术）
+- **更新页面**：
+  - [[AI编程开发]] 主题页（新增实战术小节，sources 回填）
+  - index.md、wiki/overview.md
+- **当前知识库规模**：28 篇素材，6 个主题页，27 个实体页
+- **状态**：完成
+
+---
+
+## 2026-11-01 — 消化 dsh-superagent-prototype 素材并生成 DSH 入门学习路径（完整处理）
+
+- **操作**：用户（dsh 小白）要求系统学习 dsh 并上手；webfetch 抓取 2 条推文（@IAmHuTu、@meow2149）、superagent-prototype 仓库 README、官网 deepseek.com/harness，共 3 篇新素材；按用户诉求首次生成综合分析（学习路径）页
+- **新增页面**：
+  - 原始素材 3 篇（raw/tweets/2026-11-01-superagent-prototype-tweets.md 合并两条推文；raw/articles/2026-11-01-dsh-superagent-prototype-readme.md；raw/articles/2026-11-01-deepseek-harness-official-site.md）
+  - 素材摘要 3 篇（superagent-prototype-tweets 合并摘要、dsh-superagent-prototype 仓库深读、official-site 官网全景）
+  - **综合分析 1 篇（DSH 入门学习路径：五步路线 + 概念词典 + 安装对比 + 常见坑 + 资源清单 + 视角对比）**
+- **更新页面**：
+  - [[DeepSeek Harness]] 实体页（观点节追加官网/社区/原型仓库 3 个视角，sources 回填至 6 篇）
+  - [[AI编程开发]] 主题页（Agent 基础设施节追加 Super-agent 落地两路与实验数据，sources 回填）
+- **关键新信息**：桌面端安装包（小白最简入口）；创造模式对话生成插件；官方"智能体团队（实验性）"插件；superagent-prototype 实验数据（中位数 12.4 分钟 / P95 15.7 vs 传统 29.5 分钟）；"注意力经济学"设计哲学
+- **当前知识库规模**：合并冲突解决后实际为 31 篇素材（与 Claude Code 会话并行，本条目记录为合并前快照 30 篇）
+- **状态**：完成
+
+---
+
+## 2026-11-01 — 消化工程素材：wiki-summarize 知识库梳理技能
+
+- **操作**：梳理 `.claude/skills/wiki-summarize` 的 SKILL.md、扫描脚本与复用说明，整理为可复用知识页（完整处理）
+- **新增页面**：
+  - 素材摘要 1 篇（wiki-summarize：知识库梳理技能，含六步流程、扫描器输出、报告模板与 Git 纪律）
+  - 实体页 1 篇（wiki-summarize 知识库梳理技能，含适用范围、健康检查项、配置与设计取舍）
+- **更新页面**：
+  - index.md（新增条目与统计）
+  - wiki/overview.md（统计与最近更新）
+- **当前知识库规模**：27 篇素材，5 个主题页，26 个实体页
+- **状态**：完成
+
+---
+
+## 2026-11-01 — 消化官方文档：DeepSeek Harness 实操指南（模型配置/CLI/SDK）
+
+- **操作**：用户要求补充"可实操的内容"，webfetch 抓取 dsh 三篇官方实操文档（providers.zh.md 模型配置、apps/cli README 入口模式、python-sdk.md SDK 教程），完整处理并与既有 DeepSeek Harness 素材关联
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-01-deepseek-harness-guides.md）
+  - 素材摘要 1 篇（DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK，含 CLI 入口模式表、SDK 代码、网关排错表）
+- **更新页面**：
+  - [[DeepSeek Harness]] 实体页（新增"模型配置（多提供商）"与"Python SDK（程序化调用）"节，扩充五种入口模式与 danger-full-access 注意事项，sources 回填）
+- **当前知识库规模**：26 篇素材，5 个主题页，25 个实体页
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化官方文档：DeepSeek Harness README 与使用指南（完整处理）
 
 - **操作**：用户要求深挖 @Super_Nius 推文推荐的 GitHub 项目用法，webfetch 抓取仓库 README（中英文）与 Web UI 使用指南，素材 >1000 字走完整处理

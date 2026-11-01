@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：25
-- Wiki 页面总数：38
+- 素材总数：31
+- Wiki 页面总数：67
 
 ---
 
@@ -41,6 +41,8 @@
 - [[CodeArts CLI]] - 华为云 AI 编程 CLI Agent，自带完整无头能力与目录信任机制
 - [[CodeArts Telegram Bridge]] - 把 Telegram 变成 CodeArts 远程终端的轻量桥接机器人
 - [[DeepSeek Harness]] - DeepSeek 开源智能体框架，Everything is a Plugin 插件化架构
+- [[wiki-summarize 知识库梳理技能]] - 对知识库做整体盘点并生成 SUMMARY.md 的 Claude Code 技能
+- [[Claude Code]] - Anthropic 的终端 AI 编程代理，能读写代码与执行命令
 
 ---
 
@@ -53,6 +55,7 @@
 - [[AI办公自动化]] - VBA + API 深度集成 Office 套件的办公自动化方法论
 - [[AI编程开发]] - 从 IDE 集成到 AI 应用开发的完整知识体系
 - [[鱼皮 AI 指南]] - 程序员鱼皮两年半积累的 AI 知识体系
+- [[Claude Code 实战开发术]] - 让 Claude 自证、人只看不可逆决策的六条实战术
 
 ---
 
@@ -81,7 +84,7 @@
 - [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（12 篇）
+### 编程开发类（17 篇）
 
 - [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -95,10 +98,16 @@
 - [[2026-11-01-pixelfx-tweet]] - PixelFX：232 种代码化游戏特效开源
 - [[2026-11-01-deepseek-harness-tweet]] - DeepSeek Harness：Super-agent 双层架构开源项目
 - [[2026-11-01-deepseek-harness-readme]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
+- [[2026-11-01-deepseek-harness-guides]] - DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
+- [[2026-11-01-claude-code-practical-dev-techniques]] - Claude Code 实战开发术：证据、独立评审、循环上限与安全闭环
+- [[2026-11-01-deepseek-harness-official-site]] - DeepSeek Harness 官网：产品形态与功能全景
+- [[2026-11-01-superagent-prototype-tweets]] - dsh-superagent-prototype 发布推文与实验数据
+- [[2026-11-01-dsh-superagent-prototype]] - dsh-superagent-prototype：Super-agent 落地原型
 
-### 工程实战类（1 篇）
+### 工程实战类（2 篇）
 
 - [[2026-11-01-codearts-telegram-bridge]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
+- [[2026-11-01-wiki-summarize-skill]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
 
 ---
 
@@ -114,4 +123,4 @@
 
 > 跨素材的深度分析
 
-（暂无）
+- [[DSH 入门学习路径]] - dsh 小白五步上手路线：概念 → 安装 → 配置 → 日常进阶 → Super-agent 前沿
