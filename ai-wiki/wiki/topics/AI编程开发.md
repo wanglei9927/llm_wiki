@@ -1,8 +1,8 @@
 ---
 tags: [AI编程, DeepSeek, Cursor, 开发效率, 架构图, 游戏开发, Spring AI, RAG, Agent]
 created: 2026-04-29
-updated: 2026-04-29
-sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech]
+updated: 2026-11-01
+sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-readme]
 ---
 
 # AI 编程开发全景
@@ -347,6 +347,18 @@ IDE: PyCharm Community Edition（免费）
 
 相关实体：[[CodeArts Telegram Bridge]]、[[CodeArts CLI]]
 
+## Agent 基础设施：DeepSeek Harness（2026-11）
+
+来自 [[2026-11-01-deepseek-harness-readme]] 与 [[2026-11-01-deepseek-harness-tweet]]：
+
+- DeepSeek 官方开源 agent harness（命令 `dsh`）：Everything is a Plugin 插件化架构，由 Cordis 框架驱动，267.7k stars / 32.5k forks（2026-11 抓取），MIT 协议
+- Super-agent 双层架构：Router 负责对话/全局上下文/派活，Worker 每任务独立隔离会话并行执行后汇报——解决"一个会话一个孤岛"的多任务切换问题
+- 事件触发（群消息/邮件/代码评论/CI 结果自动投喂）+ Watchdog 自恢复，支撑 7×24 挂机运行
+- 上手极简：`npx @deepseek-ai/dsh web` → Web UI（127.0.0.1:3080）→ 配 DeepSeek API key → 选工作区 → 发任务；agent 可读写工作区文件、跑命令、委派工作、维护计划，敏感操作按权限策略先审批
+- 注意：developer preview 阶段，官方警告将有破坏性变更，运行前读 SAFETY.md；与"Agent 远程化"节对照——Telegram Bridge 是轻量自建方案，dsh 是官方全家桶
+
+相关实体：[[DeepSeek Harness]]、[[DeepSeek]]、[[AI Agent 智能体]]
+
 ## 相关页面
 
 - [[DeepSeek]]
@@ -357,3 +369,4 @@ IDE: PyCharm Community Edition（免费）
 - [[独立开发者]]
 - [[CodeArts CLI]]
 - [[CodeArts Telegram Bridge]]
+- [[DeepSeek Harness]]

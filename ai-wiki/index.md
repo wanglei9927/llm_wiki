@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：24
-- Wiki 页面总数：36
+- 素材总数：25
+- Wiki 页面总数：38
 
 ---
 
@@ -40,6 +40,7 @@
 - [[独立开发者]] - 独自开发产品的开发者群体，追求财务自由
 - [[CodeArts CLI]] - 华为云 AI 编程 CLI Agent，自带完整无头能力与目录信任机制
 - [[CodeArts Telegram Bridge]] - 把 Telegram 变成 CodeArts 远程终端的轻量桥接机器人
+- [[DeepSeek Harness]] - DeepSeek 开源智能体框架，Everything is a Plugin 插件化架构
 
 ---
 
@@ -80,7 +81,7 @@
 - [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（11 篇）
+### 编程开发类（12 篇）
 
 - [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -93,6 +94,7 @@
 - [[2026-04-29-yupi-ai-guide-programming-tech]] - AI 编程技术全景：从开发框架到部署上线的完整知识体系
 - [[2026-11-01-pixelfx-tweet]] - PixelFX：232 种代码化游戏特效开源
 - [[2026-11-01-deepseek-harness-tweet]] - DeepSeek Harness：Super-agent 双层架构开源项目
+- [[2026-11-01-deepseek-harness-readme]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
 
 ### 工程实战类（1 篇）
 

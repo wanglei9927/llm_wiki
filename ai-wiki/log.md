@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-11-01 — 消化官方文档：DeepSeek Harness README 与使用指南（完整处理）
+
+- **操作**：用户要求深挖 @Super_Nius 推文推荐的 GitHub 项目用法，webfetch 抓取仓库 README（中英文）与 Web UI 使用指南，素材 >1000 字走完整处理
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-01-deepseek-harness-readme.md）
+  - 素材摘要 1 篇（DeepSeek Harness 官方 README 与 Web UI 指南，含实操命令与原文摘录）
+  - 实体页 1 篇（**DeepSeek Harness**，正文含定义/特性/双素材观点/安装用法/注意事项/适用场景）
+- **更新页面**：
+  - [[DeepSeek]] 实体页（追加官方定位观点，编程开发场景行改为实体链接，sources 回填）
+  - [[AI Agent 智能体]] 实体页（追加 harness 概念与 Agent 能力边界观点，sources 回填）
+  - [[AI编程开发]] 主题页（新增"Agent 基础设施：DeepSeek Harness"节，sources 回填）
+  - [[2026-11-01-deepseek-harness-tweet]] 摘要页（"待创建"概念标注升级为 [[DeepSeek Harness]] 实体链接）
+- **当前知识库规模**：25 篇素材，5 个主题页，25 个实体页
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化 X 推文：DeepSeek Harness（Super-agent 架构）
 
 - **操作**：消化 @Super_Nius 2026-10-31 推文（DeepSeek deepseek-harness 项目解读，短素材简化处理；webfetch 自动抓取成功）
