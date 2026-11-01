@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：26
-- Wiki 页面总数：39
+- 素材总数：27
+- Wiki 页面总数：60
 
 ---
 
@@ -41,6 +41,7 @@
 - [[CodeArts CLI]] - 华为云 AI 编程 CLI Agent，自带完整无头能力与目录信任机制
 - [[CodeArts Telegram Bridge]] - 把 Telegram 变成 CodeArts 远程终端的轻量桥接机器人
 - [[DeepSeek Harness]] - DeepSeek 开源智能体框架，Everything is a Plugin 插件化架构
+- [[wiki-summarize 知识库梳理技能]] - 对知识库做整体盘点并生成 SUMMARY.md 的 Claude Code 技能
 
 ---
 
@@ -97,9 +98,10 @@
 - [[2026-11-01-deepseek-harness-readme]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
 - [[2026-11-01-deepseek-harness-guides]] - DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
 
-### 工程实战类（1 篇）
+### 工程实战类（2 篇）
 
 - [[2026-11-01-codearts-telegram-bridge]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
+- [[2026-11-01-wiki-summarize-skill]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
 
 ---
 

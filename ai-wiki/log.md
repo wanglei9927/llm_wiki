@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-11-01 — 消化工程素材：wiki-summarize 知识库梳理技能
+
+- **操作**：梳理 `.claude/skills/wiki-summarize` 的 SKILL.md、扫描脚本与复用说明，整理为可复用知识页（完整处理）
+- **新增页面**：
+  - 素材摘要 1 篇（wiki-summarize：知识库梳理技能，含六步流程、扫描器输出、报告模板与 Git 纪律）
+  - 实体页 1 篇（wiki-summarize 知识库梳理技能，含适用范围、健康检查项、配置与设计取舍）
+- **更新页面**：
+  - index.md（新增条目与统计）
+  - wiki/overview.md（统计与最近更新）
+- **当前知识库规模**：27 篇素材，5 个主题页，26 个实体页
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化官方文档：DeepSeek Harness 实操指南（模型配置/CLI/SDK）
 
 - **操作**：用户要求补充"可实操的内容"，webfetch 抓取 dsh 三篇官方实操文档（providers.zh.md 模型配置、apps/cli README 入口模式、python-sdk.md SDK 教程），完整处理并与既有 DeepSeek Harness 素材关联
