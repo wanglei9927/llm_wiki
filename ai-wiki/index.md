@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：22
-- Wiki 页面总数：34
+- 素材总数：23
+- Wiki 页面总数：35
 
 ---
 
@@ -91,6 +91,7 @@
 - [[2026-04-29-yupi-ai-guide-tools]] - AI 程序员实用工具链：从开发到写作的完整指南
 - [[2026-04-29-yupi-ai-guide-programming-tips]] - AI 编程高级技巧：如何让 AI 生成几万行代码不出 Bug
 - [[2026-04-29-yupi-ai-guide-programming-tech]] - AI 编程技术全景：从开发框架到部署上线的完整知识体系
+- [[2026-11-01-pixelfx-tweet]] - PixelFX：232 种代码化游戏特效开源
 
 ### 工程实战类（1 篇）
 
