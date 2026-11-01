@@ -48,6 +48,18 @@ source_path: raw/tweets/2026-11-01-dsh-go-tweet.md
 - 本机模式：手机内置 Ubuntu 环境直接跑引擎；远程模式：SSH/Remote 连接电脑或服务器
 - 安全加固（评论区建议）：为 DSH Go 单独申请一个 DeepSeek API Key，不用主力 Key
 
+## 推文配图
+
+原始图片已存档于 `raw/tweets/assets/`，在 Obsidian 中点击即可放大查看：
+
+![[2026-11-01-dsh-go-01.webp]]
+![[2026-11-01-dsh-go-02.webp]]
+![[2026-11-01-dsh-go-03.webp]]
+![[2026-11-01-dsh-go-04.webp]]
+
+> 上方 4 张为 DSH Go 推文配图（界面与功能演示截图，按原帖顺序）；"8 款插件"关联推文配图见 ![[2026-11-01-dsh-plugins-01.webp]]
+> 注：抓取环境无多模态模型，未对图片做 OCR 识别，图注按推文顺序标注。
+
 ## 关键概念
 
 - DSH Go：社区第三方安卓客户端（github.com/ccch1mneyyy/dsh-Go），把 dsh 引擎移植/封装到 Android

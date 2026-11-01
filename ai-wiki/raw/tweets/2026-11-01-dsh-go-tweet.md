@@ -44,6 +44,20 @@
 
 孩子带鲸鱼娘表情，这个好
 
+## 配图（本地存档）
+
+下载时间：2026-11-01，存储于 `ai-wiki/raw/tweets/assets/`（webp 格式，宽度 1320px，均已验证为有效 Web/P 图像）：
+
+| 文件 | 原始媒体链接 | 对应内容 |
+|---|---|---|
+| 2026-11-01-dsh-go-01.webp | pbs.twimg.com/media/HWBq_iCaAAAj6LN | DSH Go 推文配图 1 |
+| 2026-11-01-dsh-go-02.webp | pbs.twimg.com/media/HWBq_iIaEAAA8AQ | DSH Go 推文配图 2 |
+| 2026-11-01-dsh-go-03.webp | pbs.twimg.com/media/HWBq_iEacAA7puq | DSH Go 推文配图 3 |
+| 2026-11-01-dsh-go-04.webp | pbs.twimg.com/media/HWBq_isbcAAKOif | DSH Go 推文配图 4 |
+| 2026-11-01-dsh-plugins-01.webp | pbs.twimg.com/media/HWBH9NdbwAAu699 | "8 款插件"关联推文配图 |
+
+> 注：抓取环境无多模态模型，未对图片做内容识别，图注按推文顺序标注。
+
 ---
 
 > 注：本文件为 AI 抓取的原始素材，只读不改。
