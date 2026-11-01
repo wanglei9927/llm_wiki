@@ -2,7 +2,7 @@
 tags: [DeepSeek, DeepSeek Harness, dsh, AI Agent, 插件化, agent harness, Cordis, 开源项目]
 created: 2026-11-01
 updated: 2026-11-01
-sources: [2026-11-01-deepseek-harness-readme, 2026-11-01-deepseek-harness-tweet]
+sources: [2026-11-01-deepseek-harness-readme, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-guides]
 ---
 
 # DeepSeek Harness
@@ -38,8 +38,8 @@ Router 层负责与用户对话、维护全局上下文、分发任务；Worker 
 ### 3. 事件触发 + Watchdog 自恢复
 群消息、邮件、代码评论、CI 结果等外部事件可自动投喂给 agent（"用户拉"变"事件推"）；Watchdog 看门狗在进程挂掉后自动恢复，支撑 7×24 持续运行。
 
-### 4. 多形态接入
-Web UI（默认 127.0.0.1:3080）、CLI 多种模式（apps/cli）、Python SDK、反向代理公网部署（public-deployments.md）——同一框架覆盖本地、服务器、编程集成三类场景。
+### 4. 多形态接入（五种入口模式）
+同一 `dsh` 命令五种 profile：`web`（Web UI）、`headless "job"`（跑完即退的一次性任务）、`sdk` / `sdk-minimal`（JSON-RPC 服务 SDK 客户端）、`acp`（自动化客户端 stdio）；另有 `dsh plugin` 管理插件。Python SDK（`pip install deepseek-harness-sdk`）自带原生运行时，无需系统 Node.js。
 
 ### 5. 权限策略审批
 Agent 的读写文件、执行命令等敏感操作，按当前权限策略在 Web UI 中先征询用户批准，默认不静默越权。
@@ -76,10 +76,40 @@ cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web
 2. **选工作区**：Choose workspace 添加并选中项目目录——不选工作区则无法发消息；`dsh` 以其启动目录为默认文件系统位置
 3. **发任务**：官方示例 "Summarize this repository and identify its main packages."；进阶可接 Python SDK、反向代理公网部署、开发插件（docs/develop/basic）
 
+### 模型配置（多提供商）
+
+- **DeepSeek**：设置 → 模型 → 填 API key（即时生效不用重启）；模型列表自动跟随官方发布
+- **第三方**：内置提供商 id——`anthropic`、`openai`、`moonshotai`（Kimi）、`zai`（GLM）
+- **中转站/网关**："自定义模型 API"：Provider ID（小写、永久）+ 基础 URL + 协议三选一（openai-completions / openai-responses / anthropic-messages）+ 密钥，"获取可用模型"可自动探测端点列表
+- **密钥安全**：只写设计，明文只存 `$DSH_HOME/.credentials.yaml`，页面只见脱敏描述符；支持环境变量后备
+- **网关排错**：拒绝所有请求 → `compat.supportsDeveloperRole: false` + `compat.maxTokensField: max_tokens`；关不掉思考 → `compat.thinkingFormat: deepseek`（完整排错表见 [[2026-11-01-deepseek-harness-guides]]）
+
+### Python SDK（程序化调用）
+
+```python
+from deepseek_harness import DeepSeekHarness
+
+with DeepSeekHarness(
+    provider="deepseek-official",
+    model="deepseek-v4-flash",
+    max_tokens=49_152,
+    cwd=str(workspace),        # 工作区（建议一次性目录）
+    dsh_home=str(dsh_home),    # 隔离的 harness home
+    profile="sdk-minimal",
+) as harness:
+    result = harness.run("Inspect the repository and fix the failing tests.",
+                         session_id="example-001")
+print(result.final_response)
+```
+
+安装：`pip install deepseek-harness-sdk`（自带原生运行时 wheel，无需系统 Node.js）。一次性脚本任务也可直接 CLI：`dsh --profile headless "run the tests"`（跑完打印最终答案即退出）。
+
 ### 注意事项
 
 - **破坏性变更风险**：preview 阶段 API/配置随时可能变，别急着用于生产
 - **运行安全**：官方要求先读 SAFETY.md；agent 有真实文件读写与命令执行能力，建议在专用工作区内使用
+- **danger-full-access**：sdk-minimal profile 的 shell 可修改运行时可见的任何路径，官方明确要求使用一次性 checkout 或容器
+- **隔离原则**：独立工作用全新 home + 全新 session id；只有延续同一持久会话时才复用 harness、home 和 id
 - **远程/SSH 环境**：Web UI 启动只打印 URL 不自动开浏览器，端口转发由 SSH 客户端负责；不想自动开浏览器加 `--no-open`
 
 ### 适用场景

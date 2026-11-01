@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-01 — 消化官方文档：DeepSeek Harness 实操指南（模型配置/CLI/SDK）
+
+- **操作**：用户要求补充"可实操的内容"，webfetch 抓取 dsh 三篇官方实操文档（providers.zh.md 模型配置、apps/cli README 入口模式、python-sdk.md SDK 教程），完整处理并与既有 DeepSeek Harness 素材关联
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-01-deepseek-harness-guides.md）
+  - 素材摘要 1 篇（DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK，含 CLI 入口模式表、SDK 代码、网关排错表）
+- **更新页面**：
+  - [[DeepSeek Harness]] 实体页（新增"模型配置（多提供商）"与"Python SDK（程序化调用）"节，扩充五种入口模式与 danger-full-access 注意事项，sources 回填）
+- **当前知识库规模**：26 篇素材，5 个主题页，25 个实体页
+- **状态**：完成
+
+---
+
 ## 2026-11-01 — 消化官方文档：DeepSeek Harness README 与使用指南（完整处理）
 
 - **操作**：用户要求深挖 @Super_Nius 推文推荐的 GitHub 项目用法，webfetch 抓取仓库 README（中英文）与 Web UI 使用指南，素材 >1000 字走完整处理

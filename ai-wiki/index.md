@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：25
-- Wiki 页面总数：38
+- 素材总数：26
+- Wiki 页面总数：39
 
 ---
 
@@ -81,7 +81,7 @@
 - [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（12 篇）
+### 编程开发类（13 篇）
 
 - [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -95,6 +95,7 @@
 - [[2026-11-01-pixelfx-tweet]] - PixelFX：232 种代码化游戏特效开源
 - [[2026-11-01-deepseek-harness-tweet]] - DeepSeek Harness：Super-agent 双层架构开源项目
 - [[2026-11-01-deepseek-harness-readme]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
+- [[2026-11-01-deepseek-harness-guides]] - DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
 
 ### 工程实战类（1 篇）
 
