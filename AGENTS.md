@@ -31,6 +31,19 @@
    ```
 3. 向用户报告：新增/更新了哪些页面、lint 结果、推送结果
 
+## 多 agent 协作（写库前必须同步）
+
+本仓库可能同时有多个 agent 读写，**任何写入之前必须先同步远端**，否则基于旧快照的改动会制造冲突。
+
+```bash
+git fetch mywiki
+git -c rebase.autoStash=true pull --rebase mywiki main
+```
+
+- 推送前再 `fetch` 一次；本地落后就重复 `pull --rebase` 再推
+- 推送被拒（non-fast-forward）→ 回到同步步骤，**禁止 `--force`**
+- rebase 冲突 → 停止，把冲突文件报给用户，不要自行猜测合并
+
 ## 知识库梳理（wiki-summarize）
 
 仓库内置 `.claude/skills/wiki-summarize/`，用于对**单个**知识库做整体盘点并生成 `SUMMARY.md`。

@@ -19,7 +19,21 @@ description: |
 - **任意 Markdown 知识目录**：降级模式，同样可用（见文末）
 - **本仓库特例**：`E:\llm_wiki` 下同时存在 `ai-wiki/` 与 `stock-wiki/` 两个独立知识库，**每个库单独产出一份 SUMMARY.md**，不要混在一起写
 
-## 执行流程（五步，不可跳步）
+## 执行流程（六步，不可跳步）
+
+### 第 0 步：同步远端（多 agent 协作必须）
+
+本仓库可能同时有多个 agent 在读写，**任何写入之前必须先同步**，否则你读到的是旧快照，
+写出来的报告会和别人的改动冲突。
+
+```bash
+git -C "<仓库根>" fetch mywiki
+git -C "<仓库根>" -c rebase.autoStash=true pull --rebase mywiki main
+```
+
+- 工作区有未提交改动时，`rebase.autoStash=true` 会自动 stash 再恢复
+- **冲突就停下**：把冲突文件列给用户，不要自行猜测合并，禁止 `push -f`
+- 不在 git 仓库内（无 `.git`）→ 跳过本步，在报告"总览"注明"非 git 快照"
 
 ### 第 1 步：定位知识库根
 
@@ -104,13 +118,28 @@ raw/ 各分类：已消化（对应 wiki 页存在）/ 疑似未消化 清单
 
 向用户报告：报告绝对路径、主题/页面/问题数的两三行摘要。
 
-**不要擅自 commit / push。** 用户明确要求提交时，遵循仓库 `AGENTS.md` 的约定：
+**不要擅自 commit / push。** 用户明确要求提交时，走下面四步，**每一步都不能跳**：
 
 ```bash
-git add -A
-git -c user.name=wanglei9927 -c user.email=leiwang9927@gmail.com commit -m "梳理知识库：<库名>"
-git push mywiki main
+# 1. 提交前再同步一次（第 0 步之后可能又有其他 agent 推了东西）
+git -C "<仓库根>" fetch mywiki
+git -C "<仓库根>" -c rebase.autoStash=true pull --rebase mywiki main
+
+# 2. 提交
+git -C "<仓库根>" add -A
+git -C "<仓库根>" -c user.name=wanglei9927 -c user.email=leiwang9927@gmail.com \
+  commit -m "梳理知识库：<库名>"
+
+# 3. 推送
+git -C "<仓库根>" push mywiki main
 ```
+
+- **推送被拒（non-fast-forward）** = 期间又有人推了：回到第 1 步重新 `pull --rebase` 再推，**不要用 `--force`**
+- **rebase 冲突** → 停止，列出冲突文件交给用户，不要自行合并
+- 推送成功后报告：commit hash、推送的分支、报告路径
+
+> 两个同步点的意义不同：第 0 步保证"读到的是最新的"，
+> 第 5 步保证"推上去不会覆盖别人的"。
 
 ## 降级模式（非 llm-wiki 目录）
 
@@ -126,3 +155,5 @@ git push mywiki main
 - 只读 index/overview 就写报告 → 要点会与实体页脱节，必须逐页读 wiki/
 - 报告里发明新 `[[链接]]` 想当然"应该有这个页面" → 链接只能指向已存在的文件；缺的页面写进"待补全建议"
 - 把 `ai-wiki` 和 `stock-wiki` 混在一份报告里 → 每个库独立成文
+- **没同步就写库** → 读到的是旧快照，报告与最新内容脱节，推上去还会制造冲突
+- **推送被拒就用 `--force`** → 会覆盖其他 agent 的提交，绝对禁止；正确做法是重新 `pull --rebase` 后再推
