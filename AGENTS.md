@@ -31,6 +31,15 @@
    ```
 3. 向用户报告：新增/更新了哪些页面、lint 结果、推送结果
 
+## 知识库梳理（wiki-summarize）
+
+仓库内置 `.claude/skills/wiki-summarize/`，用于对**单个**知识库做整体盘点并生成 `SUMMARY.md`。
+
+- 触发：用户说"总结知识库""梳理知识库""知识库盘点"
+- 本仓库有多个库（`ai-wiki`、`stock-wiki`），**每次只梳理一个，各自产出 SUMMARY.md**，不要混写
+- 扫描：`bash .claude/skills/wiki-summarize/scripts/scan-wiki.sh <库根>`（Windows 用 Git Bash，已验证 bash 5.2 可用）
+- 梳理结果不自动提交；用户要求提交时按上文 git 身份约定执行
+
 ## 其他
 
 - 非知识类任务（写代码、问答、研究等）照常执行，不受以上约束影响
