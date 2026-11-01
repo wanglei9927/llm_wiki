@@ -1,8 +1,8 @@
 ---
 tags: [大模型, AI, DeepSeek, 国产AI]
 created: 2026-04-29
-updated: 2026-04-29
-sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tutorial, 2026-04-29-deepseek-official-document-tips, 2026-04-29-deepseek-novel-collaboration, 2026-04-29-deepseek-content-creation]
+updated: 2026-11-01
+sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tutorial, 2026-04-29-deepseek-official-document-tips, 2026-04-29-deepseek-novel-collaboration, 2026-04-29-deepseek-content-creation, 2026-11-01-deepseek-harness-tweet]
 ---
 
 # DeepSeek
@@ -54,6 +54,7 @@ sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tut
 - VS Code 集成实现丝滑编程
 - Python 接入支持本地部署
 - 架构图快速生成能力
+- DeepSeek Harness：开源 Super-agent 架构项目（Router + Worker 双层，多任务并行，"Everything is a Plugin"）
 
 ### 创意设计领域
 - AI 视频创作
@@ -81,6 +82,10 @@ sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tut
 ### 关于精准喂料原理
 来源：2026-04-29-deepseek-xiaohongshu-formula
 > "给AI精准'喂料'，它才能吐出金子！"
+
+### 关于 Agent 架构演进（DeepSeek Harness）
+来源：2026-11-01-deepseek-harness-tweet
+> DeepSeek 开源 deepseek-harness 项目（"Everything is a Plugin"），提出 Super-agent 双层架构：Router 层负责对话、记全局、派活；Worker 层为每个任务开独立隔离会话并行执行后向 Router 汇报。配套事件触发（群消息、邮件、代码评论、CI 结果自动投喂）与 Watchdog 看门狗（挂了能自己恢复）。推文作者持观望态度，评论区有开发者质疑此方向。
 
 ## 实用信息
 
