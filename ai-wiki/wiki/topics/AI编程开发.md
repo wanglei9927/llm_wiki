@@ -2,7 +2,7 @@
 tags: [AI编程, DeepSeek, Cursor, 开发效率, 架构图, 游戏开发, Spring AI, RAG, Agent]
 created: 2026-04-29
 updated: 2026-11-02
-sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-02-deepseek-harness-tweet, 2026-11-02-deepseek-harness-readme, 2026-11-02-claude-code-practical-dev-techniques, 2026-11-02-deepseek-harness-guides, 2026-11-02-deepseek-harness-official-site, 2026-11-02-superagent-prototype-tweets, 2026-11-02-dsh-superagent-prototype]
+sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-02-deepseek-harness-tweet, 2026-11-02-deepseek-harness-readme, 2026-11-02-claude-code-practical-dev-techniques, 2026-11-02-deepseek-harness-guides, 2026-11-02-deepseek-harness-official-site, 2026-11-02-superagent-prototype-tweets, 2026-11-02-dsh-superagent-prototype, 2026-11-02-kazike-agent-automation]
 ---
 
 # AI 编程开发全景
@@ -371,6 +371,17 @@ IDE: PyCharm Community Edition（免费）
 - 安全：发布前 `/security-review`；不要在下载文件夹启动 agent，防止 `AGENTS.md` / `CLAUDE.md` 注入
 
 相关主题：[[Claude Code 实战开发术]] · 相关实体：[[Claude Code]]
+
+## Agent 自动化系统实战：卡兹克的一人流水线（2026-11）
+
+来自 [[2026-11-02-kazike-agent-automation]]（作者背景见 [[数字生命卡兹克]]）：
+
+- **核心命题**：引 DeepSeek Super-agent 文章——多任务上限取决于人的注意力；解法是"领导力思维"，把任务起点从人身上拿掉，用事件信号触发 Agent 而非人下命令（与 [[DeepSeek Harness]] Super-agent 的事件驱动架构互相独立验证）
+- **三层架构**：①自动化中台——统一事件格式（来源/类型/对象/摘要/回链）+ `rules.json` 路由规则 + 统一去重 + 消息单一出口 + 全量数据沉淀；内网 Mac 用长轮询接单程序（单次最长等 50 秒）替代公网回源；②执行层——按模型特长调度：Claude Opus 5.5 开发 / GPT-6.1 Sol 运维 / GPT-6.1 Terra 浏览器操控，"不能用笨的指挥聪明的"；全部本地双 Mac Mini 不上云（登录态、权限、国内服务可访问性）；每个任务配专属 Skill（SOP）与执行逻辑解耦；③CI 中台五步——审查（Codex 只读/断网/无密钥/最多 3 轮）/检查（全新虚拟机跑完即删）/合并/发布/核实，Agent 提 PR 后自己不能上线
+- **人机决策边界（票拟批红）**：飞书卡片由 Agent 拟方案、人只点击；必须过人的仅七类：删数据、停服、花钱、对外发消息、改方向、密钥、权限；两份决定文件「卡兹克定的事」「定了不做的事」让 Agent 不重复问
+- **关键数据**：298 个 PR 审出 333 条问题、306 条合并前修复；自建 CI 替代 GitHub CI 月省 50+ 刀超额费；全流程（提交→上线）中位数两三分钟
+
+相关实体：[[数字生命卡兹克]] · 相关主题：[[Claude Code 实战开发术]]（同款"评审最多 3 次"纪律）
 
 ## 相关页面
 
