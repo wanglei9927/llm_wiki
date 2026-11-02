@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai-wiki/wiki/entities/CodeArts CLI.md",
+                "file": "ai-wiki/wiki/sources/2026-11-01-fq-book.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CodeArts CLI"
+              "title": "2026-11-01-fq-book"
             }
           }
         ]
@@ -175,6 +175,7 @@
   },
   "active": "192ed2c1604fe046",
   "lastOpenFiles": [
+    "ai-wiki/wiki/entities/CodeArts CLI.md",
     "ai-wiki/raw/tweets/2026-11-01-fq-book-tweet.md",
     "ai-wiki/raw/articles/2026-11-01-fq-book-readme.md",
     "ai-wiki/wiki/sources/2026-11-01-fq-book.md",
@@ -212,7 +213,6 @@
     "AGENTS.md",
     "stock-wiki/wiki/topics/AI投资价值分析.md",
     "stock-wiki/wiki/topics/港股18C章IPO框架.md",
-    "stock-wiki/wiki/topics/中国大模型市场2025.md",
     "stock-wiki/wiki/topics",
     "stock-wiki/wiki/entities",
     "stock-wiki/wiki/sources",
