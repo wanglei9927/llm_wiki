@@ -3,7 +3,7 @@
 - 原始 URL：https://x.com/nft_chen/status/2116809473696379345
 - 作者：SuSu_酥酥 @NFT_Chen（BiBiCrew Co-founder｜Sydney Uni Master｜Stock & Crypto Trader｜AI Builder）
 - 发布时间：2026-11-01 8:28 AM（页面显示时间）
-- 抓取时间：2026-11-01（webfetch 自动抓取）
+- 抓取时间：2026-11-02（webfetch 自动抓取）
 - 互动数据（抓取时）：1,899 浏览、8 回复、6 转推、20 引用、19 喜欢
 - 指向项目：Repo https://github.com/ccch1mneyyy/dsh-Go ｜下载 https://go.dshtui.com/download
 
@@ -46,15 +46,15 @@
 
 ## 配图（本地存档）
 
-下载时间：2026-11-01，存储于 `ai-wiki/raw/tweets/assets/`（webp 格式，宽度 1320px，均已验证为有效 Web/P 图像）：
+下载时间：2026-11-02，存储于 `ai-wiki/raw/tweets/assets/`（webp 格式，宽度 1320px，均已验证为有效 Web/P 图像）：
 
 | 文件 | 原始媒体链接 | 对应内容 |
 |---|---|---|
-| 2026-11-01-dsh-go-01.webp | pbs.twimg.com/media/HWBq_iCaAAAj6LN | DSH Go 推文配图 1 |
-| 2026-11-01-dsh-go-02.webp | pbs.twimg.com/media/HWBq_iIaEAAA8AQ | DSH Go 推文配图 2 |
-| 2026-11-01-dsh-go-03.webp | pbs.twimg.com/media/HWBq_iEacAA7puq | DSH Go 推文配图 3 |
-| 2026-11-01-dsh-go-04.webp | pbs.twimg.com/media/HWBq_isbcAAKOif | DSH Go 推文配图 4 |
-| 2026-11-01-dsh-plugins-01.webp | pbs.twimg.com/media/HWBH9NdbwAAu699 | "8 款插件"关联推文配图 |
+| 2026-11-02-dsh-go-01.webp | pbs.twimg.com/media/HWBq_iCaAAAj6LN | DSH Go 推文配图 1 |
+| 2026-11-02-dsh-go-02.webp | pbs.twimg.com/media/HWBq_iIaEAAA8AQ | DSH Go 推文配图 2 |
+| 2026-11-02-dsh-go-03.webp | pbs.twimg.com/media/HWBq_iEacAA7puq | DSH Go 推文配图 3 |
+| 2026-11-02-dsh-go-04.webp | pbs.twimg.com/media/HWBq_isbcAAKOif | DSH Go 推文配图 4 |
+| 2026-11-02-dsh-plugins-01.webp | pbs.twimg.com/media/HWBH9NdbwAAu699 | "8 款插件"关联推文配图 |
 
 > 注：抓取环境无多模态模型，未对图片做内容识别，图注按推文顺序标注。
 

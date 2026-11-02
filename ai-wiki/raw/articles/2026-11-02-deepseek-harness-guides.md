@@ -4,8 +4,8 @@
   - 模型配置指南：https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/providers.zh.md
   - CLI 说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/apps/cli/README.md
   - Python SDK 教程：https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/python-sdk.md
-- 抓取时间：2026-11-01（webfetch 自动抓取）
-- 关联素材：raw/articles/2026-11-01-deepseek-harness-readme.md、raw/tweets/2026-11-01-deepseek-harness-tweet.md
+- 抓取时间：2026-11-02（webfetch 自动抓取）
+- 关联素材：raw/articles/2026-11-02-deepseek-harness-readme.md、raw/tweets/2026-11-02-deepseek-harness-tweet.md
 
 ## 一、模型配置指南（providers.zh.md，摘录）
 

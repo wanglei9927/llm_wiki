@@ -1,8 +1,8 @@
 ---
 tags: [DeepSeek Harness, dsh, Python SDK, CLI, 模型配置, Cordis, AI Agent]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/articles/2026-11-01-deepseek-harness-guides.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/articles/2026-11-02-deepseek-harness-guides.md
 ---
 
 # DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
@@ -14,9 +14,9 @@ source_path: raw/articles/2026-11-01-deepseek-harness-guides.md
 | 项目 | 内容 |
 |---|---|
 | 来源 | 官方文档三篇：providers.zh.md（模型配置）、apps/cli/README.md（CLI）、python-sdk.md（SDK 教程） |
-| 抓取时间 | 2026-11-01 |
+| 抓取时间 | 2026-11-02 |
 | 所属项目 | [[DeepSeek Harness]]（github.com/deepseek-ai/deepseek-harness） |
-| 关联素材 | [[2026-11-01-deepseek-harness-readme]]（README 概览）、[[2026-11-01-deepseek-harness-tweet]]（推文解读） |
+| 关联素材 | [[2026-11-02-deepseek-harness-readme]]（README 概览）、[[2026-11-02-deepseek-harness-tweet]]（推文解读） |
 
 ## 核心观点
 
@@ -132,8 +132,8 @@ dsh plugin --profile sdk-minimal add file:/path/to/my-plugin-bundle  # 装插件
 
 ## 与其他素材的关联
 
-- [[2026-11-01-deepseek-harness-readme]]：README 概览（是什么、怎么启动）——本素材是其后的"配置细节 + CLI + SDK"实操深化
-- [[2026-11-01-codearts-telegram-bridge]]：`dsh --profile headless` 的一次性任务模式与 CodeArts `codearts run` 无头调用思路相同，可对照
+- [[2026-11-02-deepseek-harness-readme]]：README 概览（是什么、怎么启动）——本素材是其后的"配置细节 + CLI + SDK"实操深化
+- [[2026-11-02-codearts-telegram-bridge]]：`dsh --profile headless` 的一次性任务模式与 CodeArts `codearts run` 无头调用思路相同，可对照
 - [[AI Agent 智能体]]：多提供商接入与权限审批是 agent 工程化的典型基础设施设计
 
 ## 原文精彩摘录

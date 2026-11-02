@@ -3,9 +3,9 @@ type: entity
 name: wiki-summarize 知识库梳理技能
 category: 工程工具
 tags: [知识库, 梳理, Claude Code, Skill, SUMMARY, 健康检查]
-sources: [2026-11-01-wiki-summarize-skill]
-created: 2026-11-01
-updated: 2026-11-01
+sources: [2026-11-02-wiki-summarize-skill]
+created: 2026-11-02
+updated: 2026-11-02
 ---
 
 # wiki-summarize 知识库梳理技能
@@ -132,7 +132,7 @@ llm-wiki-skill 负责日常的素材采集、消化、查询和健康检查；wi
 
 ## 不同素材中的观点
 
-来自 [[2026-11-01-wiki-summarize-skill]]：
+来自 [[2026-11-02-wiki-summarize-skill]]：
 
 - 这是“体检 + 梳理”，目标是可阅读、可交付的报告，不是普通问答。
 - 六步流程不可跳步，同步远端是写库前置条件。
@@ -149,5 +149,5 @@ llm-wiki-skill 负责日常的素材采集、消化、查询和健康检查；wi
 
 ## 相关页面
 
-- [[2026-11-01-wiki-summarize-skill]]
+- [[2026-11-02-wiki-summarize-skill]]
 - [[AI编程开发]]

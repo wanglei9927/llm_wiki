@@ -1,8 +1,8 @@
 ---
 tags: [Claude Code, 实战开发, 代码审查, 验证循环, 安全, 回滚]
-created: 2026-11-01
-updated: 2026-11-01
-sources: [2026-11-01-claude-code-practical-dev-techniques]
+created: 2026-11-02
+updated: 2026-11-02
+sources: [2026-11-02-claude-code-practical-dev-techniques]
 ---
 
 # Claude Code 实战开发术
@@ -11,19 +11,19 @@ sources: [2026-11-01-claude-code-practical-dev-techniques]
 
 ## 核心观点
 
-1. **验证不是被省掉，而是被转移**：可运行、可自动检查的部分交给 Claude 与工具；人保留的是"必须由人决定"的判断。团队甚至把漏掉问题后的返工时间算进人的负担，避免验证时间只是变成善后时间。来源：[[2026-11-01-claude-code-practical-dev-techniques]]
+1. **验证不是被省掉，而是被转移**：可运行、可自动检查的部分交给 Claude 与工具；人保留的是"必须由人决定"的判断。团队甚至把漏掉问题后的返工时间算进人的负担，避免验证时间只是变成善后时间。来源：[[2026-11-02-claude-code-practical-dev-techniques]]
 
-2. **"完成了"不是完成，证据才是**：完成报告必须包含实际执行的命令与结果、启动截图、试过的操作与结果、以及未能验证的部分及原因。开始前先让 Claude 提出最多 5 条可亲手验证的验收方式。来源：[[2026-11-01-claude-code-practical-dev-techniques]]
+2. **"完成了"不是完成，证据才是**：完成报告必须包含实际执行的命令与结果、启动截图、试过的操作与结果、以及未能验证的部分及原因。开始前先让 Claude 提出最多 5 条可亲手验证的验收方式。来源：[[2026-11-02-claude-code-practical-dev-techniques]]
 
-3. **评审必须换一个不知情的 Claude**：用 `/code-review` 或新会话，且不要提前告诉它"已经修好了"。团队还会让多个 Claude 分头找问题、再交叉核实，只保留确认成立的指摘，并区分本次引入与历史遗留。来源：[[2026-11-01-claude-code-practical-dev-techniques]]
+3. **评审必须换一个不知情的 Claude**：用 `/code-review` 或新会话，且不要提前告诉它"已经修好了"。团队还会让多个 Claude 分头找问题、再交叉核实，只保留确认成立的指摘，并区分本次引入与历史遗留。来源：[[2026-11-02-claude-code-practical-dev-techniques]]
 
-4. **修复循环必须有上限**：评审 3 次后人重新判断；从第 2 次起只看新增变更；同一指摘不重复提；同一 bug 修 2 次不好就停，汇总"试过什么 / 变了什么 / 还剩下什么 / 要人决定什么"。来源：[[2026-11-01-claude-code-practical-dev-techniques]]
+4. **修复循环必须有上限**：评审 3 次后人重新判断；从第 2 次起只看新增变更；同一指摘不重复提；同一 bug 修 2 次不好就停，汇总"试过什么 / 变了什么 / 还剩下什么 / 要人决定什么"。来源：[[2026-11-02-claude-code-practical-dev-techniques]]
 
-5. **安全结论必须落地**：发现的问题只有两种结局——修掉，或写明理由判定为误报。只弹警告不处理，等于没查。发布前跑 `/security-review`，并警惕下载文件夹里的 `AGENTS.md` / `CLAUDE.md` 注入。来源：[[2026-11-01-claude-code-practical-dev-techniques]]
+5. **安全结论必须落地**：发现的问题只有两种结局——修掉，或写明理由判定为误报。只弹警告不处理，等于没查。发布前跑 `/security-review`，并警惕下载文件夹里的 `AGENTS.md` / `CLAUDE.md` 注入。来源：[[2026-11-02-claude-code-practical-dev-techniques]]
 
-6. **人只看不可逆的地方**：支付、登录与权限、个人隐私、公开发布、数据删除，必须人亲自确认；Claude 的 OK 不等于人的 OK，且人确认后 Claude 再改动就要重新确认。来源：[[2026-11-01-claude-code-practical-dev-techniques]]
+6. **人只看不可逆的地方**：支付、登录与权限、个人隐私、公开发布、数据删除，必须人亲自确认；Claude 的 OK 不等于人的 OK，且人确认后 Claude 再改动就要重新确认。来源：[[2026-11-02-claude-code-practical-dev-techniques]]
 
-7. **可回滚是敢委托的前提**：小步提交、大改前留回退点、先自己用再小范围试用，最后才公开发布。合入者对结果负责，而负责的前提是能快速退回。来源：[[2026-11-01-claude-code-practical-dev-techniques]]
+7. **可回滚是敢委托的前提**：小步提交、大改前留回退点、先自己用再小范围试用，最后才公开发布。合入者对结果负责，而负责的前提是能快速退回。来源：[[2026-11-02-claude-code-practical-dev-techniques]]
 
 ## 知识体系
 
@@ -68,7 +68,7 @@ sources: [2026-11-01-claude-code-practical-dev-techniques]
 
 | 素材 | 要点 | 类型 |
 |---|---|---|
-| [[2026-11-01-claude-code-practical-dev-techniques]] | にく整理 Anthropic 团队的 6 个实战术、端到端流程、NG 清单 | X 长文 |
+| [[2026-11-02-claude-code-practical-dev-techniques]] | にく整理 Anthropic 团队的 6 个实战术、端到端流程、NG 清单 | X 长文 |
 
 ## 综合分析
 
@@ -94,6 +94,6 @@ sources: [2026-11-01-claude-code-practical-dev-techniques]
 ## 相关页面
 
 - [[Claude Code]]
-- [[2026-11-01-claude-code-practical-dev-techniques]]
+- [[2026-11-02-claude-code-practical-dev-techniques]]
 - [[AI编程开发]]
 - [[AI Agent 智能体]]

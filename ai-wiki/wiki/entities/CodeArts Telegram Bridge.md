@@ -4,9 +4,9 @@ name: CodeArts Telegram Bridge
 category: 开发工具
 tags: [Telegram, TelegramBot, Agent桥接, 远程开发, CodeArts, 开源]
 sources:
-  - 2026-11-01-codearts-telegram-bridge.md
-created: 2026-11-01
-updated: 2026-11-01
+  - 2026-11-02-codearts-telegram-bridge.md
+created: 2026-11-02
+updated: 2026-11-02
 ---
 
 # CodeArts Telegram Bridge
@@ -83,4 +83,4 @@ CLI agent 绑定在电脑终端上，通勤、开会、沙发上时彻底失联�
 
 - [[CodeArts CLI]]
 - [[AI编程开发]]
-- [[2026-11-01-codearts-telegram-bridge]]
+- [[2026-11-02-codearts-telegram-bridge]]

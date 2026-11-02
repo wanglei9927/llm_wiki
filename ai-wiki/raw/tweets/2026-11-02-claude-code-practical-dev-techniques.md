@@ -3,7 +3,7 @@
 - 原始 URL：https://x.com/29meat_ai/status/2116103005716242476
 - 作者：にく @29meat_ai
 - 发布时间：2026-10-30T09:40:46Z
-- 抓取时间：2026-11-01（Jina Reader，经本地代理）
+- 抓取时间：2026-11-02（Jina Reader，经本地代理）
 - 原文标题：Claude Codeガチ勢の実戦開発術【完全版】
 - 引用元：Anthropic「How the Claude Code team does code review」（2026-10-15）
 - 封面图：https://pbs.twimg.com/media/HV3jz20aUAAtBFX?format=jpg&name=large
