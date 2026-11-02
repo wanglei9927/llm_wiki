@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：33
-- Wiki 页面总数：69
+- 素材总数：34
+- Wiki 页面总数：71
 
 ---
 
@@ -43,6 +43,7 @@
 - [[DeepSeek Harness]] - DeepSeek 开源智能体框架，Everything is a Plugin 插件化架构
 - [[wiki-summarize 知识库梳理技能]] - 对知识库做整体盘点并生成 SUMMARY.md 的 Claude Code 技能
 - [[Claude Code]] - Anthropic 的终端 AI 编程代理，能读写代码与执行命令
+- [[数字生命卡兹克]] - 设计师出身的独立开发者，AIHOT 作者与 Agent 自动化系统实践者
 
 ---
 
@@ -105,6 +106,7 @@
 - [[2026-11-02-dsh-superagent-prototype]] - dsh-superagent-prototype：Super-agent 落地原型
 - [[2026-11-02-dsh-go-tweet]] - DSH Go：安卓手机运行 DSH 引擎的社区客户端
 - [[2026-11-02-fq-book]] - fq-book《这本书能让你连接互联网》：网络代理与 VPN 学习文档
+- [[2026-11-02-kazike-agent-automation]] - 卡兹克 Agent 自动化系统：事件中台+多模型调度+CI 五步+批奏折决策
 
 ### 工程实战类（2 篇）
 
