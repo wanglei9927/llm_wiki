@@ -1,7 +1,7 @@
 ---
 tags: [知识库, 梳理, Claude Code Skill, SUMMARY, 健康检查, 自动化]
-created: 2026-11-01
-updated: 2026-11-01
+created: 2026-11-02
+updated: 2026-11-02
 source_path: .claude/skills/wiki-summarize/SKILL.md
 ---
 

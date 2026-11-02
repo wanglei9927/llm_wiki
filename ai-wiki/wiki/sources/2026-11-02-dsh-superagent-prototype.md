@@ -1,8 +1,8 @@
 ---
 tags: [DeepSeek Harness, dsh-superagent, Super-agent, GitHub, coding agent, 开源项目]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/articles/2026-11-01-dsh-superagent-prototype-readme.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/articles/2026-11-02-dsh-superagent-prototype-readme.md
 ---
 
 # dsh-superagent-prototype：Super-agent 落地原型（仓库 README）
@@ -14,7 +14,7 @@ source_path: raw/articles/2026-11-01-dsh-superagent-prototype-readme.md
 | 项目 | 内容 |
 |---|---|
 | 来源 | GitHub 仓库 deepseek-ai/dsh-superagent-prototype（main 分支 README） |
-| 抓取时间 | 2026-11-01 |
+| 抓取时间 | 2026-11-02 |
 | 仓库地址 | https://github.com/deepseek-ai/dsh-superagent-prototype |
 | 仓库数据 | 4.6k stars · 424 forks · 仅 1 commit · MIT |
 | 所属框架 | [[DeepSeek Harness]]（打包为 dsh bundle） |
@@ -56,10 +56,10 @@ pnpm check   # 跑 typecheck、测试与构建
 
 ## 与其他素材的关联
 
-- [[2026-11-01-deepseek-harness-tweet]]：@Super_Nius 最早解读的 Router/Worker 架构即此原型的设计思想
-- [[2026-11-01-superagent-prototype-tweets]]：发布推文与实验数据（中位数 12.4 分钟）、社区冷思考
-- [[2026-11-01-codearts-telegram-bridge]]：同为"agent 被事件驱动 + 独立会话干活 + 汇报结果"的思路，此原型是官方完整实现
-- 官网"智能体团队（实验性）"插件是 Super-agent 理念在 dsh 产品内的对应形态（见 [[2026-11-01-deepseek-harness-official-site]]）
+- [[2026-11-02-deepseek-harness-tweet]]：@Super_Nius 最早解读的 Router/Worker 架构即此原型的设计思想
+- [[2026-11-02-superagent-prototype-tweets]]：发布推文与实验数据（中位数 12.4 分钟）、社区冷思考
+- [[2026-11-02-codearts-telegram-bridge]]：同为"agent 被事件驱动 + 独立会话干活 + 汇报结果"的思路，此原型是官方完整实现
+- 官网"智能体团队（实验性）"插件是 Super-agent 理念在 dsh 产品内的对应形态（见 [[2026-11-02-deepseek-harness-official-site]]）
 
 ## 原文精彩摘录
 
@@ -72,7 +72,7 @@ pnpm check   # 跑 typecheck、测试与构建
 ## 相关页面
 
 - [[DeepSeek Harness]]
-- [[2026-11-01-superagent-prototype-tweets]]
-- [[2026-11-01-deepseek-harness-official-site]]
+- [[2026-11-02-superagent-prototype-tweets]]
+- [[2026-11-02-deepseek-harness-official-site]]
 - [[AI Agent 智能体]]
 - [[DSH 入门学习路径]]

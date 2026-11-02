@@ -4,7 +4,7 @@
   - 仓库主页：https://github.com/hoochanlon/fq-book（master 分支，8.2k stars / 1.7k forks / 195 commits，抓取时）
   - README：https://raw.githubusercontent.com/hoochanlon/fq-book/master/README.md
   - 全书目录：https://raw.githubusercontent.com/hoochanlon/fq-book/master/docs/_sidebar.md
-- 抓取时间：2026-11-01（webfetch + GitHub API）
+- 抓取时间：2026-11-02（webfetch + GitHub API）
 - 协议：CC BY-NC 4.0（允许演绎共享、禁止商用）
 - 技术形态：docsify 在线书（GitHub Pages 部署），仓库仅 144KB
 

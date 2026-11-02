@@ -1,8 +1,8 @@
 ---
 tags: [DeepSeek, deepseek-harness, Super-agent, AI Agent, 多任务并行, 开源项目]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/tweets/2026-11-01-deepseek-harness-tweet.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/tweets/2026-11-02-deepseek-harness-tweet.md
 ---
 
 # DeepSeek Harness：Super-agent 双层架构开源项目
@@ -48,7 +48,7 @@ source_path: raw/tweets/2026-11-01-deepseek-harness-tweet.md
 
 ## 关键概念
 
-- **[[DeepSeek Harness]]**：DeepSeek 开源的多任务 Agent 架构（实体页已创建；官方一手信息见 [[2026-11-01-deepseek-harness-readme]]）
+- **[[DeepSeek Harness]]**：DeepSeek 开源的多任务 Agent 架构（实体页已创建；官方一手信息见 [[2026-11-02-deepseek-harness-readme]]）
 - 事件触发 Agent：由外部事件（群消息/邮件/代码评论/CI 结果）驱动而非用户轮询的 Agent 运行模式（仅 1 篇素材提及，积累更多素材后创建实体页）
 
 ## 相关页面

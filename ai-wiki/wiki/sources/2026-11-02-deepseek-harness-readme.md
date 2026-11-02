@@ -1,8 +1,8 @@
 ---
 tags: [DeepSeek, DeepSeek Harness, dsh, AI Agent, 插件化, agent harness, 开源项目]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/articles/2026-11-01-deepseek-harness-readme.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/articles/2026-11-02-deepseek-harness-readme.md
 ---
 
 # DeepSeek Harness 官方 README 与 Web UI 指南
@@ -14,7 +14,7 @@ source_path: raw/articles/2026-11-01-deepseek-harness-readme.md
 | 项目 | 内容 |
 |---|---|
 | 来源 | GitHub 仓库 deepseek-ai/deepseek-harness（README 中英文 + docs/user/guide/index.md） |
-| 抓取时间 | 2026-11-01 |
+| 抓取时间 | 2026-11-02 |
 | 仓库地址 | https://github.com/deepseek-ai/deepseek-harness |
 | 仓库数据 | 267.7k stars · 32.5k forks · 24,922 commits（抓取时） |
 | 协议 | MIT |
@@ -71,8 +71,8 @@ make help          # 列出 Web 与 Desktop 对应的 Make target
 
 ## 与其他素材的关联
 
-- [[2026-11-01-deepseek-harness-tweet]]：@Super_Nius 的推文解读（Super-agent 双层架构、事件触发、Watchdog）——本素材是官方 README，补上了"是什么、怎么跑"的一手信息
-- [[2026-11-01-codearts-telegram-bridge]]：同为 agent 基础设施思路（CLI/无头 + 远程 UI + 事件驱动），可对照学习
+- [[2026-11-02-deepseek-harness-tweet]]：@Super_Nius 的推文解读（Super-agent 双层架构、事件触发、Watchdog）——本素材是官方 README，补上了"是什么、怎么跑"的一手信息
+- [[2026-11-02-codearts-telegram-bridge]]：同为 agent 基础设施思路（CLI/无头 + 远程 UI + 事件驱动），可对照学习
 - [[DeepSeek]]：同一厂商，模型（API key）+ 框架（harness）配套
 
 ## 原文精彩摘录

@@ -1,6 +1,6 @@
 # 知识库索引
 
-> 最后更新：2026-11-01
+> 最后更新：2026-11-02
 
 ---
 
@@ -95,21 +95,21 @@
 - [[2026-04-29-yupi-ai-guide-tools]] - AI 程序员实用工具链：从开发到写作的完整指南
 - [[2026-04-29-yupi-ai-guide-programming-tips]] - AI 编程高级技巧：如何让 AI 生成几万行代码不出 Bug
 - [[2026-04-29-yupi-ai-guide-programming-tech]] - AI 编程技术全景：从开发框架到部署上线的完整知识体系
-- [[2026-11-01-pixelfx-tweet]] - PixelFX：232 种代码化游戏特效开源
-- [[2026-11-01-deepseek-harness-tweet]] - DeepSeek Harness：Super-agent 双层架构开源项目
-- [[2026-11-01-deepseek-harness-readme]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
-- [[2026-11-01-deepseek-harness-guides]] - DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
-- [[2026-11-01-claude-code-practical-dev-techniques]] - Claude Code 实战开发术：证据、独立评审、循环上限与安全闭环
-- [[2026-11-01-deepseek-harness-official-site]] - DeepSeek Harness 官网：产品形态与功能全景
-- [[2026-11-01-superagent-prototype-tweets]] - dsh-superagent-prototype 发布推文与实验数据
-- [[2026-11-01-dsh-superagent-prototype]] - dsh-superagent-prototype：Super-agent 落地原型
-- [[2026-11-01-dsh-go-tweet]] - DSH Go：安卓手机运行 DSH 引擎的社区客户端
-- [[2026-11-01-fq-book]] - fq-book《这本书能让你连接互联网》：网络代理与 VPN 学习文档
+- [[2026-11-02-pixelfx-tweet]] - PixelFX：232 种代码化游戏特效开源
+- [[2026-11-02-deepseek-harness-tweet]] - DeepSeek Harness：Super-agent 双层架构开源项目
+- [[2026-11-02-deepseek-harness-readme]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
+- [[2026-11-02-deepseek-harness-guides]] - DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
+- [[2026-11-02-claude-code-practical-dev-techniques]] - Claude Code 实战开发术：证据、独立评审、循环上限与安全闭环
+- [[2026-11-02-deepseek-harness-official-site]] - DeepSeek Harness 官网：产品形态与功能全景
+- [[2026-11-02-superagent-prototype-tweets]] - dsh-superagent-prototype 发布推文与实验数据
+- [[2026-11-02-dsh-superagent-prototype]] - dsh-superagent-prototype：Super-agent 落地原型
+- [[2026-11-02-dsh-go-tweet]] - DSH Go：安卓手机运行 DSH 引擎的社区客户端
+- [[2026-11-02-fq-book]] - fq-book《这本书能让你连接互联网》：网络代理与 VPN 学习文档
 
 ### 工程实战类（2 篇）
 
-- [[2026-11-01-codearts-telegram-bridge]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
-- [[2026-11-01-wiki-summarize-skill]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
+- [[2026-11-02-codearts-telegram-bridge]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
+- [[2026-11-02-wiki-summarize-skill]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
 
 ---
 

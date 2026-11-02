@@ -1,8 +1,8 @@
 ---
 tags: [AI编程, DeepSeek, Cursor, 开发效率, 架构图, 游戏开发, Spring AI, RAG, Agent]
 created: 2026-04-29
-updated: 2026-11-01
-sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-readme, 2026-11-01-claude-code-practical-dev-techniques, 2026-11-01-deepseek-harness-guides, 2026-11-01-deepseek-harness-official-site, 2026-11-01-superagent-prototype-tweets, 2026-11-01-dsh-superagent-prototype]
+updated: 2026-11-02
+sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-02-deepseek-harness-tweet, 2026-11-02-deepseek-harness-readme, 2026-11-02-claude-code-practical-dev-techniques, 2026-11-02-deepseek-harness-guides, 2026-11-02-deepseek-harness-official-site, 2026-11-02-superagent-prototype-tweets, 2026-11-02-dsh-superagent-prototype]
 ---
 
 # AI 编程开发全景
@@ -337,7 +337,7 @@ IDE: PyCharm Community Edition（免费）
 
 ## Agent 远程化：CLI 桥接移动端（2026-11）
 
-来自 [[2026-11-01-codearts-telegram-bridge]]：
+来自 [[2026-11-02-codearts-telegram-bridge]]：
 
 - CLI agent 绑定终端是"最后一块拼图"问题：人离开电脑就失去控制权
 - 解法是 Telegram bot（long polling，零基础设施）+ 本机桥接进程 + CLI 无头模式
@@ -349,7 +349,7 @@ IDE: PyCharm Community Edition（免费）
 
 ## Agent 基础设施：DeepSeek Harness（2026-11）
 
-来自 [[2026-11-01-deepseek-harness-readme]] 与 [[2026-11-01-deepseek-harness-tweet]]：
+来自 [[2026-11-02-deepseek-harness-readme]] 与 [[2026-11-02-deepseek-harness-tweet]]：
 
 - DeepSeek 官方开源 agent harness（命令 `dsh`）：Everything is a Plugin 插件化架构，由 Cordis 框架驱动，267.7k stars / 32.5k forks（2026-11 抓取），MIT 协议
 - Super-agent 双层架构：Router 负责对话/全局上下文/派活，Worker 每任务独立隔离会话并行执行后汇报——解决"一个会话一个孤岛"的多任务切换问题
@@ -362,7 +362,7 @@ IDE: PyCharm Community Edition（免费）
 
 ## Claude Code 实战开发术（2026-11）
 
-来自 [[2026-11-01-claude-code-practical-dev-techniques]]：
+来自 [[2026-11-02-claude-code-practical-dev-techniques]]：
 
 - Anthropic 团队自报：Claude Code 自身约 90% 的代码由 Claude 编写；6–9 月变更量翻倍以上，回滚比例下降 40% 以上
 - 核心转变：不是减少验证，而是把可自动验证的部分交给 Claude；人只看不可逆决策与最终责任

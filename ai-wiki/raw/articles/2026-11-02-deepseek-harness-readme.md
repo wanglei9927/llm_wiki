@@ -4,10 +4,10 @@
   - 仓库主页：https://github.com/deepseek-ai/deepseek-harness
   - 中文 README：https://github.com/deepseek-ai/deepseek-harness/blob/master/README.zh.md
   - Web UI 指南：https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/guide/index.md
-- 抓取时间：2026-11-01（webfetch 自动抓取）
+- 抓取时间：2026-11-02（webfetch 自动抓取）
 - 仓库数据（抓取时）：267.7k stars、32.5k forks、1.1k watching、24,922 commits
 - 协议：MIT；Topics：ai-agents、cordis、dsh、dsh-plugin
-- 关联推文素材：raw/tweets/2026-11-01-deepseek-harness-tweet.md
+- 关联推文素材：raw/tweets/2026-11-02-deepseek-harness-tweet.md
 
 ## 仓库 About
 

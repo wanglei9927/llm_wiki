@@ -4,11 +4,11 @@
 
 ---
 
-## 2026-11-01 — 消化 X 推文：fq-book《这本书能让你连接互联网》学习文档（完整处理）
+## 2026-11-02 — 消化 X 推文：fq-book《这本书能让你连接互联网》学习文档（完整处理）
 
 - **操作**：用户要求整理成详细学习文档；webfetch 抓取推文（@lumxss，15.1 万浏览热帖）+ fq-book 仓库 README（master 分支）+ 全书目录（docs/_sidebar.md，13 篇章 60+ 小节）
 - **新增页面**：
-  - 原始素材 2 篇（raw/tweets/2026-11-01-fq-book-tweet.md；raw/articles/2026-11-01-fq-book-readme.md 含 README 摘录与完整目录）
+  - 原始素材 2 篇（raw/tweets/2026-11-02-fq-book-tweet.md；raw/articles/2026-11-02-fq-book-readme.md 含 README 摘录与完整目录）
   - 素材摘要 1 篇（**fq-book 学习文档**：全书结构地图 + 三阶段学习路线 + 核心概念速览（代理/隧道/VPN、DNS 污染、TCP RST、SNI 阻断、NAT、纯净 IP）+ 排障工具箱（Wireshark/curl -v/traceroute/cip.cc）+ 开发者代理配置（git/终端/ssh）+ 合规边界说明）
 - **定位说明**：以网络原理学习为主线；原书"方法论"实操章节仅做目录级索引；CC BY-NC 协议与作者免责声明如实转述
 - **当前知识库规模**：33 篇素材，6 个主题页，27 个实体页，2 篇综合分析
@@ -16,11 +16,11 @@
 
 ---
 
-## 2026-11-01 — 消化 X 推文：DSH Go 安卓客户端（社区第三方）
+## 2026-11-02 — 消化 X 推文：DSH Go 安卓客户端（社区第三方）
 
 - **操作**：消化 @NFT_Chen 2026-11-01 推文（社区项目 DSH Go：安卓手机本机运行 DSH 引擎 + SSH 接管电脑端，短素材简化处理；webfetch 自动抓取成功）
 - **新增页面**：
-  - 原始素材 1 篇（raw/tweets/2026-11-01-dsh-go-tweet.md）
+  - 原始素材 1 篇（raw/tweets/2026-11-02-dsh-go-tweet.md）
   - 素材摘要 1 篇（DSH Go：把 DeepSeek Harness 装进安卓口袋，含五步安装实操与单 Key 安全建议）
 - **更新页面**：
   - [[DeepSeek Harness]] 实体页（观点节追加社区生态视角，sources 回填至 7 篇）
@@ -31,11 +31,11 @@
 
 ---
 
-## 2026-11-01 — 消化 X 长文：Claude Code 实战开发术【完全版】
+## 2026-11-02 — 消化 X 长文：Claude Code 实战开发术【完全版】
 
 - **操作**：经本地代理用 Jina Reader 抓取 @29meat_ai 日文长文（约 3.5 万字节），完整处理
 - **新增页面**：
-  - 原始素材 1 篇（raw/tweets/2026-11-01-claude-code-practical-dev-techniques.md）
+  - 原始素材 1 篇（raw/tweets/2026-11-02-claude-code-practical-dev-techniques.md）
   - 素材摘要 1 篇（Claude Code 实战开发术：六条实战术、Prompt 模板、端到端流程与 NG 清单）
   - 实体页 1 篇（Claude Code）
   - 主题页 1 篇（Claude Code 实战开发术）
@@ -47,11 +47,11 @@
 
 ---
 
-## 2026-11-01 — 消化 dsh-superagent-prototype 素材并生成 DSH 入门学习路径（完整处理）
+## 2026-11-02 — 消化 dsh-superagent-prototype 素材并生成 DSH 入门学习路径（完整处理）
 
 - **操作**：用户（dsh 小白）要求系统学习 dsh 并上手；webfetch 抓取 2 条推文（@IAmHuTu、@meow2149）、superagent-prototype 仓库 README、官网 deepseek.com/harness，共 3 篇新素材；按用户诉求首次生成综合分析（学习路径）页
 - **新增页面**：
-  - 原始素材 3 篇（raw/tweets/2026-11-01-superagent-prototype-tweets.md 合并两条推文；raw/articles/2026-11-01-dsh-superagent-prototype-readme.md；raw/articles/2026-11-01-deepseek-harness-official-site.md）
+  - 原始素材 3 篇（raw/tweets/2026-11-02-superagent-prototype-tweets.md 合并两条推文；raw/articles/2026-11-02-dsh-superagent-prototype-readme.md；raw/articles/2026-11-02-deepseek-harness-official-site.md）
   - 素材摘要 3 篇（superagent-prototype-tweets 合并摘要、dsh-superagent-prototype 仓库深读、official-site 官网全景）
   - **综合分析 1 篇（DSH 入门学习路径：五步路线 + 概念词典 + 安装对比 + 常见坑 + 资源清单 + 视角对比）**
 - **更新页面**：
@@ -63,7 +63,7 @@
 
 ---
 
-## 2026-11-01 — 消化工程素材：wiki-summarize 知识库梳理技能
+## 2026-11-02 — 消化工程素材：wiki-summarize 知识库梳理技能
 
 - **操作**：梳理 `.claude/skills/wiki-summarize` 的 SKILL.md、扫描脚本与复用说明，整理为可复用知识页（完整处理）
 - **新增页面**：
@@ -77,11 +77,11 @@
 
 ---
 
-## 2026-11-01 — 消化官方文档：DeepSeek Harness 实操指南（模型配置/CLI/SDK）
+## 2026-11-02 — 消化官方文档：DeepSeek Harness 实操指南（模型配置/CLI/SDK）
 
 - **操作**：用户要求补充"可实操的内容"，webfetch 抓取 dsh 三篇官方实操文档（providers.zh.md 模型配置、apps/cli README 入口模式、python-sdk.md SDK 教程），完整处理并与既有 DeepSeek Harness 素材关联
 - **新增页面**：
-  - 原始素材 1 篇（raw/articles/2026-11-01-deepseek-harness-guides.md）
+  - 原始素材 1 篇（raw/articles/2026-11-02-deepseek-harness-guides.md）
   - 素材摘要 1 篇（DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK，含 CLI 入口模式表、SDK 代码、网关排错表）
 - **更新页面**：
   - [[DeepSeek Harness]] 实体页（新增"模型配置（多提供商）"与"Python SDK（程序化调用）"节，扩充五种入口模式与 danger-full-access 注意事项，sources 回填）
@@ -90,28 +90,28 @@
 
 ---
 
-## 2026-11-01 — 消化官方文档：DeepSeek Harness README 与使用指南（完整处理）
+## 2026-11-02 — 消化官方文档：DeepSeek Harness README 与使用指南（完整处理）
 
 - **操作**：用户要求深挖 @Super_Nius 推文推荐的 GitHub 项目用法，webfetch 抓取仓库 README（中英文）与 Web UI 使用指南，素材 >1000 字走完整处理
 - **新增页面**：
-  - 原始素材 1 篇（raw/articles/2026-11-01-deepseek-harness-readme.md）
+  - 原始素材 1 篇（raw/articles/2026-11-02-deepseek-harness-readme.md）
   - 素材摘要 1 篇（DeepSeek Harness 官方 README 与 Web UI 指南，含实操命令与原文摘录）
   - 实体页 1 篇（**DeepSeek Harness**，正文含定义/特性/双素材观点/安装用法/注意事项/适用场景）
 - **更新页面**：
   - [[DeepSeek]] 实体页（追加官方定位观点，编程开发场景行改为实体链接，sources 回填）
   - [[AI Agent 智能体]] 实体页（追加 harness 概念与 Agent 能力边界观点，sources 回填）
   - [[AI编程开发]] 主题页（新增"Agent 基础设施：DeepSeek Harness"节，sources 回填）
-  - [[2026-11-01-deepseek-harness-tweet]] 摘要页（"待创建"概念标注升级为 [[DeepSeek Harness]] 实体链接）
+  - [[2026-11-02-deepseek-harness-tweet]] 摘要页（"待创建"概念标注升级为 [[DeepSeek Harness]] 实体链接）
 - **当前知识库规模**：25 篇素材，5 个主题页，25 个实体页
 - **状态**：完成
 
 ---
 
-## 2026-11-01 — 消化 X 推文：DeepSeek Harness（Super-agent 架构）
+## 2026-11-02 — 消化 X 推文：DeepSeek Harness（Super-agent 架构）
 
 - **操作**：消化 @Super_Nius 2026-10-31 推文（DeepSeek deepseek-harness 项目解读，短素材简化处理；webfetch 自动抓取成功）
 - **新增页面**：
-  - 原始素材 1 篇（raw/tweets/2026-11-01-deepseek-harness-tweet.md）
+  - 原始素材 1 篇（raw/tweets/2026-11-02-deepseek-harness-tweet.md）
   - 素材摘要 1 篇（DeepSeek Harness：Super-agent 双层架构开源项目）
 - **更新页面**：
   - [[DeepSeek]] 实体页（编程开发场景与"不同素材中的观点"追加 Super-agent 架构信息，sources 回填）
@@ -122,11 +122,11 @@
 
 ---
 
-## 2026-11-01 — 消化 X 推文：PixelFX 232 种游戏特效开源
+## 2026-11-02 — 消化 X 推文：PixelFX 232 种游戏特效开源
 
 - **操作**：消化 @Tao_Builds 2026-10-31 推文（PixelFX 项目推荐，短素材简化处理；webfetch 自动抓取成功）
 - **新增页面**：
-  - 原始素材 1 篇（raw/tweets/2026-11-01-pixelfx-tweet.md，知识库首个 X/Twitter 类素材）
+  - 原始素材 1 篇（raw/tweets/2026-11-02-pixelfx-tweet.md，知识库首个 X/Twitter 类素材）
   - 素材摘要 1 篇（PixelFX：232 种代码化游戏特效开源）
 - **待创建概念**（纯文本标注）：PixelFX、程序化特效（各仅 1 篇素材提及，积累后创建实体页）
 - **当前知识库规模**：23 篇素材，5 个主题页，24 个实体页
@@ -134,7 +134,7 @@
 
 ---
 
-## 2026-11-01 — CodeArts Telegram Bridge 实体页更新：开机自启配置
+## 2026-11-02 — CodeArts Telegram Bridge 实体页更新：开机自启配置
 
 - **操作**：补充 systemd user 服务开机自启配置（codearts-tg + enable-linger）、重启后重连说明、代理前提条件
 - **实体页**：[[CodeArts Telegram Bridge]] 实用信息节更新
@@ -142,7 +142,7 @@
 
 ---
 
-## 2026-11-01 — 消化工程实战素材 CodeArts Telegram Bridge
+## 2026-11-02 — 消化工程实战素材 CodeArts Telegram Bridge
 
 - **操作**：消化自产工程总结素材（CodeArts↔Telegram 桥接项目技术记录）
 - **新增页面**：
@@ -157,7 +157,7 @@
 
 ---
 
-## 2026-11-01 — 摘要页质量修复
+## 2026-11-02 — 摘要页质量修复
 
 - **操作**：运行 lint-wiki.sh 健康检查，按结果修复 8 篇素材摘要页
 - **修复问题**：

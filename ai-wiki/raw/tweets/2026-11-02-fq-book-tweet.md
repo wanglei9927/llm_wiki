@@ -3,7 +3,7 @@
 - 原始 URL：https://x.com/bkdgiffug/status/2116667533130428433
 - 作者：lumxss @bkdgiffug（web3 撸毛、AI 工具分享博主）
 - 发布时间：2026-10-31 11:04 PM（页面显示时间）
-- 抓取时间：2026-11-01（webfetch 自动抓取）
+- 抓取时间：2026-11-02（webfetch 自动抓取）
 - 互动数据（抓取时）：151.3K 浏览、28 回复、345 转推、2.9K 引用、2.9K 喜欢
 - 指向项目：在线阅读 https://hoochanlon.github.io/fq-book/ ｜ GitHub https://github.com/hoochanlon/fq-book
 

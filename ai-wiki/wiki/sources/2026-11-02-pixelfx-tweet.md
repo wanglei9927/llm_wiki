@@ -1,8 +1,8 @@
 ---
 tags: [PixelFX, 游戏特效, 程序化生成, 开源项目, 游戏开发, 像素风]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/tweets/2026-11-01-pixelfx-tweet.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/tweets/2026-11-02-pixelfx-tweet.md
 ---
 
 # PixelFX：232 种代码化游戏特效开源

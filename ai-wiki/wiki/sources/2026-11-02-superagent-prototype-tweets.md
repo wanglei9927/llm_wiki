@@ -1,8 +1,8 @@
 ---
 tags: [DeepSeek Harness, Super-agent, dsh-superagent-prototype, AI Agent, 多任务并行, 实验数据]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/tweets/2026-11-01-superagent-prototype-tweets.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/tweets/2026-11-02-superagent-prototype-tweets.md
 ---
 
 # dsh-superagent-prototype 发布：两条推文综合（@IAmHuTu、@meow2149）
@@ -16,11 +16,11 @@ source_path: raw/tweets/2026-11-01-superagent-prototype-tweets.md
 | 来源 | X 推文两条：@IAmHuTu（2026-11-01 2:52 AM）与 @meow2149（2026-10-31 7:53 PM） |
 | 指向仓库 | https://github.com/deepseek-ai/dsh-superagent-prototype |
 | 互动数据 | 胡图：3,545 浏览 / 20 转推 / 30 喜欢；meow：2,218 浏览 / 2 转推 / 8 喜欢 |
-| 原始素材 | raw/tweets/2026-11-01-superagent-prototype-tweets.md（两条合并保存） |
+| 原始素材 | raw/tweets/2026-11-02-superagent-prototype-tweets.md（两条合并保存） |
 
 ## 核心观点
 
-1. **新仓库发布**：DeepSeek 开源 dsh-superagent-prototype（MIT，抓取时 4.6k stars），即 Super-agent 架构的落地原型——与此前 [[2026-11-01-deepseek-harness-tweet]] 的架构解读互相印证，正式有了可运行实现
+1. **新仓库发布**：DeepSeek 开源 dsh-superagent-prototype（MIT，抓取时 4.6k stars），即 Super-agent 架构的落地原型——与此前 [[2026-11-02-deepseek-harness-tweet]] 的架构解读互相印证，正式有了可运行实现
 
 2. **实验数据（@meow2149，具身智能工程师）**：初步实验中 Super-agent 任务完成时间**中位数 12.4 分钟、P95 15.7 分钟**，而传统单会话方案 **P95 达 29.5 分钟**——长尾任务提速近一半
 
@@ -37,7 +37,7 @@ source_path: raw/tweets/2026-11-01-superagent-prototype-tweets.md
 
 （本文为推文综合，无实操代码/模板/步骤）
 
-- 原型仓库安装方式特殊：官方推荐让 coding agent 代为安装，见 [[2026-11-01-dsh-superagent-prototype]] 摘要
+- 原型仓库安装方式特殊：官方推荐让 coding agent 代为安装，见 [[2026-11-02-dsh-superagent-prototype]] 摘要
 
 ## 原文精彩摘录
 
@@ -47,12 +47,12 @@ source_path: raw/tweets/2026-11-01-superagent-prototype-tweets.md
 
 ## 关键概念
 
-- dsh-superagent-prototype：Super-agent 原型仓库（详见 [[2026-11-01-dsh-superagent-prototype]] 摘要与 [[DeepSeek Harness]] 实体页）
+- dsh-superagent-prototype：Super-agent 原型仓库（详见 [[2026-11-02-dsh-superagent-prototype]] 摘要与 [[DeepSeek Harness]] 实体页）
 - 注意力经济学："尽可能少占用人的注意力，尽可能多创造价值"——原型 README 明确写入的工作哲学
 
 ## 相关页面
 
 - [[DeepSeek Harness]]
-- [[2026-11-01-dsh-superagent-prototype]]
+- [[2026-11-02-dsh-superagent-prototype]]
 - [[AI Agent 智能体]]
 - [[DSH 入门学习路径]]

@@ -1,8 +1,8 @@
 ---
 tags: [DeepSeek Harness, 官网, 桌面端, 插件, 创造模式, 自动化任务]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/articles/2026-11-01-deepseek-harness-official-site.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/articles/2026-11-02-deepseek-harness-official-site.md
 ---
 
 # DeepSeek Harness 官网：产品形态与功能全景
@@ -14,7 +14,7 @@ source_path: raw/articles/2026-11-01-deepseek-harness-official-site.md
 | 项目 | 内容 |
 |---|---|
 | 来源 | DeepSeek Harness 官网 https://deepseek.com/harness |
-| 抓取时间 | 2026-11-01 |
+| 抓取时间 | 2026-11-02 |
 | 版本状态 | 预览版（全球开放测试，同步开源，MIT） |
 | 出品方 | 杭州深度求索人工智能基础技术研究有限公司 |
 
@@ -64,8 +64,8 @@ git clone https://github.com/deepseek-ai/deepseek-harness   # 源码安装
 
 ## 与其他素材的关联
 
-- [[2026-11-01-deepseek-harness-readme]]：GitHub README 偏开发者视角；官网偏产品/小白视角，两者互补
-- [[2026-11-01-dsh-superagent-prototype]]：官网"智能体团队"插件与原型仓库是同一理念的两条落地路径（产品内 vs 独立仓库）
+- [[2026-11-02-deepseek-harness-readme]]：GitHub README 偏开发者视角；官网偏产品/小白视角，两者互补
+- [[2026-11-02-dsh-superagent-prototype]]：官网"智能体团队"插件与原型仓库是同一理念的两条落地路径（产品内 vs 独立仓库）
 - [[DSH 入门学习路径]]：本页的桌面端信息是学习路径第 1 步的推荐路线
 
 ## 原文精彩摘录
@@ -78,5 +78,5 @@ git clone https://github.com/deepseek-ai/deepseek-harness   # 源码安装
 
 - [[DeepSeek Harness]]
 - [[DSH 入门学习路径]]
-- [[2026-11-01-dsh-superagent-prototype]]
+- [[2026-11-02-dsh-superagent-prototype]]
 - [[AI编程开发]]

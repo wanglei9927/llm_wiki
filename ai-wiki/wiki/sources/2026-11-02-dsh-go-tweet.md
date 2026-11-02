@@ -1,8 +1,8 @@
 ---
 tags: [DeepSeek Harness, DSH Go, Android, 移动端, 第三方客户端, SSH远程, 桌宠, 社区生态]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/tweets/2026-11-01-dsh-go-tweet.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/tweets/2026-11-02-dsh-go-tweet.md
 ---
 
 # DSH Go：把 DeepSeek Harness 装进安卓口袋（社区第三方客户端）
@@ -52,12 +52,12 @@ source_path: raw/tweets/2026-11-01-dsh-go-tweet.md
 
 原始图片已存档于 `raw/tweets/assets/`，在 Obsidian 中点击即可放大查看：
 
-![[2026-11-01-dsh-go-01.webp]]
-![[2026-11-01-dsh-go-02.webp]]
-![[2026-11-01-dsh-go-03.webp]]
-![[2026-11-01-dsh-go-04.webp]]
+![[2026-11-02-dsh-go-01.webp]]
+![[2026-11-02-dsh-go-02.webp]]
+![[2026-11-02-dsh-go-03.webp]]
+![[2026-11-02-dsh-go-04.webp]]
 
-> 上方 4 张为 DSH Go 推文配图（界面与功能演示截图，按原帖顺序）；"8 款插件"关联推文配图见 ![[2026-11-01-dsh-plugins-01.webp]]
+> 上方 4 张为 DSH Go 推文配图（界面与功能演示截图，按原帖顺序）；"8 款插件"关联推文配图见 ![[2026-11-02-dsh-plugins-01.webp]]
 > 注：抓取环境无多模态模型，未对图片做 OCR 识别，图注按推文顺序标注。
 
 ## 关键概念
@@ -69,8 +69,8 @@ source_path: raw/tweets/2026-11-01-dsh-go-tweet.md
 ## 与其他素材的关联
 
 - [[DeepSeek Harness]]：引擎本体（本素材是其移动端社区生态）
-- [[2026-11-01-codearts-telegram-bridge]]：同为"手机 ↔ 电脑 agent"接力思路——Telegram Bridge 是 Telegram bot + 无头 CLI 的自建轻量方案，DSH Go 是社区完整 App（本机也能跑）
-- [[2026-11-01-deepseek-harness-official-site]]：官方入口是桌面端/Web；DSH Go 补上了官方尚未覆盖的移动端
+- [[2026-11-02-codearts-telegram-bridge]]：同为"手机 ↔ 电脑 agent"接力思路——Telegram Bridge 是 Telegram bot + 无头 CLI 的自建轻量方案，DSH Go 是社区完整 App（本机也能跑）
+- [[2026-11-02-deepseek-harness-official-site]]：官方入口是桌面端/Web；DSH Go 补上了官方尚未覆盖的移动端
 - [[DSH 入门学习路径]]：手机端是桌面端之外的另一上手入口（Android 用户）
 
 ## 原文精彩摘录
@@ -83,5 +83,5 @@ source_path: raw/tweets/2026-11-01-dsh-go-tweet.md
 
 - [[DeepSeek Harness]]
 - [[DSH 入门学习路径]]
-- [[2026-11-01-codearts-telegram-bridge]]
+- [[2026-11-02-codearts-telegram-bridge]]
 - [[AI编程开发]]

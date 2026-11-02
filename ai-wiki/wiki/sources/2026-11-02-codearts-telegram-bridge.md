@@ -1,8 +1,8 @@
 ---
 tags: [CodeArts, Telegram, TelegramBot, AI编程, Agent桥接, 远程开发]
-created: 2026-11-01
-updated: 2026-11-01
-source_path: raw/notes/2026-11-01-codearts-telegram-bridge.md
+created: 2026-11-02
+updated: 2026-11-02
+source_path: raw/notes/2026-11-02-codearts-telegram-bridge.md
 ---
 
 # CodeArts Telegram Bridge：把手机变成 CodeArts 的远程终端
