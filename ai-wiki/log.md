@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-03 — 消化数据集：open-index/hacker-news（HN 全量存档，完整处理）
+
+- **操作**：webfetch 故障，改 curl 抓 HF README raw（26KB 全文）+ HF API 元信息（433 likes/43.9 万下载），完整处理
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-03-hf-hacker-news-dataset-readme.md，README 全文逐字保留）
+  - 素材摘要 1 篇（[[2026-11-03-hf-hacker-news-dataset]]：两层 Parquet 结构、字段表、HN 全景统计、DuckDB hf:// 直查 SQL、三种 Python 用法、使用注意事项）
+  - 实体页 1 篇（[[Hacker News]]：平台概况 + 三渠道数据获取表）
+- **关键新信息**：4306 万评论/626 万 story 全量；得分中位数 0、千分以上仅 0.03%；每天 UTC 零点整月重抓去重；ODC-By 许可
+- **当前知识库规模**：37 篇素材，6 个主题页，30 个实体页，2 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-03 — 消化推文：@0xGky 介绍 zlib CLI（完整处理，skill 请求拒做）
 
 - **操作**：fxtwitter API 抓推文全文 + GitHub 仓库 README 研究补充

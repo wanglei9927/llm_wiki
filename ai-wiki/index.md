@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：36
-- Wiki 页面总数：74
+- 素材总数：37
+- Wiki 页面总数：75
 
 ---
 
@@ -45,6 +45,7 @@
 - [[Claude Code]] - Anthropic 的终端 AI 编程代理，能读写代码与执行命令
 - [[数字生命卡兹克]] - 设计师出身的独立开发者，AIHOT 作者与 Agent 自动化系统实践者
 - [[黑客书架]] - HN 评论中被提及最多的书：15362 本书按去重人数排序的中文书榜网站
+- [[Hacker News]] - Y Combinator 技术社区：内容体量、得分分布与三渠道数据获取
 
 ---
 
@@ -110,6 +111,7 @@
 - [[2026-11-02-kazike-agent-automation]] - 卡兹克 Agent 自动化系统：事件中台+多模型调度+CI 五步+批奏折决策
 - [[2026-11-03-hackerbooks-site]] - 黑客书架：HN 高频书榜站与 Top 600 书单
 - [[2026-11-03-zlib-cli]] - zlib：Z-Library 终端客户端，官方适配 Claude Code/Codex 插件与 MCP
+- [[2026-11-03-hf-hacker-news-dataset]] - open-index/hacker-news：HN 全量存档数据集（DuckDB 直查+5 分钟实时）
 
 ### 工程实战类（2 篇）
 
