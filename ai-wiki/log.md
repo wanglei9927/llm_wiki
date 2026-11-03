@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-11-04 — 消化 Google EGM（摘要 + 实体页 + 中文学习手册）
+
+- **操作**：GitHub 经代理抓取 README + getting_started / harnesses / faq / index / architecture 文档 + brainstorm/review skill 与 design_critic persona 样例；GitHub API 取元数据
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-04-egm-readme.md，README 要点 + 6 篇文档研究 + skill/persona 样例）
+  - 素材摘要 1 篇（[[2026-11-04-egm-readme]]：三角色、七技能、五阶段评审、评价与局限）
+  - 实体页 1 篇（[[Elephant-Goldfish Model]]：关键信息、支持宿主表、DSH 适配评估）
+  - 综合分析 1 篇（[[EGM 学习手册]]：是什么/怎么用/结合现有工作流/学习路径/检查清单）
+- **关键新信息**：11,143 stars、7 skills、9 personas、Apache-2.0；Goldfish 评审必须有 fresh-context 子代理，否则直接停止；官方承认指令文件泄漏边界
+- **当前知识库规模**：39 篇素材，6 个主题页，32 个实体页，3 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-03 — 二次核查：Understand Anything 仓库结构与 DSH 适配评估
 
 - **操作**：补读 README 全文、仓库目录树（612 文件）、package.json、plugin.json、样例 skill/agent；GitHub API 取实时元数据

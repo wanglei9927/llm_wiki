@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：38
-- Wiki 页面总数：77
+- 素材总数：39
+- Wiki 页面总数：80
 
 ---
 
@@ -47,6 +47,7 @@
 - [[黑客书架]] - HN 评论中被提及最多的书：15362 本书按去重人数排序的中文书榜网站
 - [[Hacker News]] - Y Combinator 技术社区：内容体量、得分分布与三渠道数据获取
 - [[Understand Anything]] - 把代码库变成可交互知识图谱的 AI 编程插件（Egonex 背书，9 万星）
+- [[Elephant-Goldfish Model]] - Google 开源的设计-评审工作流：大象写规格，金鱼零上下文挑刺
 
 ---
 
@@ -88,7 +89,7 @@
 - [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（20 篇）
+### 编程开发类（21 篇）
 
 - [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -114,6 +115,7 @@
 - [[2026-11-03-zlib-cli]] - zlib：Z-Library 终端客户端，官方适配 Claude Code/Codex 插件与 MCP
 - [[2026-11-03-hf-hacker-news-dataset]] - open-index/hacker-news：HN 全量存档数据集（DuckDB 直查+5 分钟实时）
 - [[2026-11-03-understand-anything-tweet]] - 32 粉丝研究生做出 5.64 万星代码理解插件：要点、入门讲解与评价
+- [[2026-11-04-egm-readme]] - Google EGM：大象写设计、金鱼零上下文评审的 AI 设计工作流
 
 ### 工程实战类（2 篇）
 
@@ -135,6 +137,7 @@
 > 跨素材的深度分析
 
 - [[DSH 入门学习路径]] - dsh 小白五步上手路线：概念 → 安装 → 配置 → 日常进阶 → Super-agent 前沿
+- [[EGM 学习手册]] - EGM 中文入门：是什么、怎么用、怎么接你现有工作流（DSH / 知识库 / speckit）
 
 ---
 
