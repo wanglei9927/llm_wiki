@@ -194,4 +194,5 @@ npm run registry:build
 ## 相关页面
 
 - [[Looseleaf]]
+- [[Looseleaf 上手指南]]
 - [[AI编程开发]]

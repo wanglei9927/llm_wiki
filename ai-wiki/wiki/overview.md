@@ -47,12 +47,13 @@
 | 实体页 | 34 | `wiki/entities/` 目录 |
 | 主题页 | 6 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
-| 综合分析 | 3 | `wiki/synthesis/` 目录 |
+| 综合分析 | 4 | `wiki/synthesis/` 目录 |
 
 ---
 
 ## 最近更新
 
+- **2026-11-04**：新增综合分析「Looseleaf 上手指南」：三条使用路线（只看/局部试/整套）、五个坑、自带动效清单（boil/draw-on 等 10 个时长 token）与做视频的三条路径（录屏/无头浏览器/Remotion）
 - **2026-11-04**：研究手绘风组件库 Looseleaf（shadcn/ui 生态，123 组件 / 61 blocks / 代码生成 SVG），新增 1 篇摘要 + 1 个实体页，记录 registry 分发、种子绘制与无障碍设计，知识库达到 41 篇素材
 - **2026-11-04**：消化 Dan Koe 长文《How to fix your entire life in 1 day》（5,501 词），新增 1 篇中英双语精读（含逐节对照、词汇表、协议问题清单）与 1 个人物实体页（Dan Koe），知识库达到 40 篇素材
 - **2026-11-04**：消化 Google 开源项目 EGM（Elephant-Goldfish Model），新增 1 篇摘要 + 1 个实体页 + 1 篇中文学习手册（含 DSH / 知识库 / speckit 三套工作流的结合方案），知识库达到 39 篇素材

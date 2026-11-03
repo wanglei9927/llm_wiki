@@ -100,4 +100,5 @@ export function App() {
 ## 相关页面
 
 - [[2026-11-04-looseleaf]]
+- [[Looseleaf 上手指南]]（三条使用路线、动效能力与做视频的可行路径）
 - [[AI编程开发]]
