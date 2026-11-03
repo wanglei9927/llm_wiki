@@ -46,7 +46,7 @@
 - [[数字生命卡兹克]] - 设计师出身的独立开发者，AIHOT 作者与 Agent 自动化系统实践者
 - [[黑客书架]] - HN 评论中被提及最多的书：15362 本书按去重人数排序的中文书榜网站
 - [[Hacker News]] - Y Combinator 技术社区：内容体量、得分分布与三渠道数据获取
-- [[Understand Anything]] - 把代码库变成可交互知识图谱的 AI 编程插件（Egonex 背书，5.64 万星）
+- [[Understand Anything]] - 把代码库变成可交互知识图谱的 AI 编程插件（Egonex 背书，9 万星）
 
 ---
 

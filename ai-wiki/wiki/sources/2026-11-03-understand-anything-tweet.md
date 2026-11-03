@@ -33,6 +33,17 @@ source_path: raw/tweets/2026-11-03-understand-anything-tweet.md
 
 5. **技术路线（研究补充）**：Tree-sitter 做**确定性结构解析**（imports/exports/函数/类/调用点/继承，同一输入永远同一输出，并支撑指纹式增量检测），LLM 做**语义补全**（白话摘要、标签、架构分层、业务域、引导讲解）；多 agent 流水线由 project-scanner、file-analyzer、architecture-analyzer、tour-builder、graph-reviewer 组成，文件分析最多 5 个 worker 并发。
 
+## 二次核查补充（2026-11-03）
+
+> 首次入库只读了 README 约三分之一；本节基于 README 全文、仓库目录树、`package.json` 与插件清单做补充核查。
+
+- **热度更新**：GitHub API 显示 **90,199 stars / 7,704 forks**（推文发布时为 56,400，属当时快照），仓库创建于 2026-03-15，最近推送 2026-10-26。
+- **仓库构成**：TypeScript 项目，插件 v2.9.8，612 个文件——11 个 agent、81 个 skill、hooks、`packages/`（core + dashboard）、52 篇 docs、33 个测试；同时带 `.claude-plugin` / `.copilot-plugin` / `.cursor-plugin` 三套平台清单。
+- **平台数量**：README 兼容表列 **17 个平台**（推文说 14 个），安装机制是 `install.sh <platform>` 把仓库克隆到 `~/.understand-anything/repo` 再建软链，重启 CLI/IDE 生效。
+- **没有 MCP**：仓库不含 MCP server，第三方无法通过 MCP 协议接入——这直接决定了它在 DSH 里的接入方式。
+- **独立阅读器**：项目里已有 `.ua/` 图谱时，`npx <viewer.tgz> <项目路径>` 即可看图，只要 Node ≥18、只读本地、不调 LLM。
+- **与代码索引的区别**：详见 [[Understand Anything]] 实体页的「与代码索引（CBM 类）的定位差异」——索引给 agent 检索「位置」，UA 给人「意义」，两者互补。
+
 ## 入门知识点拆解
 
 > 以下是给初学者的背景解释，不是推文原文；用于理解这条素材里出现的术语。
@@ -70,7 +81,7 @@ Git 钩子（hook）是提交/推送等动作前后自动执行的脚本。`post
 
 - **token 成本**：首次 `/understand` 要分析全库，大项目消耗显著（README 自己提示了）；对个人开发者，增量虽省，但首次成本仍是门槛。
 - **图谱质量取决于 LLM**：语义部分（摘要、分层、业务域）没有标准答案，不同模型/提示词下结果会有差异；官方用 graph-reviewer 做校验，但语义准确性仍需人工抽查。
-- **推文与 README 有出入**：推文说 6 种语言、14 个平台，README 徽章现在是 9 种语言；数字以 README 为准。星标 56,400 是推文发布时点，之后还会变。
+- **推文数字是快照且已过时**：推文说 14 个平台、6 种语言，二次核查时 README 已是 17 个平台、9 种语言；星标从 56,400 涨到 **90,199**（2026-11-03）。引用时务必标注时间点，不要把快照当现状。
 - **"默认插件"是趋势判断不是既成事实**：目前是"支持很多平台"，是否成为各平台默认集成，还要看后续生态。
 
 ### 适合谁

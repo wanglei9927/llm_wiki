@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-11-03 — 二次核查：Understand Anything 仓库结构与 DSH 适配评估
+
+- **操作**：补读 README 全文、仓库目录树（612 文件）、package.json、plugin.json、样例 skill/agent；GitHub API 取实时元数据
+- **更新页面**：
+  - 实体页 [[Understand Anything]]：星标更新为 90,199；补仓库构成（11 agent/81 skill/v2.9.8）、独立阅读器、17 平台、**无 MCP**、「DSH 适配评估」与「与代码索引的定位差异」两节
+  - 摘要页 [[2026-11-03-understand-anything-tweet]]：新增「二次核查补充」段，修正评价里的数字口径
+- **关键结论**：UA 当前不能直接装进 DSH（无 MCP、安装器无 dsh、skill/agent 协议差异）；可行路径为看图 / 消费 `.ua/knowledge-graph.json` / 移植确定性脚本，其中消费 JSON 性价比最高
+- **当前知识库规模**：38 篇素材，6 个主题页，31 个实体页，2 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-03 — 消化推文：@wanerfu 报道 Understand Anything 爆红（摘要 + 实体页）
 
 - **操作**：x.com 直连被网络阻断，经 vxtwitter 镜像抓推文全文；本机代理 127.0.0.1:7897 校验原页可达（HTTP 200）；补抓官方 README（20KB）做研究补充

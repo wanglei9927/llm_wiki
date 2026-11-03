@@ -51,6 +51,7 @@
 
 ## 最近更新
 
+- **2026-11-03**：二次核查 Understand Anything 仓库（90,199 星、11 agents/81 skills、无 MCP、独立 viewer、17 平台适配），补充「DSH 适配评估」与「与代码索引的定位差异」两节
 - **2026-11-03**：消化 @wanerfu 推文「32 粉丝研究生做出 5.64 万星代码理解插件 Understand Anything」，新增 1 篇摘要（含入门知识点拆解、评价与学习路径）与 1 个实体页，记录 Tree-sitter + LLM 混合架构与多 agent 流水线，知识库达到 38 篇素材
 - **2026-11-03**：消化 Hugging Face 数据集「open-index/hacker-news」（HN 全量存档，月度 Parquet + 5 分钟实时更新），新增 1 篇摘要与 1 个实体页（Hacker News），记录 DuckDB 直查 SQL 与数据生态，知识库达到 37 篇素材
 - **2026-11-03**：消化 @0xGky 推文「zlib：把 Z-Library 搬进终端的开源工具」，结合 GitHub README 研究入库（功能、Agent 三通道集成、合规备注）；用户请求的下载 skill 因版权原因拒做，知识库达到 36 篇素材
