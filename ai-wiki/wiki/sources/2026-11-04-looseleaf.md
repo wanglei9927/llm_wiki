@@ -103,6 +103,57 @@ npm test                 # vitest
 npm run registry:build   # 改了组件后重建 registry
 ```
 
+## 实操内容保留
+
+> 原文为组件库文档，无应用代码；以下命令与配置逐字保留。
+
+**注册 registry**（`components.json`）：
+
+```json
+{
+  "registries": { "@looseleaf": "https://kevintngo.github.io/looseleaf/r/{name}.json" }
+}
+```
+
+**安装组件 / 区块 / 整套**：
+
+```sh
+npx shadcn@latest add @looseleaf/button
+npx shadcn@latest add @looseleaf/login-01
+npx shadcn@latest add @looseleaf/looseleaf
+```
+
+**接入 InkProvider**：
+
+```tsx
+import { InkProvider } from "@/lib/ink/react"
+import { Button } from "@/components/ui/button"
+
+export function App() {
+  return (
+    <InkProvider>
+      <Button>Save changes</Button>
+    </InkProvider>
+  )
+}
+```
+
+**字体**：
+
+```css
+@import url("https://kevintngo.github.io/looseleaf/fonts/kevin-sans.css");
+```
+
+**仓库本地开发**：
+
+```sh
+npm install
+npm run dev
+npm run build
+npm test
+npm run registry:build
+```
+
 ## 评价
 
 ### 亮点
