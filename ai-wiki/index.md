@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：40
-- Wiki 页面总数：82
+- 素材总数：41
+- Wiki 页面总数：84
 
 ---
 
@@ -49,6 +49,7 @@
 - [[Understand Anything]] - 把代码库变成可交互知识图谱的 AI 编程插件（Egonex 背书，9 万星）
 - [[Elephant-Goldfish Model]] - Google 开源的设计-评审工作流：大象写规格，金鱼零上下文挑刺
 - [[Dan Koe]] - 独立创作者、写作者，Koe Letters 主理人，《The Art of Focus》作者
+- [[Looseleaf]] - 手绘纸感 React 组件库：123 个组件全部由代码画成 SVG，API 兼容 shadcn/ui
 
 ---
 
@@ -78,11 +79,12 @@
 - [[2026-04-29-deepseek-novel-collaboration]] - DeepSeek Agent 协写长篇小说真实案例
 - [[2026-04-29-deepseek-content-creation]] - 内容创作全指南：从初稿到 SEO 优化
 
-### 创意设计类（3 篇）
+### 创意设计类（4 篇）
 
 - [[2026-04-29-deepseek-5-killer-combinations]] - 5 大王炸工具组合：PPT、视频、图片、会议、3D
 - [[2026-04-29-deepseek-photoshop-script]] - 一句话生成 PS 脚本，三秒日式小清新修图
 - [[2026-04-29-deepseek-ai-video-tutorial]] - AI 视频制作全流程保姆级教程
+- [[2026-11-04-looseleaf]] - Looseleaf：shadcn/ui 手绘风组件库，代码生成 SVG
 
 ### 办公自动化类（3 篇）
 

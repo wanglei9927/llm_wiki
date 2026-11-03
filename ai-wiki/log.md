@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-11-04 — 研究 Looseleaf 手绘风组件库（摘要 + 实体页）
+
+- **操作**：GitHub 经代理抓取 README 全文 + 仓库树（2,894 文件）+ package.json + notes/registry.md 研究补充；GitHub API 取元数据
+- **澄清**：用户描述为「GitHub 知识库」，实际是 shadcn/ui 生态的**组件库 + 文档站**，已在摘要页说明
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-04-looseleaf-readme.md，README 全文 + 结构/技术/registry 研究）
+  - 素材摘要 1 篇（[[2026-11-04-looseleaf]]：定位、技术实现、安装用法、评价与局限）
+  - 实体页 1 篇（[[Looseleaf]]：关键信息、核心特性、技术原理、实用信息、适用场景）
+- **关键新信息**：269 stars、MIT、React 19 + Tailwind v4 + Radix；123 组件 / 61 blocks；绘制为纯函数 + 种子生成 SVG；registry 消费者测试 1,317 项
+- **当前知识库规模**：41 篇素材，6 个主题页，34 个实体页，3 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-04 — 消化 Dan Koe 长文《How to fix your entire life in 1 day》（双语精读）
 
 - **操作**：X 直连被阻断；经 fxtwitter API 拿到 X Article 完整正文（218 块 / 5,501 词，31,033 字符），全文存 raw
