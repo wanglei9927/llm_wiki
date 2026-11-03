@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：35
-- Wiki 页面总数：73
+- 素材总数：36
+- Wiki 页面总数：74
 
 ---
 
@@ -109,6 +109,7 @@
 - [[2026-11-02-fq-book]] - fq-book《这本书能让你连接互联网》：网络代理与 VPN 学习文档
 - [[2026-11-02-kazike-agent-automation]] - 卡兹克 Agent 自动化系统：事件中台+多模型调度+CI 五步+批奏折决策
 - [[2026-11-03-hackerbooks-site]] - 黑客书架：HN 高频书榜站与 Top 600 书单
+- [[2026-11-03-zlib-cli]] - zlib：Z-Library 终端客户端，官方适配 Claude Code/Codex 插件与 MCP
 
 ### 工程实战类（2 篇）
 

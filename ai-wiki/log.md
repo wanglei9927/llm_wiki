@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-11-03 — 消化推文：@0xGky 介绍 zlib CLI（完整处理，skill 请求拒做）
+
+- **操作**：fxtwitter API 抓推文全文 + GitHub 仓库 README 研究补充
+- **用户请求说明**：用户要求"生成一个 skill"，因 zlib 是 Z-Library（大规模盗版电子书站点）的客户端，为它编写自动化下载/推 Kindle 的 skill 属于便利侵权，已明确拒绝并告知用户官方自带 Claude Code/Codex 插件可自行安装
+- **新增页面**：
+  - 原始素材 1 篇（raw/tweets/2026-11-03-zlib-cli-tweet.md，推文逐字+仓库研究补充+合规备注）
+  - 素材摘要 1 篇（[[2026-11-03-zlib-cli]]：功能全集、Agent 三通道集成（插件/MCP/--read-only）、命令速查、合规备注）
+- **当前知识库规模**：36 篇素材，6 个主题页，29 个实体页，2 篇综合分析
+- **状态**：完成（skill 部分拒做，原因已记录）
+
+---
+
 ## 2026-11-03 — 消化网站：黑客书架 Hacker Books 中文版（完整处理）
 
 - **操作**：webfetch 抓取首页成功但书单为 JS 渲染拿不到；从开源仓库 app.js 定位数据接口 /data/books-top.json（Top 600）与 /data/books.json（全量 15362 本）、/data/meta.json（统计），完整处理
