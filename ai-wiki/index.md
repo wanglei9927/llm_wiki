@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：39
-- Wiki 页面总数：80
+- 素材总数：40
+- Wiki 页面总数：82
 
 ---
 
@@ -48,6 +48,7 @@
 - [[Hacker News]] - Y Combinator 技术社区：内容体量、得分分布与三渠道数据获取
 - [[Understand Anything]] - 把代码库变成可交互知识图谱的 AI 编程插件（Egonex 背书，9 万星）
 - [[Elephant-Goldfish Model]] - Google 开源的设计-评审工作流：大象写规格，金鱼零上下文挑刺
+- [[Dan Koe]] - 独立创作者、写作者，Koe Letters 主理人，《The Art of Focus》作者
 
 ---
 
@@ -121,6 +122,10 @@
 
 - [[2026-11-02-codearts-telegram-bridge]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
 - [[2026-11-02-wiki-summarize-skill]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
+
+### 个人成长类（1 篇）
+
+- [[2026-11-04-dankoe-article]] - Dan Koe 长文中英双语精读：改身份而不是改行为，用一天重启人生
 
 ---
 

@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-04 — 消化 Dan Koe 长文《How to fix your entire life in 1 day》（双语精读）
+
+- **操作**：X 直连被阻断；经 fxtwitter API 拿到 X Article 完整正文（218 块 / 5,501 词，31,033 字符），全文存 raw
+- **新增页面**：
+  - 原始素材 1 篇（raw/tweets/2026-11-04-dankoe-article.md，英文原文全文存档 + 元数据）
+  - 素材摘要 1 篇（[[2026-11-04-dankoe-article]]：七部分中英对照精读、词汇表、一日协议问题清单中英对照、英语学习提示）
+  - 实体页 1 篇（[[Dan Koe]]：身份、代表作、写作特征、阅读入口）
+- **用户目标**：中英对照学习英语，兼顾读懂文章；页面按「先盲读英文 → 对照译文 → 记搭配 → 复述」设计
+- **当前知识库规模**：40 篇素材，6 个主题页，33 个实体页，3 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-04 — 消化 Google EGM（摘要 + 实体页 + 中文学习手册）
 
 - **操作**：GitHub 经代理抓取 README + getting_started / harnesses / faq / index / architecture 文档 + brainstorm/review skill 与 design_critic persona 样例；GitHub API 取元数据
