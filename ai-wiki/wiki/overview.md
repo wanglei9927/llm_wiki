@@ -31,6 +31,7 @@
 - **提示词工程方法论**
 - **知识库工程**：wiki-summarize 整体盘点与 SUMMARY.md 报告
 - **AI 编程工程化**：Claude Code 的验证、评审、安全与回滚实践
+- **代码理解与知识图谱**：Understand Anything 把代码库/知识库转成可交互图谱
 
 ---
 
@@ -40,8 +41,8 @@
 
 | 类型 | 数量 | 入口 |
 |------|------|------|
-| 素材摘要 | 37 | `wiki/sources/` 目录 |
-| 实体页 | 30 | `wiki/entities/` 目录 |
+| 素材摘要 | 38 | `wiki/sources/` 目录 |
+| 实体页 | 31 | `wiki/entities/` 目录 |
 | 主题页 | 6 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
 | 综合分析 | 2 | `wiki/synthesis/` 目录 |
@@ -50,6 +51,7 @@
 
 ## 最近更新
 
+- **2026-11-03**：消化 @wanerfu 推文「32 粉丝研究生做出 5.64 万星代码理解插件 Understand Anything」，新增 1 篇摘要（含入门知识点拆解、评价与学习路径）与 1 个实体页，记录 Tree-sitter + LLM 混合架构与多 agent 流水线，知识库达到 38 篇素材
 - **2026-11-03**：消化 Hugging Face 数据集「open-index/hacker-news」（HN 全量存档，月度 Parquet + 5 分钟实时更新），新增 1 篇摘要与 1 个实体页（Hacker News），记录 DuckDB 直查 SQL 与数据生态，知识库达到 37 篇素材
 - **2026-11-03**：消化 @0xGky 推文「zlib：把 Z-Library 搬进终端的开源工具」，结合 GitHub README 研究入库（功能、Agent 三通道集成、合规备注）；用户请求的下载 skill 因版权原因拒做，知识库达到 36 篇素材
 - **2026-11-03**：消化网站「黑客书架 Hacker Books 中文版」（HN 评论高频书榜），JS 渲染页面改从开源数据接口抓取 Top 600 原始 JSON，新增 1 篇摘要与 1 个实体页，记录站点玩法、Top 10 书单与 HN 群体阅读口味观察，知识库达到 35 篇素材

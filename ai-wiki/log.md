@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-03 — 消化推文：@wanerfu 报道 Understand Anything 爆红（摘要 + 实体页）
+
+- **操作**：x.com 直连被网络阻断，经 vxtwitter 镜像抓推文全文；本机代理 127.0.0.1:7897 校验原页可达（HTTP 200）；补抓官方 README（20KB）做研究补充
+- **新增页面**：
+  - 原始素材 1 篇（raw/tweets/2026-11-03-understand-anything-tweet.md，推文逐字 + README 研究补充）
+  - 素材摘要 1 篇（[[2026-11-03-understand-anything-tweet]]：核心观点、入门知识点拆解、评价、入门学习路径、命令速查、原文摘录）
+  - 实体页 1 篇（[[Understand Anything]]：关键信息、9 项核心特性、Tree-sitter + LLM 原理、多 agent 流水线、安装与用法）
+- **关键新信息**：655 → 56,400 stars；Egonex 接手；Tree-sitter 管结构、LLM 管语义；数据落点 `.ua/knowledge-graph.json`；`/understand-knowledge` 可分析 Karpathy 式 wiki
+- **当前知识库规模**：38 篇素材，6 个主题页，31 个实体页，2 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-03 — 消化数据集：open-index/hacker-news（HN 全量存档，完整处理）
 
 - **操作**：webfetch 故障，改 curl 抓 HF README raw（26KB 全文）+ HF API 元信息（433 likes/43.9 万下载），完整处理
