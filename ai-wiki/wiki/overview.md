@@ -31,6 +31,11 @@
 - **提示词工程方法论**
 - **知识库工程**：wiki-summarize 整体盘点与 SUMMARY.md 报告
 - **AI 编程工程化**：Claude Code 的验证、评审、安全与回滚实践
+- **代码理解与知识图谱**：Understand Anything 把代码库/知识库转成可交互图谱
+- **AI 设计评审协议**：EGM 大象-金鱼双角色，把 AI 设计评审变成可执行流程
+- **前端 UI 与设计系统**：Looseleaf 手绘风组件库，代码生成 SVG
+- **网络协议与基础设施**：Protocol Explorer 逐包可视化教学（DNS→TCP→TLS→HTTP）
+- **开源生态盘点**：Google 开源 2,892 仓库地图（AI Agent / 基础库 / 工程文化）
 
 ---
 
@@ -40,26 +45,40 @@
 
 | 类型 | 数量 | 入口 |
 |------|------|------|
-| 素材摘要 | 32 | `wiki/sources/` 目录 |
-| 实体页 | 27 | `wiki/entities/` 目录 |
+| 素材摘要 | 44 | `wiki/sources/` 目录 |
+| 实体页 | 36 | `wiki/entities/` 目录 |
 | 主题页 | 6 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
-| 综合分析 | 1 | `wiki/synthesis/` 目录 |
+| 综合分析 | 4 | `wiki/synthesis/` 目录 |
 
 ---
 
 ## 最近更新
 
-- **2026-11-01**：消化 @NFT_Chen 推文「DSH Go：安卓手机运行 DSH 引擎的社区客户端」，新增 1 篇摘要并更新 DeepSeek Harness 实体页与 DSH 入门学习路径，知识库达到 32 篇素材
-- **2026-11-01**：消化 X 长文「Claude Code 实战开发术」，新增 1 篇摘要、1 个实体页（Claude Code）与 1 个主题页（Claude Code 实战开发术），记录证据式完成、独立评审、循环上限、安全闭环与回滚实践，知识库达到 28 篇素材
-- **2026-11-01**：消化 dsh-superagent-prototype 素材（2 条推文 + 原型 README + 官网），并生成首篇综合分析「DSH 入门学习路径」（小白五步上手），知识库达到 31 篇素材（与 Claude Code 会话合并后实际值）
-- **2026-11-01**：消化工程素材「wiki-summarize 知识库梳理技能」，新增 1 篇摘要与 1 个实体页，记录知识库整体盘点、六步流程、扫描器与 SUMMARY 报告规范，知识库达到 27 篇素材
-- **2026-11-01**：消化 DeepSeek Harness 实操文档（模型配置 / CLI 入口模式 / Python SDK），新增 1 篇实操摘要并充实 DeepSeek Harness 实体页的配置与 SDK 用法，知识库达到 26 篇素材
-- **2026-11-01**：消化 DeepSeek Harness 官方 README 与 Web UI 指南（推文项目的深挖），完整处理：新增 1 实体页（DeepSeek Harness）+ 1 摘要，更新 DeepSeek、AI Agent 智能体、AI编程开发 3 页，知识库达到 25 篇素材
-- **2026-11-01**：消化 @Super_Nius 推文「DeepSeek Harness：Super-agent 双层架构」（deepseek-harness 项目解读），新增 1 篇摘要，更新 DeepSeek、AI Agent 智能体 2 个实体页，知识库达到 24 篇素材
-- **2026-11-01**：消化 @Tao_Builds 推文「PixelFX 232 种游戏特效开源」（首个 X/Twitter 素材），新增 1 篇摘要，知识库达到 23 篇素材
-- **2026-11-01**：消化工程实战素材「CodeArts Telegram Bridge」，新增 2 个实体页（CodeArts CLI、CodeArts Telegram Bridge），知识库达到 22 篇素材
-- **2026-11-01**：运行 lint 健康检查，为 8 篇摘要页补充"实操内容保留"/"原文精彩摘录"节，全部质量检查通过
+- **2026-11-04**：盘点 Google 开源（google 组织 2,892 仓库，star 前 100 分类），新增 1 篇摘要 + 1 个实体页（Google 开源），记录 AI Agent 工具链、基础库与「google ≠ 全部开源」的组织边界，知识库达到 44 篇素材
+- **2026-11-04**：核查本机 EGM 插件（`egm@egm` v0.1.0，已启用），新增 1 篇摘要并补强实体页与学习手册：7 个 skill 全部禁止模型自动调用、`Skill` 工具会拒绝、评审必须用全新上下文子代理、产物落工作目录，知识库达到 43 篇素材
+- **2026-11-04**：记录 Protocol Explorer（逐包可视化网络协议教学站，14 协议 / 逐字节解码 / 14 语言），新增 1 篇摘要 + 1 个实体页，含建议学习顺序与访问注意（大陆需代理），知识库达到 42 篇素材
+- **2026-11-04**：新增综合分析「Looseleaf 上手指南」：三条使用路线（只看/局部试/整套）、五个坑、自带动效清单（boil/draw-on 等 10 个时长 token）与做视频的三条路径（录屏/无头浏览器/Remotion）
+- **2026-11-04**：研究手绘风组件库 Looseleaf（shadcn/ui 生态，123 组件 / 61 blocks / 代码生成 SVG），新增 1 篇摘要 + 1 个实体页，记录 registry 分发、种子绘制与无障碍设计，知识库达到 41 篇素材
+- **2026-11-04**：消化 Dan Koe 长文《How to fix your entire life in 1 day》（5,501 词），新增 1 篇中英双语精读（含逐节对照、词汇表、协议问题清单）与 1 个人物实体页（Dan Koe），知识库达到 40 篇素材
+- **2026-11-04**：消化 Google 开源项目 EGM（Elephant-Goldfish Model），新增 1 篇摘要 + 1 个实体页 + 1 篇中文学习手册（含 DSH / 知识库 / speckit 三套工作流的结合方案），知识库达到 39 篇素材
+- **2026-11-03**：二次核查 Understand Anything 仓库（90,199 星、11 agents/81 skills、无 MCP、独立 viewer、17 平台适配），补充「DSH 适配评估」与「与代码索引的定位差异」两节
+- **2026-11-03**：消化 @wanerfu 推文「32 粉丝研究生做出 5.64 万星代码理解插件 Understand Anything」，新增 1 篇摘要（含入门知识点拆解、评价与学习路径）与 1 个实体页，记录 Tree-sitter + LLM 混合架构与多 agent 流水线，知识库达到 38 篇素材
+- **2026-11-03**：消化 Hugging Face 数据集「open-index/hacker-news」（HN 全量存档，月度 Parquet + 5 分钟实时更新），新增 1 篇摘要与 1 个实体页（Hacker News），记录 DuckDB 直查 SQL 与数据生态，知识库达到 37 篇素材
+- **2026-11-03**：消化 @0xGky 推文「zlib：把 Z-Library 搬进终端的开源工具」，结合 GitHub README 研究入库（功能、Agent 三通道集成、合规备注）；用户请求的下载 skill 因版权原因拒做，知识库达到 36 篇素材
+- **2026-11-03**：消化网站「黑客书架 Hacker Books 中文版」（HN 评论高频书榜），JS 渲染页面改从开源数据接口抓取 Top 600 原始 JSON，新增 1 篇摘要与 1 个实体页，记录站点玩法、Top 10 书单与 HN 群体阅读口味观察，知识库达到 35 篇素材
+- **2026-11-02**：消化 @Khazix0918 X 长文「折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统」，新增 1 篇摘要与 1 个实体页（数字生命卡兹克），记录事件中台、多模型调度、CI 五步流水线与"批奏折"人机决策边界，知识库达到 34 篇素材
+- **2026-11-02**：消化 @lumxss 推文推荐的开源教材「fq-book《这本书能让你连接互联网》」，完整处理生成网络代理与 VPN 学习文档（全书地图 + 三阶段学习路线 + 核心概念 + 排障工具箱），知识库达到 33 篇素材
+- **2026-11-02**：消化 @NFT_Chen 推文「DSH Go：安卓手机运行 DSH 引擎的社区客户端」，新增 1 篇摘要并更新 DeepSeek Harness 实体页与 DSH 入门学习路径，知识库达到 32 篇素材
+- **2026-11-02**：消化 X 长文「Claude Code 实战开发术」，新增 1 篇摘要、1 个实体页（Claude Code）与 1 个主题页（Claude Code 实战开发术），记录证据式完成、独立评审、循环上限、安全闭环与回滚实践，知识库达到 28 篇素材
+- **2026-11-02**：消化 dsh-superagent-prototype 素材（2 条推文 + 原型 README + 官网），并生成首篇综合分析「DSH 入门学习路径」（小白五步上手），知识库达到 31 篇素材（与 Claude Code 会话合并后实际值）
+- **2026-11-02**：消化工程素材「wiki-summarize 知识库梳理技能」，新增 1 篇摘要与 1 个实体页，记录知识库整体盘点、六步流程、扫描器与 SUMMARY 报告规范，知识库达到 27 篇素材
+- **2026-11-02**：消化 DeepSeek Harness 实操文档（模型配置 / CLI 入口模式 / Python SDK），新增 1 篇实操摘要并充实 DeepSeek Harness 实体页的配置与 SDK 用法，知识库达到 26 篇素材
+- **2026-11-02**：消化 DeepSeek Harness 官方 README 与 Web UI 指南（推文项目的深挖），完整处理：新增 1 实体页（DeepSeek Harness）+ 1 摘要，更新 DeepSeek、AI Agent 智能体、AI编程开发 3 页，知识库达到 25 篇素材
+- **2026-11-02**：消化 @Super_Nius 推文「DeepSeek Harness：Super-agent 双层架构」（deepseek-harness 项目解读），新增 1 篇摘要，更新 DeepSeek、AI Agent 智能体 2 个实体页，知识库达到 24 篇素材
+- **2026-11-02**：消化 @Tao_Builds 推文「PixelFX 232 种游戏特效开源」（首个 X/Twitter 素材），新增 1 篇摘要，知识库达到 23 篇素材
+- **2026-11-02**：消化工程实战素材「CodeArts Telegram Bridge」，新增 2 个实体页（CodeArts CLI、CodeArts Telegram Bridge），知识库达到 22 篇素材
+- **2026-11-02**：运行 lint 健康检查，为 8 篇摘要页补充"实操内容保留"/"原文精彩摘录"节，全部质量检查通过
 - **2026-04-29**：批量消化 5 篇 鱼皮 AI 指南 系列素材，新增 12 个实体页和「鱼皮 AI 指南」主题页，知识库达到 21 篇素材
 - **2026-04-29**：批量消化 5 篇 AI 编程开发素材，新增主题页，知识库达到 16 篇素材
 - **2026-04-29**：批量消化 3 篇 AI 创意设计素材，新增主题页

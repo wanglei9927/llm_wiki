@@ -1,8 +1,8 @@
 ---
 tags: [大模型, AI, DeepSeek, 国产AI]
 created: 2026-04-29
-updated: 2026-11-01
-sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tutorial, 2026-04-29-deepseek-official-document-tips, 2026-04-29-deepseek-novel-collaboration, 2026-04-29-deepseek-content-creation, 2026-11-01-deepseek-harness-tweet, 2026-11-01-deepseek-harness-readme]
+updated: 2026-11-02
+sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tutorial, 2026-04-29-deepseek-official-document-tips, 2026-04-29-deepseek-novel-collaboration, 2026-04-29-deepseek-content-creation, 2026-11-02-deepseek-harness-tweet, 2026-11-02-deepseek-harness-readme]
 ---
 
 # DeepSeek
@@ -84,11 +84,11 @@ sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tut
 > "给AI精准'喂料'，它才能吐出金子！"
 
 ### 关于 Agent 架构演进（DeepSeek Harness）
-来源：2026-11-01-deepseek-harness-tweet
+来源：2026-11-02-deepseek-harness-tweet
 > DeepSeek 开源 deepseek-harness 项目（"Everything is a Plugin"），提出 Super-agent 双层架构：Router 层负责对话、记全局、派活，Worker 层为每个任务开独立隔离会话并行执行后向 Router 汇报。配套事件触发（群消息、邮件、代码评论、CI 结果自动投喂）与 Watchdog 看门狗（挂了能自己恢复）。推文作者持观望态度，评论区有开发者质疑此方向。
 
 ### 关于官方定位与上手形态（DeepSeek Harness README）
-来源：2026-11-01-deepseek-harness-readme
+来源：2026-11-02-deepseek-harness-readme
 > 官方将 deepseek-harness 定位为"开源 agent harness（智能体框架）"（命令 dsh），由 Cordis 插件化框架驱动；上手门槛极低——装 Node.js 后 `npx @deepseek-ai/dsh web` 即在 127.0.0.1:3080 启动 Web UI，配 DeepSeek API key、选工作区、发任务三步开始干活；agent 可读写工作区文件、跑命令、委派工作、维护计划，敏感操作按权限策略先审批。项目处于 developer preview，将有破坏性变更。
 
 ## 实用信息

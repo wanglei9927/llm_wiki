@@ -1,13 +1,13 @@
 ---
 tags: [DeepSeek Harness, dsh, 入门教程, 学习路径, AI Agent, 桌面端, Super-agent]
-created: 2026-11-01
-updated: 2026-11-01
-sources: [2026-11-01-deepseek-harness-readme, 2026-11-01-deepseek-harness-guides, 2026-11-01-deepseek-harness-official-site, 2026-11-01-superagent-prototype-tweets, 2026-11-01-dsh-superagent-prototype, 2026-11-01-deepseek-harness-tweet, 2026-11-01-dsh-go-tweet]
+created: 2026-11-02
+updated: 2026-11-02
+sources: [2026-11-02-deepseek-harness-readme, 2026-11-02-deepseek-harness-guides, 2026-11-02-deepseek-harness-official-site, 2026-11-02-superagent-prototype-tweets, 2026-11-02-dsh-superagent-prototype, 2026-11-02-deepseek-harness-tweet, 2026-11-02-dsh-go-tweet]
 ---
 
 # DSH 入门学习路径（小白版）
 
-> 综合自 7 篇素材（官网 + GitHub 官方文档 + 4 条推文）| 生成日期：2026-11-01 | 目标读者：零基础想上手 dsh 的你
+> 综合自 7 篇素材（官网 + GitHub 官方文档 + 4 条推文）| 生成日期：2026-11-02 | 目标读者：零基础想上手 dsh 的你
 
 ## 背景概述
 
@@ -34,7 +34,7 @@ DeepSeek Harness（命令 `dsh`）是 DeepSeek 开源的智能体框架（agent 
 | npx 命令启动 | 愿意开终端 | 装 Node.js | `npx @deepseek-ai/dsh web` → 浏览器自动打开 127.0.0.1:3080 |
 | 源码构建 | 想参与开发 | Node.js + pnpm | `git clone` → `pnpm install` → `pnpm run build` → `pnpm dsh web` |
 
-桌面端下载地址见 [[2026-11-01-deepseek-harness-official-site]]；命令与源码细节见 [[2026-11-01-deepseek-harness-readme]]。
+桌面端下载地址见 [[2026-11-02-deepseek-harness-official-site]]；命令与源码细节见 [[2026-11-02-deepseek-harness-readme]]。
 
 ### 第 2 步：首次配置（3 个动作）
 
@@ -54,16 +54,16 @@ DeepSeek Harness（命令 `dsh`）是 DeepSeek 开源的智能体框架（agent 
 
 ### 第 5 步：前沿玩法（进阶后）
 
-- **Super-agent 原型**（dsh-superagent-prototype）：让 agent 值守一个 GitHub 仓库——监听 issue/PR，独立会话干活，原对话回 PR；官方推荐让 coding agent 代为安装："Read SETUP.md in this repository and set up dsh-superagent with me."（见 [[2026-11-01-dsh-superagent-prototype]]）
-- **编程化调用**：`dsh --profile headless "任务"` 跑一次性脚本任务；Python SDK（`pip install deepseek-harness-sdk`）把 agent 嵌进自己的程序（见 [[2026-11-01-deepseek-harness-guides]]）
+- **Super-agent 原型**（dsh-superagent-prototype）：让 agent 值守一个 GitHub 仓库——监听 issue/PR，独立会话干活，原对话回 PR；官方推荐让 coding agent 代为安装："Read SETUP.md in this repository and set up dsh-superagent with me."（见 [[2026-11-02-dsh-superagent-prototype]]）
+- **编程化调用**：`dsh --profile headless "任务"` 跑一次性脚本任务；Python SDK（`pip install deepseek-harness-sdk`）把 agent 嵌进自己的程序（见 [[2026-11-02-deepseek-harness-guides]]）
 - **插件开发**：文档 docs/develop/basic；第三方插件用 `dsh-plugin` 话题发布
 
 ## 核心观点（跨素材综合）
 
-- **上手成本被官方压到极低**：桌面端免命令行；命令行用户一条 npx 启动；模型路由保存即生效（来源：[[2026-11-01-deepseek-harness-official-site]]、[[2026-11-01-deepseek-harness-readme]]）
-- **Super-agent 已有实验数据支撑**：任务完成时间中位数 12.4 分钟、P95 15.7 分钟，传统单会话 P95 29.5 分钟——但仍是"探索阶段的原型"（来源：[[2026-11-01-superagent-prototype-tweets]]）
-- **设计哲学是"注意力经济学"**："尽可能少占用人的注意力，尽可能多创造价值"——只在被要求或规则允许时行动，只在有人必须行动或能利用结果时说话（来源：[[2026-11-01-dsh-superagent-prototype]]）
-- **热度与争议并存**：主仓 267.7k stars，但官方反复强调 developer preview 会有破坏性变更；社区提醒"常驻只是第一步，得看权限、回滚和异常提醒"（来源：[[2026-11-01-deepseek-harness-readme]]、[[2026-11-01-superagent-prototype-tweets]]）
+- **上手成本被官方压到极低**：桌面端免命令行；命令行用户一条 npx 启动；模型路由保存即生效（来源：[[2026-11-02-deepseek-harness-official-site]]、[[2026-11-02-deepseek-harness-readme]]）
+- **Super-agent 已有实验数据支撑**：任务完成时间中位数 12.4 分钟、P95 15.7 分钟，传统单会话 P95 29.5 分钟——但仍是"探索阶段的原型"（来源：[[2026-11-02-superagent-prototype-tweets]]）
+- **设计哲学是"注意力经济学"**："尽可能少占用人的注意力，尽可能多创造价值"——只在被要求或规则允许时行动，只在有人必须行动或能利用结果时说话（来源：[[2026-11-02-dsh-superagent-prototype]]）
+- **热度与争议并存**：主仓 267.7k stars，但官方反复强调 developer preview 会有破坏性变更；社区提醒"常驻只是第一步，得看权限、回滚和异常提醒"（来源：[[2026-11-02-deepseek-harness-readme]]、[[2026-11-02-superagent-prototype-tweets]]）
 
 ## 不同视角对比
 
@@ -89,13 +89,13 @@ DeepSeek Harness（命令 `dsh`）是 DeepSeek 开源的智能体框架（agent 
 ## 本知识库的 dsh 素材索引
 
 1. [[DeepSeek Harness]] — 实体页：定义、架构、安装、配置、注意事项（建议从这里开始）
-2. [[2026-11-01-deepseek-harness-tweet]] — 最初的架构解读推文
-3. [[2026-11-01-deepseek-harness-readme]] — README 概览与启动三步
-4. [[2026-11-01-deepseek-harness-guides]] — 模型配置/CLI/Python SDK 实操细节
-5. [[2026-11-01-deepseek-harness-official-site]] — 官网：桌面端、创造模式、插件清单
-6. [[2026-11-01-superagent-prototype-tweets]] — 原型发布推文与实验数据
-7. [[2026-11-01-dsh-superagent-prototype]] — 原型仓库深读
-8. [[2026-11-01-dsh-go-tweet]] — DSH Go：安卓手机运行 DSH 引擎的社区客户端
+2. [[2026-11-02-deepseek-harness-tweet]] — 最初的架构解读推文
+3. [[2026-11-02-deepseek-harness-readme]] — README 概览与启动三步
+4. [[2026-11-02-deepseek-harness-guides]] — 模型配置/CLI/Python SDK 实操细节
+5. [[2026-11-02-deepseek-harness-official-site]] — 官网：桌面端、创造模式、插件清单
+6. [[2026-11-02-superagent-prototype-tweets]] — 原型发布推文与实验数据
+7. [[2026-11-02-dsh-superagent-prototype]] — 原型仓库深读
+8. [[2026-11-02-dsh-go-tweet]] — DSH Go：安卓手机运行 DSH 引擎的社区客户端
 
 ## 尚待解决的问题（可作为后续学习方向）
 
@@ -109,6 +109,6 @@ DeepSeek Harness（命令 `dsh`）是 DeepSeek 开源的智能体框架（agent 
 - [[DeepSeek Harness]]
 - [[AI Agent 智能体]]
 - [[AI编程开发]]
-- [[2026-11-01-deepseek-harness-official-site]]
-- [[2026-11-01-dsh-superagent-prototype]]
-- [[2026-11-01-superagent-prototype-tweets]]
+- [[2026-11-02-deepseek-harness-official-site]]
+- [[2026-11-02-dsh-superagent-prototype]]
+- [[2026-11-02-superagent-prototype-tweets]]
