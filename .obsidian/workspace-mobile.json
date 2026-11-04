@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "ef8eed0130e1224b",
+    "id": "a115c1ee45b5dbc7",
     "type": "split",
     "children": [
       {
-        "id": "3e2611f47d013597",
+        "id": "2f091f4190118183",
         "type": "tabs",
         "children": [
           {
-            "id": "192ed2c1604fe046",
+            "id": "be30e1939dbde979",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai-wiki/wiki/entities/CodeArts CLI.md",
-                "mode": "preview",
+                "file": "ai-wiki/wiki/entities/DeepSeek Harness.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CodeArts CLI"
+              "title": "DeepSeek Harness"
             }
           }
         ]
@@ -27,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "97c9d38d4b8df7da",
+    "id": "4445eb8e91b565b4",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "e64869b764cbadc2",
+        "id": "6d5964ecaf86a2ea",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -46,7 +46,7 @@
         }
       },
       {
-        "id": "220a33770c089206",
+        "id": "591a90daa16ede64",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -63,7 +63,7 @@
         }
       },
       {
-        "id": "fa89e617f3ef9f5f",
+        "id": "d3a31f30a38faecb",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -78,7 +78,7 @@
         }
       },
       {
-        "id": "2d19ac4c095b0555",
+        "id": "16ea99e943f1e261",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -92,7 +92,7 @@
         }
       },
       {
-        "id": "6fd22a0633664df8",
+        "id": "a68d8ae558417949",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -108,16 +108,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "58b0ada4ee539483",
+    "id": "659aba048c229559",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "c226c13768853c43",
+        "id": "b61654a38ebb7baa",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ai-wiki/wiki/sources/2026-11-01-deepseek-harness-readme.md",
+            "file": "ai-wiki/wiki/entities/DeepSeek Harness.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,12 +131,12 @@
         }
       },
       {
-        "id": "49068c37b77ce460",
+        "id": "985fd226713a5665",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "ai-wiki/wiki/sources/2026-11-01-codearts-telegram-bridge.md",
+            "file": "ai-wiki/wiki/entities/DeepSeek Harness.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,12 +145,12 @@
         }
       },
       {
-        "id": "62d8be5eb1a59e08",
+        "id": "8760551f0db5c009",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "ai-wiki/wiki/entities/CodeArts CLI.md",
+            "file": "ai-wiki/wiki/entities/DeepSeek Harness.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -160,7 +160,7 @@
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,53 +173,15 @@
       "bases:新建数据库": false
     }
   },
-  "active": "192ed2c1604fe046",
+  "active": "be30e1939dbde979",
   "lastOpenFiles": [
-    "ai-wiki/wiki/synthesis/2026-04-29-deepseek-content-creation-deep-dive.md",
-    "ai-wiki/index.md",
-    "ai-wiki/wiki/sources/2026-11-01-dsh-go-tweet.md",
-    "ai-wiki/wiki/entities/DeepSeek Harness.md",
-    "ai-wiki/raw/tweets/2026-11-01-dsh-go-tweet.md",
-    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-03.webp",
-    "ai-wiki/log.md",
-    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-plugins-01.webp",
-    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-02.webp",
     "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-01.webp",
-    "ai-wiki/raw/tweets/2026-11-01-superagent-prototype-tweets.md",
-    "ai-wiki/raw/tweets/2026-11-01-deepseek-harness-tweet.md",
-    "ai-wiki/wiki/entities/AI Agent 智能体.md",
-    "ai-wiki/wiki/synthesis/DSH 入门学习路径.md",
     "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-04.webp",
+    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-03.webp",
+    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-go-02.webp",
+    "ai-wiki/raw/tweets/assets/2026-11-01-dsh-plugins-01.webp",
     "ai-wiki/raw/tweets/assets",
-    "ai-wiki/raw/notes/2026-11-01-codearts-telegram-bridge.md",
-    "图片1.png",
-    "stock-data/ScreenShot_2026-04-29_192005_049.png",
-    "stock-data/ScreenShot_2026-04-29_193621_472.png",
-    "stock-data/ScreenShot_2026-04-29_191654_213.png",
-    "stock-data/ScreenShot_2026-04-29_191440_631.png",
-    "stock-data/2025123000018_c.md",
-    "ai-wiki/wiki/sources/2026-11-01-deepseek-harness-readme.md",
-    "ai-wiki/wiki/sources/2026-11-01-deepseek-harness-tweet.md",
-    "ai-wiki/raw/articles/2026-11-01-deepseek-harness-readme.md",
-    "ai-wiki/wiki/sources/2026-11-01-pixelfx-tweet.md",
-    "ai-wiki/wiki/sources/2026-04-29-yupi-ai-guide-tools.md",
-    "ai-wiki/wiki/sources/2026-11-01-codearts-telegram-bridge.md",
-    "ai-wiki/raw/tweets/2026-11-01-pixelfx-tweet.md",
-    "ai-wiki/raw/tweets",
-    "AGENTS.md",
-    "stock-wiki/wiki/topics/AI投资价值分析.md",
-    "stock-wiki/wiki/topics/港股18C章IPO框架.md",
-    "stock-wiki/wiki/topics/中国大模型市场2025.md",
-    "stock-wiki/wiki/entities/智谱华章.md",
-    "stock-wiki/wiki/entities/MaaS平台对比.md",
-    "stock-wiki/wiki/entities/Talkie.md",
-    "stock-wiki/wiki/topics",
-    "stock-wiki/wiki/entities",
-    "stock-wiki/wiki/sources",
-    "stock-wiki/wiki/synthesis",
-    "stock-wiki/wiki/comparisons",
-    "stock-wiki/wiki",
-    "stock-wiki",
-    "ai-wiki/raw/xiaohongshu"
+    "ai-wiki/raw/tweets/2026-11-01-dsh-go-tweet.md",
+    "ai-wiki/wiki/sources/2026-11-01-dsh-go-tweet.md"
   ]
 }
