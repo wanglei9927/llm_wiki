@@ -2,7 +2,7 @@
 tags: [EGM, Google, 规格驱动开发, AI Agent, 设计评审, 多代理, 开源工具]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-egm-readme, 2026-11-04-egm-local-install-check]
+sources: [EGM 设计评审工作流, EGM 本机安装核查]
 ---
 
 # Elephant-Goldfish Model（EGM）
@@ -109,12 +109,12 @@ EGM 的做法是把一次软件设计拆成三个角色：**Elephant** 持有项
 
 ## 不同素材中的观点
 
-- **[来源: [[2026-11-04-egm-readme]]]** 官方 README 与 docs 强调三件事：上下文隔离是评审有效性的前提（"A Goldfish review needs a fresh context"）、人类拥有结果（"You own the outcomes"）、以及「不是所有改动都值得走 EGM」（小 bug 用正常流程）。FAQ 还主动承认可能不提升速度、可能制造评审瓶颈——这种自我限制说明它把自己定位成**协议**而不是**银弹**。
+- **[来源: [[EGM 设计评审工作流]]]** 官方 README 与 docs 强调三件事：上下文隔离是评审有效性的前提（"A Goldfish review needs a fresh context"）、人类拥有结果（"You own the outcomes"）、以及「不是所有改动都值得走 EGM」（小 bug 用正常流程）。FAQ 还主动承认可能不提升速度、可能制造评审瓶颈——这种自我限制说明它把自己定位成**协议**而不是**银弹**。
 
 ## 相关页面
 
-- [[2026-11-04-egm-readme]]
-- [[2026-11-04-egm-local-install-check]]
+- [[EGM 设计评审工作流]]
+- [[EGM 本机安装核查]]
 - [[EGM 学习手册]]
 - [[AI编程开发]]
 - [[Claude Code]]

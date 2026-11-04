@@ -2,7 +2,7 @@
 tags: [Agent, DeepSeek, AI助手]
 created: 2026-04-29
 updated: 2026-04-29
-sources: [2026-04-29-deepseek-novel-collaboration]
+sources: [DeepSeek 长篇小说协作]
 ---
 
 # DeepSeek Agent
@@ -40,15 +40,15 @@ DeepSeek Agent 是一个专项助手，区别于普通 AI 对话的一次性交�
 ## 不同素材中的观点
 
 ### 关于 Agent 的专项助手价值
-来源：2026-04-29-deepseek-novel-collaboration
+来源：DeepSeek 长篇小说协作
 > "agent就是一个专项助手，deepseek允许使用者设置一个专项任务的agent来持续帮助使用者完成一个任务，甚至是非常宏大的任务。截至目前，不是每个面向个人用户的AI都允许设置这样的agent。"
 
 ### 关于知识混搭能力水平
-来源：2026-04-29-deepseek-novel-collaboration
+来源：DeepSeek 长篇小说协作
 > "这种知识混搭能力，是托尔金这样的作家才具有的。"
 
 ### 关于架构生成能力
-来源：2026-04-29-deepseek-novel-collaboration
+来源：DeepSeek 长篇小说协作
 > "作者其实一开始没有任何想法，deepseek给出的架构已经够震撼了，感觉是已经写好了一部长篇小说，倒过来回溯总结了整个架构。"
 
 ## 实用信息

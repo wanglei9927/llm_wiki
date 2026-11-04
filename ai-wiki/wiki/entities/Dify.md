@@ -3,8 +3,8 @@ type: entity
 name: Dify
 category: 开发工具
 tags: [低代码, Agent, RAG, 工作流, 可视化编排]
-sources: [2026-04-29-yupi-ai-guide-programming-tech]
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
+sources: [鱼皮 AI 编程技术]
+  - 鱼皮 AI 编程技术.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -45,7 +45,7 @@ Dify 是一款低代码 AI 应用开发平台，提供可视化的方式构建 A
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - 拖拉拽方式构建 AI 智能体
 - 创建知识库导入文档
 - 搭建复杂工作流

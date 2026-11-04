@@ -2,7 +2,7 @@
 tags: [代码理解, 知识图谱, Tree-sitter, LLM Agent, Claude Code 插件, 开源, Egonex]
 created: 2026-11-03
 updated: 2026-11-03
-sources: [2026-11-03-understand-anything-tweet]
+sources: [Understand Anything 代码理解插件]
 ---
 
 # Understand Anything
@@ -134,12 +134,12 @@ npx https://github.com/Egonex-AI/Understand-Anything/releases/latest/download/un
 
 ## 不同素材中的观点
 
-- **[来源: [[2026-11-03-understand-anything-tweet]]]** @wanerfu 的报道视角强调"传播与生态"：32 粉丝研究生、5.64 万星、被 Egonex 接手、多语言与 Trendshift、14 个平台接入——把它讲成一个个人项目出圈的故事；同时用 7 条箭头概括它的能力（结构解析 → 语义 → 图谱 → 交互面板 → 引导路线 → 影响分析 → 自动更新）。
+- **[来源: [[Understand Anything 代码理解插件]]]** @wanerfu 的报道视角强调"传播与生态"：32 粉丝研究生、5.64 万星、被 Egonex 接手、多语言与 Trendshift、14 个平台接入——把它讲成一个个人项目出圈的故事；同时用 7 条箭头概括它的能力（结构解析 → 语义 → 图谱 → 交互面板 → 引导路线 → 影响分析 → 自动更新）。
 - **[二次核查 2026-11-03]** 结合官方 README 与仓库元数据：星标已从推文时的 56,400 涨到 90,199；平台从推文说的 14 个扩展到 17 个；仓库为 TypeScript、v2.9.8，11 个 agent + 81 个 skill；**确认没有 MCP 服务**；新增「独立阅读器」这一条推文没提的实用能力。技术描述与官方「Under the Hood」一致，推文里的数字属于当时快照。
 
 ## 相关页面
 
-- [[2026-11-03-understand-anything-tweet]]
+- [[Understand Anything 代码理解插件]]
 - [[AI编程开发]]
 - [[Claude Code]]
 - [[Cursor]]

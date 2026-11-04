@@ -3,8 +3,8 @@ type: entity
 name: LangGraph
 category: 开发框架
 tags: [工作流, Agent, 图结构, 可视化编排]
-sources: [2026-04-29-yupi-ai-guide-programming-tech]
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
+sources: [鱼皮 AI 编程技术]
+  - 鱼皮 AI 编程技术.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -39,7 +39,7 @@ LangGraph 是 LangChain 生态的工作流编排框架，采用图数据结构�
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - 构建有状态、多代理的企业级 AI 大项目
 - 用图的结构组织和管理 AI 工作流
 - 多个 AI 智能体分工协作（文字、图片、排版）

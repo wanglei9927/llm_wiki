@@ -3,9 +3,9 @@ type: entity
 name: Ollama
 category: 开发工具
 tags: [本地部署, 开源模型, 私有化, 数据安全]
-sources: [2026-04-29-yupi-ai-guide-programming-tech, 2026-04-29-deepseek-python-local-setup]
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
-  - 2026-04-29-deepseek-python-local-setup.md
+sources: [鱼皮 AI 编程技术, DeepSeek 本地部署方案]
+  - 鱼皮 AI 编程技术.md
+  - DeepSeek 本地部署方案.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -46,13 +46,13 @@ Ollama 是一款开源的本地大模型部署工具，能够一键部署和运�
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - 为什么需要本地部署：数据不上传至云端，保障安全性和隐私性
 - 医疗、金融等对数据安全极为敏感的行业刚需
 - 一键部署各种主流开源模型
 - 现实痛点：部署不难，但算力很贵
 
-来自 [[2026-04-29-deepseek-python-local-setup]]：
+来自 [[DeepSeek 本地部署方案]]：
 - PyCharm + CodeGPT + Ollama 本地部署方案
 - 本地运行开源模型，成本更低
 - 完全可控，无数据泄露风险

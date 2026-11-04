@@ -3,7 +3,7 @@ type: entity
 name: ReAct
 category: 核心技术
 tags: [推理, 行动, Agent, 智能体, 工具调用]
-sources: [2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-programming-tech]
+sources: [AI 核心概念 16 讲, 鱼皮 AI 编程技术]
 created: 2026-04-29
 updated: 2026-04-29
 ---

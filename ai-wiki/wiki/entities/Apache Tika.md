@@ -3,7 +3,7 @@ type: entity
 name: Apache Tika
 category: 开发工具
 tags: [文件解析, 文档处理, RAG, 数据提取]
-sources: [2026-04-29-yupi-ai-guide-programming-tech]
+sources: [鱼皮 AI 编程技术]
 created: 2026-04-29
 updated: 2026-04-29
 ---

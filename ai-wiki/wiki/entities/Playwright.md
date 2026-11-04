@@ -3,8 +3,8 @@ type: entity
 name: Playwright
 category: 开发工具
 tags: [浏览器自动化, 测试, 爬虫, E2E测试]
-sources: [2026-04-29-yupi-ai-guide-programming-tech]
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
+sources: [鱼皮 AI 编程技术]
+  - 鱼皮 AI 编程技术.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -45,7 +45,7 @@ Playwright 是微软推出的现代浏览器自动化工具，支持 Chromium、
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - AI 工具链中的重要开发工具库
 - 模拟浏览器行为，运行网页、抓取网页数据、自动化测试
 - 与 Apache Tika 等组成 AI 应用开发工具栈

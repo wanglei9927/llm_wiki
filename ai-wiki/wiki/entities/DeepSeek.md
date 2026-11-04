@@ -2,7 +2,7 @@
 tags: [大模型, AI, DeepSeek, 国产AI]
 created: 2026-04-29
 updated: 2026-11-02
-sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tutorial, 2026-04-29-deepseek-official-document-tips, 2026-04-29-deepseek-novel-collaboration, 2026-04-29-deepseek-content-creation, 2026-11-02-deepseek-harness-tweet, 2026-11-02-deepseek-harness-readme]
+sources: [小红书爆款写作公式, 网文创作完整教程, 公文新闻广告写作技巧, DeepSeek 长篇小说协作, DeepSeek 内容创作指南, DeepSeek Harness 发布推文, DeepSeek Harness README]
 ---
 
 # DeepSeek
@@ -64,31 +64,31 @@ sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tut
 ## 不同素材中的观点
 
 ### 关于创作效率提升
-来源：2026-04-29-deepseek-novel-tutorial
+来源：网文创作完整教程
 > "实测显示，熟练使用DeepSeek的作者，日均有效创作字数提升3-5倍，开篇签约通过率提高60%。"
 
 ### 关于 Agent 能力的独特性
-来源：2026-04-29-deepseek-novel-collaboration
+来源：DeepSeek 长篇小说协作
 > "agent就是一个专项助手，deepseek允许使用者设置一个专项任务的agent来持续帮助使用者完成一个任务，甚至是非常宏大的任务。截至目前，不是每个面向个人用户的AI都允许设置这样的agent。"
 
 ### 关于知识混搭能力
-来源：2026-04-29-deepseek-novel-collaboration
+来源：DeepSeek 长篇小说协作
 > "这种知识混搭能力，是托尔金这样的作家才具有的。"
 
 ### 关于定位：创意引擎
-来源：2026-04-29-deepseek-content-creation
+来源：DeepSeek 内容创作指南
 > "对于内容创作者来说，DeepSeek不仅是一个'写作助手'，更是一个'创意引擎'。它可以帮助你突破创作瓶颈，节省时间，同时提升内容的质量和吸引力。"
 
 ### 关于精准喂料原理
-来源：2026-04-29-deepseek-xiaohongshu-formula
+来源：小红书爆款写作公式
 > "给AI精准'喂料'，它才能吐出金子！"
 
 ### 关于 Agent 架构演进（DeepSeek Harness）
-来源：2026-11-02-deepseek-harness-tweet
+来源：DeepSeek Harness 发布推文
 > DeepSeek 开源 deepseek-harness 项目（"Everything is a Plugin"），提出 Super-agent 双层架构：Router 层负责对话、记全局、派活，Worker 层为每个任务开独立隔离会话并行执行后向 Router 汇报。配套事件触发（群消息、邮件、代码评论、CI 结果自动投喂）与 Watchdog 看门狗（挂了能自己恢复）。推文作者持观望态度，评论区有开发者质疑此方向。
 
 ### 关于官方定位与上手形态（DeepSeek Harness README）
-来源：2026-11-02-deepseek-harness-readme
+来源：DeepSeek Harness README
 > 官方将 deepseek-harness 定位为"开源 agent harness（智能体框架）"（命令 dsh），由 Cordis 插件化框架驱动；上手门槛极低——装 Node.js 后 `npx @deepseek-ai/dsh web` 即在 127.0.0.1:3080 启动 Web UI，配 DeepSeek API key、选工作区、发任务三步开始干活；agent 可读写工作区文件、跑命令、委派工作、维护计划，敏感操作按权限策略先审批。项目处于 developer preview，将有破坏性变更。
 
 ## 实用信息

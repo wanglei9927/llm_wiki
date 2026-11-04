@@ -75,13 +75,10 @@ check_links() {
         grep -v "^[0-9]$" | \ # 排除单数字
         cat)
 
-    for link in $ALL_LINKS; do
-        # 检查对应的 .md 文件是否存在
-        if [ ! -f "wiki/entities/${link}.md" ] && \
-           [ ! -f "wiki/topics/${link}.md" ] && \
-           [ ! -f "wiki/sources/${link}.md" ] && \
-           [ ! -f "wiki/comparisons/${link}.md" ] && \
-           [ ! -f "wiki/synthesis/${link}.md" ] && \
+    while IFS= read -r link; do
+        if [ -z "$link" ]; then continue; fi
+        # 检查对应的 .md 文件是否存在（递归，支持 sources 子目录与带空格的文件名）
+        if ! find wiki -name "${link}.md" -print -quit | grep -q . && \
            [ ! -f "${link}.md" ]; then
             echo -e "${RED}❌ 断链: [[${link}]]${NC}"
             # 显示哪些文件引用了这个断链
@@ -90,7 +87,7 @@ check_links() {
             has_error=1
             ERROR_COUNT=$((ERROR_COUNT + 1))
         fi
-    done
+    done <<< "$ALL_LINKS"
 
     if [ $has_error -eq 0 ]; then
         echo -e "${GREEN}✅ 所有链接有效${NC}"

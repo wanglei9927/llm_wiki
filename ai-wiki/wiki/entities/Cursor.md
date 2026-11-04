@@ -3,9 +3,9 @@ type: entity
 name: Cursor
 category: 开发工具
 tags: [IDE, AI编程, Agent, 代码生成]
-sources: [2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips]
-  - 2026-04-29-yupi-ai-guide-tools.md
-  - 2026-04-29-yupi-ai-guide-programming-tips.md
+sources: [AI 程序员工具链, 鱼皮 AI 编程技巧]
+  - AI 程序员工具链.md
+  - 鱼皮 AI 编程技巧.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -46,14 +46,14 @@ Cursor 是一款 AI 优先的代码编辑器，专为 AI 编程设计。它内�
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-tools]]：
+来自 [[AI 程序员工具链]]：
 - 专为编程打造的 AI IDE
 - Agent 智能体模式
 - 一句话指令生成完整网站
 - 真的一行代码都不用写
 - 为什么现在突然有了那么多奇奇怪怪大开脑洞的应用？因为人人都能搞网站了
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tips]]：
+来自 [[鱼皮 AI 编程技巧]]：
 - 用 Cursor Agent 模式 + 高级推理模型
 - 目标：生成基础项目框架，确保能跑起来就行
 - 暂时不管功能好不好用

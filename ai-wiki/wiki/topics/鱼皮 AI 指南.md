@@ -2,7 +2,7 @@
 tags: [AI, 程序员, 职业发展, 鱼皮, 学习路线]
 created: 2026-04-29
 updated: 2026-04-29
-sources: [2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech]
+sources: [鱼皮 AI 指南开篇, AI 核心概念 16 讲, AI 程序员工具链, 鱼皮 AI 编程技巧, 鱼皮 AI 编程技术]
 ---
 
 # 鱼皮 AI 指南
@@ -165,11 +165,11 @@ AI 工具百花齐放，几十个覆盖各个领域，但不必都学。专注�
 
 | 素材 | 核心内容 |
 |------|---------|
-| [[2026-04-29-yupi-ai-guide-intro]] | AI 与职业发展，从码农到 AI 操控师 |
-| [[2026-04-29-yupi-ai-guide-core-concepts]] | 16 个 AI 核心概念，RAG 工作流 |
-| [[2026-04-29-yupi-ai-guide-tools]] | AI 程序员实用工具链，从开发到写作 |
-| [[2026-04-29-yupi-ai-guide-programming-tips]] | AI 编程高级技巧，Prompt、迭代法、版本控制 |
-| [[2026-04-29-yupi-ai-guide-programming-tech]] | AI 编程技术全景，框架、架构、部署 |
+| [[鱼皮 AI 指南开篇]] | AI 与职业发展，从码农到 AI 操控师 |
+| [[AI 核心概念 16 讲]] | 16 个 AI 核心概念，RAG 工作流 |
+| [[AI 程序员工具链]] | AI 程序员实用工具链，从开发到写作 |
+| [[鱼皮 AI 编程技巧]] | AI 编程高级技巧，Prompt、迭代法、版本控制 |
+| [[鱼皮 AI 编程技术]] | AI 编程技术全景，框架、架构、部署 |
 
 ## 知识体系结构
 

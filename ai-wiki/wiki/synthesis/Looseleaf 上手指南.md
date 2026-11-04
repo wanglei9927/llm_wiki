@@ -2,7 +2,7 @@
 tags: [Looseleaf, 上手指南, 组件库, 动效, 视频, Remotion, shadcn]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-looseleaf]
+sources: [Looseleaf 手绘组件库]
 ---
 
 # Looseleaf 上手指南：怎么用最方便，能不能做视频
@@ -107,4 +107,4 @@ Looseleaf 有一套 motion 体系（`src/docs/content/foundations/motion.tsx`）
 ## 相关页面
 
 - [[Looseleaf]]
-- [[2026-11-04-looseleaf]]
+- [[Looseleaf 手绘组件库]]

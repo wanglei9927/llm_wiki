@@ -3,7 +3,7 @@
 - 来源 URL：https://github.com/deepseek-ai/dsh-superagent-prototype（main 分支）
 - 抓取时间：2026-11-02（webfetch 自动抓取）
 - 仓库数据（抓取时）：4.6k stars、424 forks、1 commit、MIT
-- 关联素材：raw/articles/2026-11-02-deepseek-harness-readme.md、raw/tweets/2026-11-02-superagent-prototype-tweets.md
+- 关联素材：raw/articles/DeepSeek Harness README.md、raw/tweets/Super-agent 原型推文合集.md
 
 ## README 全文要点（逐字保留关键段）
 

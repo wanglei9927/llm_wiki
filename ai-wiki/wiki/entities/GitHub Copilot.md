@@ -3,7 +3,7 @@ type: entity
 name: GitHub Copilot
 category: 开发工具
 tags: [AI编程, IDE插件, 代码补全, GitHub]
-sources: [2026-04-29-yupi-ai-guide-tools]
+sources: [AI 程序员工具链]
 created: 2026-04-29
 updated: 2026-04-29
 ---

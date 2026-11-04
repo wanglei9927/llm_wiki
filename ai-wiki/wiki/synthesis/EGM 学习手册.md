@@ -2,7 +2,7 @@
 tags: [EGM, 学习手册, 规格驱动开发, AI Agent, 设计评审, 工作流]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-egm-readme, 2026-11-04-egm-local-install-check]
+sources: [EGM 设计评审工作流, EGM 本机安装核查]
 ---
 
 # EGM 学习手册（中文入门）
@@ -218,8 +218,8 @@ docs/designs/
 ## 相关页面
 
 - [[Elephant-Goldfish Model]]
-- [[2026-11-04-egm-readme]]
-- [[2026-11-04-egm-local-install-check]]
+- [[EGM 设计评审工作流]]
+- [[EGM 本机安装核查]]
 - [[AI编程开发]]
 - [[Claude Code]]
 - [[DeepSeek Harness]]

@@ -2,7 +2,7 @@
 tags: [内容创作, AI, DeepSeek, 网文, 自媒体]
 created: 2026-04-29
 updated: 2026-04-29
-sources: [2026-04-29-deepseek-xiaohongshu-formula, 2026-04-29-deepseek-novel-tutorial, 2026-04-29-deepseek-official-document-tips, 2026-04-29-deepseek-novel-collaboration, 2026-04-29-deepseek-content-creation]
+sources: [小红书爆款写作公式, 网文创作完整教程, 公文新闻广告写作技巧, DeepSeek 长篇小说协作, DeepSeek 内容创作指南]
 ---
 
 # AI 内容创作

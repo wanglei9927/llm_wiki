@@ -3,9 +3,9 @@ type: entity
 name: RAG 知识库
 category: 核心技术
 tags: [RAG, 检索增强生成, 向量数据库, Embedding]
-sources: [2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-programming-tech]
-  - 2026-04-29-yupi-ai-guide-core-concepts.md
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
+sources: [AI 核心概念 16 讲, 鱼皮 AI 编程技术]
+  - AI 核心概念 16 讲.md
+  - 鱼皮 AI 编程技术.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -51,13 +51,13 @@ RAG（检索增强生成）是一种结合检索和生成的 AI 技术架构。�
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-core-concepts]]：
+来自 [[AI 核心概念 16 讲]]：
 - RAG 是检索 + 生成两阶段技术
 - 利用外部知识库给 AI 补充知识
 - 回答更准确，减少幻觉
 - 16 个核心概念之一
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - 构建企业自己的问答系统或客服
 - 基于企业真实数据作答，更准确贴合实际
 - 是 AI 编程开发的四大核心业务领域之一

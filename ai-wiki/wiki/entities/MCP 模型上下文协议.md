@@ -3,9 +3,9 @@ type: entity
 name: MCP 模型上下文协议
 category: 核心技术
 tags: [MCP, Model Context Protocol, 工具调用, 标准化协议]
-sources: [2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-programming-tech]
-  - 2026-04-29-yupi-ai-guide-core-concepts.md
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
+sources: [AI 核心概念 16 讲, 鱼皮 AI 编程技术]
+  - AI 核心概念 16 讲.md
+  - 鱼皮 AI 编程技术.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -54,12 +54,12 @@ MCP（Model Context Protocol）是模型上下文协议，为 AI 与外部工具
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-core-concepts]]：
+来自 [[AI 核心概念 16 讲]]：
 - Model Context Protocol，模型上下文协议
 - AI 与外部工具/数据的标准化交互，增强 AI 功能
 - 16 个核心概念之一
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - 是 AI 编程开发的四大核心业务领域之一
 - 提供给 AI 的标准化服务
 - 让 AI 调用外部工具和数据，增强功能

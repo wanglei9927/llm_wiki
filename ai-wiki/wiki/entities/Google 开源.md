@@ -2,7 +2,7 @@
 tags: [Google, 开源, 组织, 基础设施, AI-Agent, 工程文化]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-google-oss]
+sources: [Google 开源项目盘点]
 ---
 
 # Google 开源
@@ -25,7 +25,7 @@ Google 的开源版图很分散：TensorFlow、Kubernetes、Flutter、Angular、
 | 2026 年重点 | AI Agent 工具链（adk-* 四语言、skills、agents-cli、ax、langextract） |
 | 传统强项 | C++ 基础库（leveldb/flatbuffers/re2/snappy）、系统安全（gvisor/osv-scanner/syzkaller） |
 | 工程文化 | styleguide、eng-practices、comprehensive-rust |
-| 数据来源 | [[2026-11-04-google-oss]] |
+| 数据来源 | [[Google 开源项目盘点]] |
 
 ## 组织边界（容易踩的坑）
 
@@ -80,11 +80,11 @@ curl --proxy http://127.0.0.1:7897 \
 
 ## 不同素材中的观点
 
-- **[来源: [[2026-11-04-google-oss]]]** 对 star 前 100 的盘点显示：Google 2026 年在 `google` 组织里新增与活跃的项目高度集中在 Agent 工具链（ADK 四语言、skills、agents-cli、ax），而传统 C++ 基础库仍保持稳定维护——「新方向激进、老底子扎实」是这轮开源的显著特征。
+- **[来源: [[Google 开源项目盘点]]]** 对 star 前 100 的盘点显示：Google 2026 年在 `google` 组织里新增与活跃的项目高度集中在 Agent 工具链（ADK 四语言、skills、agents-cli、ax），而传统 C++ 基础库仍保持稳定维护——「新方向激进、老底子扎实」是这轮开源的显著特征。
 
 ## 相关页面
 
-- [[2026-11-04-google-oss]]
+- [[Google 开源项目盘点]]
 - [[Elephant-Goldfish Model]]
 - [[Understand Anything]]
 - [[AI编程开发]]

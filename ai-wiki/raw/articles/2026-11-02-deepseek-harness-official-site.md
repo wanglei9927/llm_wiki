@@ -2,7 +2,7 @@
 
 - 来源 URL：https://deepseek.com/harness
 - 抓取时间：2026-11-02（webfetch 自动抓取）
-- 关联素材：raw/articles/2026-11-02-deepseek-harness-readme.md
+- 关联素材：raw/articles/DeepSeek Harness README.md
 
 ## 官网关键信息（逐字保留）
 

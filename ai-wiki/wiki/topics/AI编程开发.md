@@ -2,7 +2,7 @@
 tags: [AI编程, DeepSeek, Cursor, 开发效率, 架构图, 游戏开发, Spring AI, RAG, Agent]
 created: 2026-04-29
 updated: 2026-11-02
-sources: [2026-04-29-deepseek-vscode-integration, 2026-04-29-deepseek-python-local-setup, 2026-04-29-ai-architecture-diagram-tutorial, 2026-04-29-ai-game-development-3h-28w, 2026-04-29-deepseek-cline-ios-app, 2026-04-29-yupi-ai-guide-intro, 2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-tools, 2026-04-29-yupi-ai-guide-programming-tips, 2026-04-29-yupi-ai-guide-programming-tech, 2026-11-02-deepseek-harness-tweet, 2026-11-02-deepseek-harness-readme, 2026-11-02-claude-code-practical-dev-techniques, 2026-11-02-deepseek-harness-guides, 2026-11-02-deepseek-harness-official-site, 2026-11-02-superagent-prototype-tweets, 2026-11-02-dsh-superagent-prototype, 2026-11-02-kazike-agent-automation]
+sources: [DeepSeek VSCode 集成, DeepSeek 本地部署方案, AI 架构图绘制教程, AI 游戏开发 3 小时 28 万, DeepSeek 与 Cline 开发 iOS App, 鱼皮 AI 指南开篇, AI 核心概念 16 讲, AI 程序员工具链, 鱼皮 AI 编程技巧, 鱼皮 AI 编程技术, DeepSeek Harness 发布推文, DeepSeek Harness README, Claude Code 实战开发术, DeepSeek Harness 官方指南, DeepSeek Harness 官网, Super-agent 原型推文合集, DSH Super-agent 原型, 卡兹克 Agent 自动化系统]
 ---
 
 # AI 编程开发全景
@@ -337,7 +337,7 @@ IDE: PyCharm Community Edition（免费）
 
 ## Agent 远程化：CLI 桥接移动端（2026-11）
 
-来自 [[2026-11-02-codearts-telegram-bridge]]：
+来自 [[CodeArts Telegram 桥]]：
 
 - CLI agent 绑定终端是"最后一块拼图"问题：人离开电脑就失去控制权
 - 解法是 Telegram bot（long polling，零基础设施）+ 本机桥接进程 + CLI 无头模式
@@ -349,7 +349,7 @@ IDE: PyCharm Community Edition（免费）
 
 ## Agent 基础设施：DeepSeek Harness（2026-11）
 
-来自 [[2026-11-02-deepseek-harness-readme]] 与 [[2026-11-02-deepseek-harness-tweet]]：
+来自 [[DeepSeek Harness README]] 与 [[DeepSeek Harness 发布推文]]：
 
 - DeepSeek 官方开源 agent harness（命令 `dsh`）：Everything is a Plugin 插件化架构，由 Cordis 框架驱动，267.7k stars / 32.5k forks（2026-11 抓取），MIT 协议
 - Super-agent 双层架构：Router 负责对话/全局上下文/派活，Worker 每任务独立隔离会话并行执行后汇报——解决"一个会话一个孤岛"的多任务切换问题
@@ -362,7 +362,7 @@ IDE: PyCharm Community Edition（免费）
 
 ## Claude Code 实战开发术（2026-11）
 
-来自 [[2026-11-02-claude-code-practical-dev-techniques]]：
+来自 [[Claude Code 实战开发术]]：
 
 - Anthropic 团队自报：Claude Code 自身约 90% 的代码由 Claude 编写；6–9 月变更量翻倍以上，回滚比例下降 40% 以上
 - 核心转变：不是减少验证，而是把可自动验证的部分交给 Claude；人只看不可逆决策与最终责任
@@ -374,7 +374,7 @@ IDE: PyCharm Community Edition（免费）
 
 ## Agent 自动化系统实战：卡兹克的一人流水线（2026-11）
 
-来自 [[2026-11-02-kazike-agent-automation]]（作者背景见 [[数字生命卡兹克]]）：
+来自 [[卡兹克 Agent 自动化系统]]（作者背景见 [[数字生命卡兹克]]）：
 
 - **核心命题**：引 DeepSeek Super-agent 文章——多任务上限取决于人的注意力；解法是"领导力思维"，把任务起点从人身上拿掉，用事件信号触发 Agent 而非人下命令（与 [[DeepSeek Harness]] Super-agent 的事件驱动架构互相独立验证）
 - **三层架构**：①自动化中台——统一事件格式（来源/类型/对象/摘要/回链）+ `rules.json` 路由规则 + 统一去重 + 消息单一出口 + 全量数据沉淀；内网 Mac 用长轮询接单程序（单次最长等 50 秒）替代公网回源；②执行层——按模型特长调度：Claude Opus 5.5 开发 / GPT-6.1 Sol 运维 / GPT-6.1 Terra 浏览器操控，"不能用笨的指挥聪明的"；全部本地双 Mac Mini 不上云（登录态、权限、国内服务可访问性）；每个任务配专属 Skill（SOP）与执行逻辑解耦；③CI 中台五步——审查（Codex 只读/断网/无密钥/最多 3 轮）/检查（全新虚拟机跑完即删）/合并/发布/核实，Agent 提 PR 后自己不能上线
