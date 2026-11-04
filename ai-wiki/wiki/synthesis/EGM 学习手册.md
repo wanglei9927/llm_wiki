@@ -2,7 +2,7 @@
 tags: [EGM, 学习手册, 规格驱动开发, AI Agent, 设计评审, 工作流]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-egm-readme]
+sources: [2026-11-04-egm-readme, 2026-11-04-egm-local-install-check]
 ---
 
 # EGM 学习手册（中文入门）
@@ -121,6 +121,16 @@ docs/designs/
 
 官方原话：小改动用你平时的编码流程就行。
 
+### 2.6 本机（Claude Code）调用注意
+
+本机已装 `egm@egm` v0.1.0（2026-11-03，user 作用域，已启用）。实测后有三条容易踩的：
+
+1. **只能用斜杠命令**：7 个 skill 都是 `disable-model-invocation: true`，不会出现在自动 skill 列表里，`Skill` 工具也会拒绝。必须输入 `/egm:egm-brainstorm` 这类命令。
+2. **评审中途的 skill 不走 `Skill` 工具**：`egm-review` 第 7/9 阶段要用 `egm-review-loop` / `egm-resolve` 时，官方做法是读对应 `SKILL.md` 并在当前线程执行；草稿与编排始终留在主上下文。
+3. **产物写工作目录**：默认落在当前工作目录；若 `CLAUDE.md` / `AGENTS.md` 写了 `EGM artifact directory: <path>`，就写到那里。会话临时目录不算交付物位置。
+
+另外 Claude Code 需 **2.1.271+** 才有 `omitClaudeMd`，更早版本不应当作已验证的隔离环境。
+
 ---
 
 ## 3. 怎么结合你现在的工作流？
@@ -209,6 +219,7 @@ docs/designs/
 
 - [[Elephant-Goldfish Model]]
 - [[2026-11-04-egm-readme]]
+- [[2026-11-04-egm-local-install-check]]
 - [[AI编程开发]]
 - [[Claude Code]]
 - [[DeepSeek Harness]]

@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-11-04 — 核查本机 EGM 插件安装与调用方式（摘要页 + 两页补强）
+
+- **操作**：读取 `installed_plugins.json`、`settings.json`、插件 `plugin.json`、7 个 `SKILL.md`、9 个 persona 与 `docs/claude.md`，核对本机 `egm@egm` 的实际安装状态与调用约束
+- **新增页面**：
+  - 原始素材 1 篇（raw/notes/2026-11-04-egm-local-install-check.md，安装事实 + skill/persona 原文 + 官方文档摘录）
+  - 素材摘要 1 篇（[[2026-11-04-egm-local-install-check]]：已装 v0.1.0、7 skill 强制手动调用、评审的上下文约束）
+- **更新页面**：
+  - 实体页 [[Elephant-Goldfish Model]]：新增「本机安装现状（Claude Code，2026-11-04 实测）」节，sources 回填至 2 篇
+  - 综合分析 [[EGM 学习手册]]：新增 2.6「本机调用注意」，sources 回填至 2 篇
+- **关键新信息**：`egm@egm` v0.1.0 / user 作用域 / 已启用；7 个 skill 全部 `disable-model-invocation: true`，`Skill` 工具会拒绝，只能 `/egm:egm-*`；产物默认写工作目录；Claude Code 需 2.1.271+
+- **当前知识库规模**：43 篇素材，6 个主题页，35 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-04 — 记录 Protocol Explorer 网络协议教学站（摘要 + 实体页）
 
 - **操作**：直连超时，经代理抓取站点 HTML + 主 JS bundle（218KB）+ manifest/robots/sitemap；从 meta 与 bundle 内教学文本提取信息

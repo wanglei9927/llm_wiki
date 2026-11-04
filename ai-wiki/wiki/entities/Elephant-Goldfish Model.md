@@ -2,7 +2,7 @@
 tags: [EGM, Google, 规格驱动开发, AI Agent, 设计评审, 多代理, 开源工具]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-egm-readme]
+sources: [2026-11-04-egm-readme, 2026-11-04-egm-local-install-check]
 ---
 
 # Elephant-Goldfish Model（EGM）
@@ -69,6 +69,27 @@ EGM 的做法是把一次软件设计拆成三个角色：**Elephant** 持有项
 | Muse | `muse plugins install <本地路径>` | 原生子代理（通用回退） |
 | Antigravity IDE standalone | **不支持**（无 fresh-context 子代理） | — |
 
+## 本机安装现状（Claude Code，2026-11-04 实测）
+
+| 项 | 值 |
+|---|---|
+| 插件坐标 | `egm@egm` |
+| 版本 | `0.1.0` |
+| 安装时间 / 作用域 | 2026-11-03 / `user` |
+| 启用状态 | `settings.json` → `enabledPlugins["egm@egm"] = true` |
+| 安装路径 | `C:\Users\user\.claude\plugins\cache\egm\egm\0.1.0` |
+| Marketplace 源 | `github` → `google/elephant-goldfish-model` |
+| 组件 | 7 个 skill + 9 个 persona + `resources/` 文档标准 |
+
+**调用要点**：
+
+- 7 个 skill 的 frontmatter 全部是 `disable-model-invocation: true` ⇒ 不进入自动发现列表，必须由用户输入 `/egm:egm-<name>`。
+- `Skill` 工具会拒绝这些 skill；`egm-review-loop` / `egm-resolve` 在评审第 7/9 阶段由主上下文读 `SKILL.md` 后同线程执行。
+- 草稿与编排留在主上下文（Elephant）；Goldfish 评审必须在全新上下文子代理中运行。
+- 产物默认写工作目录；`CLAUDE.md` / `AGENTS.md` 中可写 `EGM artifact directory: <path>` 覆盖。
+- Claude Code 需 2.1.271+ 才有 `omitClaudeMd`；更早版本不算已验证的 Goldfish 隔离环境。
+- `egm:egm-synthesizer` 可再派发评审员，默认最多 3 层嵌套。
+
 ## 在 DeepSeek Harness（DSH）里的适配评估
 
 **结论：概念上匹配，但不能直接安装；需要手工搬运 + 少量适配，建议先在 Claude Code / Codex 上跑通再考虑移植。**
@@ -93,6 +114,7 @@ EGM 的做法是把一次软件设计拆成三个角色：**Elephant** 持有项
 ## 相关页面
 
 - [[2026-11-04-egm-readme]]
+- [[2026-11-04-egm-local-install-check]]
 - [[EGM 学习手册]]
 - [[AI编程开发]]
 - [[Claude Code]]

@@ -1,14 +1,14 @@
 # 知识库索引
 
-> 最后更新：2026-11-03
+> 最后更新：2026-11-04
 
 ---
 
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：42
-- Wiki 页面总数：87
+- 素材总数：43
+- Wiki 页面总数：88
 
 ---
 
@@ -93,7 +93,7 @@
 - [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（22 篇）
+### 编程开发类（23 篇）
 
 - [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -120,6 +120,7 @@
 - [[2026-11-03-hf-hacker-news-dataset]] - open-index/hacker-news：HN 全量存档数据集（DuckDB 直查+5 分钟实时）
 - [[2026-11-03-understand-anything-tweet]] - 32 粉丝研究生做出 5.64 万星代码理解插件：要点、入门讲解与评价
 - [[2026-11-04-egm-readme]] - Google EGM：大象写设计、金鱼零上下文评审的 AI 设计工作流
+- [[2026-11-04-egm-local-install-check]] - EGM 本机安装核查：v0.1.0 已启用，7 个 skill 必须斜杠调用
 - [[2026-11-04-protocol-explorer]] - Protocol Explorer：逐包可视化 + 逐字节解码的网络协议教学站
 
 ### 工程实战类（2 篇）
