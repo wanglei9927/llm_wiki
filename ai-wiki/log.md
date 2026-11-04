@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-04 — 盘点 Google 开源（star 前 100 分类清单 + 实体页）
+
+- **操作**：GitHub API 抓取 org:google（2,892 仓库）按 star 前 100 + 最近更新 25 个；脚本生成分类清单（每个仓库一句用途说明）
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-04-google-oss-full.md，100 个仓库的完整清单）
+  - 素材摘要 1 篇（[[2026-11-04-google-oss]]：核心观点、全量分类清单、评价、API 复现命令）
+  - 实体页 1 篇（[[Google 开源]]：组织边界、分类概览、浏览方式）
+- **关键结论**：2026 年 Google 在 google 组织的重心是 AI Agent 工具链（ADK 四语言、skills、agents-cli、ax、langextract）；TensorFlow/K8s/Flutter 等不在 google 组织
+- **当前知识库规模**：44 篇素材，6 个主题页，36 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-04 — 核查本机 EGM 插件安装与调用方式（摘要页 + 两页补强）
 
 - **操作**：读取 `installed_plugins.json`、`settings.json`、插件 `plugin.json`、7 个 `SKILL.md`、9 个 persona 与 `docs/claude.md`，核对本机 `egm@egm` 的实际安装状态与调用约束

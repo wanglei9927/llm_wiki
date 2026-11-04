@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：43
-- Wiki 页面总数：88
+- 素材总数：44
+- Wiki 页面总数：90
 
 ---
 
@@ -51,6 +51,7 @@
 - [[Dan Koe]] - 独立创作者、写作者，Koe Letters 主理人，《The Art of Focus》作者
 - [[Looseleaf]] - 手绘纸感 React 组件库：123 个组件全部由代码画成 SVG，API 兼容 shadcn/ui
 - [[Protocol Explorer]] - 逐包看懂互联网协议的交互式教学站：14 协议、逐字节解码、14 种语言
+- [[Google 开源]] - google 组织 2,892 个仓库的盘点：AI Agent 工具链、基础库与工程文化
 
 ---
 
@@ -93,7 +94,7 @@
 - [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（23 篇）
+### 编程开发类（24 篇）
 
 - [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -122,6 +123,7 @@
 - [[2026-11-04-egm-readme]] - Google EGM：大象写设计、金鱼零上下文评审的 AI 设计工作流
 - [[2026-11-04-egm-local-install-check]] - EGM 本机安装核查：v0.1.0 已启用，7 个 skill 必须斜杠调用
 - [[2026-11-04-protocol-explorer]] - Protocol Explorer：逐包可视化 + 逐字节解码的网络协议教学站
+- [[2026-11-04-google-oss]] - Google 开源项目详解：star 前 100 分类清单（每个仓库一句用途）
 
 ### 工程实战类（2 篇）
 
