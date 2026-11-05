@@ -57,3 +57,9 @@ git -c rebase.autoStash=true pull --rebase mywiki main
 
 - 非知识类任务（写代码、问答、研究等）照常执行，不受以上约束影响
 - 本仓库远程：`mywiki` → git@github.com:wanglei9927/llm_wiki.git（main 分支）
+
+## 本机技能清单（自动生成）
+
+- `ai-wiki/notes/本机技能与代理清单.md` 由 `scripts/refresh-installed-skills.mjs` 生成，**禁止手改**。
+- 任何 agent 在本机安装 / 卸载 skill、插件或 agent 后，运行 `node scripts/refresh-installed-skills.mjs`，并随本次提交一并提交。
+- 支持 `--watch` 常驻（开机自启）与 `--check` 巡检（过期退出码 1）。
