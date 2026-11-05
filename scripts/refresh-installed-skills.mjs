@@ -142,13 +142,13 @@ function build() {
   collectSkills(p('.agents/skills'), '跨工具共享', skills)
   collectSkills(p('.claude/skills'), 'Claude Code', skills)
   collectSkills(p('.cc-switch/skills'), '其他', skills)
-  // 项目级（当前工作区 + 常用项目）
+  // 项目级（当前工作区 + 常用项目，标签带路径便于区分）
   const cwd = process.cwd()
-  collectSkills(path.join(cwd, '.dsh/skills'), '项目级', skills)
-  collectSkills(path.join(cwd, '.agents/skills'), '项目级', skills)
+  collectSkills(path.join(cwd, '.dsh/skills'), '项目级（当前工作区）', skills)
+  collectSkills(path.join(cwd, '.agents/skills'), '项目级（当前工作区）', skills)
   for (const proj of ['D:/aiproject/dsh']) {
-    collectSkills(path.join(proj, '.dsh/skills'), '项目级', skills)
-    collectSkills(path.join(proj, '.agents/skills'), '项目级', skills)
+    collectSkills(path.join(proj, '.dsh/skills'), '项目级 ' + proj, skills)
+    collectSkills(path.join(proj, '.agents/skills'), '项目级 ' + proj, skills)
   }
 
   const agents = new Map()
@@ -250,7 +250,8 @@ function build() {
     'DSH 包内置': '`~/.dsh/profiles/desktop/node_modules/superpowers-dsh/skills`',
     '跨工具共享': '`~/.agents/skills`',
     'Claude Code': '`~/.claude/skills`',
-    '项目级': '`<project>/.dsh/skills`、`<project>/.agents/skills`',
+    '项目级（当前工作区）': '`<cwd>/.dsh/skills`、`<cwd>/.agents/skills`',
+    '项目级 D:/aiproject/dsh': '`D:/aiproject/dsh/.dsh/skills`',
   }
   for (const [l, n] of [...labelStats.entries()].sort((a, b) => b[1] - a[1])) {
     lines.push('| ' + l + ' | ' + n + ' | ' + (srcDirs[l] || '-') + ' |')
@@ -318,8 +319,12 @@ if (args.includes('--watch')) {
     }, 1500)
   }
   for (const d of dirs) {
-    try { fs.watch(d, { recursive: true }, regen) } catch (e) { console.error('[skills] watch failed', d, e.message) }
+    try {
+      const w = fs.watch(d, { recursive: true }, regen)
+      w.on('error', e => console.error('[skills] watcher error', d, e.message))
+    } catch (e) { console.error('[skills] watch failed', d, e.message) }
   }
+  process.on('uncaughtException', e => console.error('[skills] uncaught', e && e.message))
   process.on('SIGINT', () => process.exit(0))
 } else {
   const changed = writeIfChanged(build())
