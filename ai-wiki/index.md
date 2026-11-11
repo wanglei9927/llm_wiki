@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：47
-- Wiki 页面总数：97
+- 素材总数：48
+- Wiki 页面总数：99
 
 ---
 
@@ -55,6 +55,7 @@
 - [[英语阅读能力]] - 英语阅读的构成、分级标准与精读/泛读训练方法
 - [[GIF 工厂]] - 卧云开源的动效技能包：七类用途、40 种片头字形、动态签名 2.0
 - [[OmniGet]] - 开源下载管理器+媒体工具箱：1,800+ 站点、108 工具、whisper 转写、MCP Server
+- [[DeskBox]] - 开源 Windows 桌面整理工具：WinUI 3 文件格子，Fences 替代
 
 ---
 
@@ -135,6 +136,10 @@
 
 - [[CodeArts Telegram 桥]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
 - [[wiki-summarize 知识库梳理技能]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
+
+### 工具与效率类（1 篇）
+
+- [[DeskBox 桌面整理工具]] - DeskBox：开源 Windows 桌面整理工具（WinUI 3，Fences 免费替代）
 
 ### 个人成长类（2 篇）
 
