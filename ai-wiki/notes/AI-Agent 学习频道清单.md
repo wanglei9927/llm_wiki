@@ -136,3 +136,28 @@
 - 订阅数与播放量为 2026-11-11 快照。
 - B 站链接经验证可访问；部分为搬运内容，版权归原作者。
 - 推文中「③ Tina Huang」的代表视频《Building AI Agents In 44 Minutes》《AI Agents Fundamentals In 21 Minutes》已核实存在。
+
+## 五、中文版对照（2026-11-11 核查）
+
+> 核查范围：每位创作者的 1 部代表视频；「未找到」= 本次没搜到该条的完整中文版，不代表不存在。
+> 另：YouTube 原片基本都支持「自动翻译字幕」（设置 → 字幕 → 自动翻译 → 中文），这是官方功能，不算独立中文视频。
+
+| 创作者 | 代表视频（英文） | 中文版 | 平台 | 形式 |
+|---|---|---|---|---|
+| Jeff Su | AI Agents, Clearly Explained | 该条只有英文搬运（BV1YSVYzNE9z）；他另一条[从零学 AI](https://www.bilibili.com/video/BV1HsTy6JEy1)有中文翻译 | B站 | 中文标题+翻译 |
+| Andrej Karpathy | Deep Dive into LLMs like ChatGPT | [1080P 中文版](https://www.bilibili.com/video/BV16cNEeXEer)（38 万播放）；[中文配音 上](https://www.bilibili.com/video/BV169qUBcE6j) | B站 | 中字/中配 |
+| Tina Huang | AI Agents Fundamentals In 21 Minutes | 该条未找到；但 [44 分钟实战中文版](https://www.bilibili.com/video/BV12BTizmEXG)、[25 分钟 AI 基础中字](https://www.bilibili.com/video/BV1F7euzaEz6) | B站 | 中配/中字 |
+| Dave Ebbelaar | AI Engineering Full Course | 未找到；仅[另一条「如何学 AI」中文翻译](https://www.bilibili.com/video/BV14DT9zYEvx) | B站 | 中文翻译 |
+| IBM Technology | What are AI Agents? | [《什么是 AI 智能体》中英字幕](https://www.bilibili.com/video/BV14HkjBhELk)（12:19） | B站 | 中英字幕 |
+| Google Cloud Tech | Build your first agent in 8 minutes | 该条未找到；有[频道搬运合集](https://www.bilibili.com/video/BV1d44y1B7hT) | B站 | 原片搬运 |
+| Cole Medin | Full Archon Guide | 完整版未找到；有[Archon 中文教程](https://www.bilibili.com/video/BV1Y4HV6mE1b)、[另一条中字](https://www.bilibili.com/video/BV1bfGi6QE88) | B站 | 中文原创/字幕 |
+| Liam Ottley | How to Build & Sell AI Automations | 该条未找到；有[《How to Build & Sell Web Apps With AI》中文翻译](https://www.bilibili.com/video/BV146kLB8EaB)（114 分钟） | B站 | 中文翻译 |
+| Andrew Ng | Learn to build effective Agentic AI systems | [Agentic AI 中文版](https://www.bilibili.com/video/BV1rR5S6SE9A)（5.7 万播放）、[中文语音版](https://www.bilibili.com/video/BV1mK4E6NExD)；YouTube 也有[第一讲中文](https://www.youtube.com/watch?v=XD9DbNrrggw) | B站 + YouTube | 中配/中字 |
+| Nate Herk | Build & Sell n8n AI Agents | [8 小时课程 无代码（中文版）](https://www.bilibili.com/video/BV171jYzUEv3)（506 分钟） | B站 | 中文搬运 |
+
+**小结**：
+
+- **有完整中文版**：Karpathy、Andrew Ng、Nate Herk、IBM（中英字幕）。
+- **有部分/相关中文版**：Tina Huang、Jeff Su、Cole Medin、Liam Ottley、Dave Ebbelaar（都是「其他视频」有中文，代表视频本身没有）。
+- **代表视频暂无中文版**：Google Cloud「8 分钟构建 Agent」。
+- 优先级建议：英语吃力先看 B 站中配建立概念（Karpathy 中字、吴恩达中文版最完整），再回 YouTube 跟原片；原片可开自动翻译字幕兜底。
