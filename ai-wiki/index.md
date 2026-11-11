@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：45
-- Wiki 页面总数：92
+- 素材总数：46
+- Wiki 页面总数：94
 
 ---
 
@@ -53,6 +53,7 @@
 - [[Protocol Explorer]] - 逐包看懂互联网协议的交互式教学站：14 协议、逐字节解码、14 种语言
 - [[Google 开源]] - google 组织 2,892 个仓库的盘点：AI Agent 工具链、基础库与工程文化
 - [[英语阅读能力]] - 英语阅读的构成、分级标准与精读/泛读训练方法
+- [[GIF 工厂]] - 卧云开源的动效技能包：七类用途、40 种片头字形、动态签名 2.0
 
 ---
 
@@ -95,7 +96,7 @@
 - [[DeepSeek Word 集成]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[DeepSeek 高效工作十法]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（24 篇）
+### 编程开发类（25 篇）
 
 - [[DeepSeek VSCode 集成]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[DeepSeek 本地部署方案]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -125,6 +126,7 @@
 - [[EGM 本机安装核查]] - EGM 本机安装核查：v0.1.0 已启用，7 个 skill 必须斜杠调用
 - [[Protocol Explorer 网络协议教学]] - Protocol Explorer：逐包可视化 + 逐字节解码的网络协议教学站
 - [[Google 开源项目盘点]] - Google 开源项目详解：star 前 100 分类清单（每个仓库一句用途）
+- [[GIF 工厂技能]] - 卧云 GIF 工厂：七类动效用途、40 种片头字形、动态签名 2.0
 
 ### 工程实战类（2 篇）
 
