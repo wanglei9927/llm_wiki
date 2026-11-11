@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：46
-- Wiki 页面总数：94
+- 素材总数：47
+- Wiki 页面总数：97
 
 ---
 
@@ -54,6 +54,7 @@
 - [[Google 开源]] - google 组织 2,892 个仓库的盘点：AI Agent 工具链、基础库与工程文化
 - [[英语阅读能力]] - 英语阅读的构成、分级标准与精读/泛读训练方法
 - [[GIF 工厂]] - 卧云开源的动效技能包：七类用途、40 种片头字形、动态签名 2.0
+- [[OmniGet]] - 开源下载管理器+媒体工具箱：1,800+ 站点、108 工具、whisper 转写、MCP Server
 
 ---
 
@@ -65,6 +66,7 @@
 - [[AI创意设计]] - 以 DeepSeek 为核心的多工具创意设计工作流
 - [[AI办公自动化]] - VBA + API 深度集成 Office 套件的办公自动化方法论
 - [[AI编程开发]] - 从 IDE 集成到 AI 应用开发的完整知识体系
+- [[工具集]] - 知识库记录过的工具总览：下载、AI 编程、Agent 框架、知识库工具等
 - [[鱼皮 AI 指南]] - 程序员鱼皮两年半积累的 AI 知识体系
 - [[Claude Code 实战开发术]] - 让 Claude 自证、人只看不可逆决策的六条实战术
 
@@ -96,7 +98,7 @@
 - [[DeepSeek Word 集成]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[DeepSeek 高效工作十法]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（25 篇）
+### 编程开发类（26 篇）
 
 - [[DeepSeek VSCode 集成]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[DeepSeek 本地部署方案]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -126,6 +128,7 @@
 - [[EGM 本机安装核查]] - EGM 本机安装核查：v0.1.0 已启用，7 个 skill 必须斜杠调用
 - [[Protocol Explorer 网络协议教学]] - Protocol Explorer：逐包可视化 + 逐字节解码的网络协议教学站
 - [[Google 开源项目盘点]] - Google 开源项目详解：star 前 100 分类清单（每个仓库一句用途）
+- [[OmniGet 工具]] - OmniGet：开源下载管理器+媒体工具箱（108 工具/MCP/whisper 转写）
 - [[GIF 工厂技能]] - 卧云 GIF 工厂：七类动效用途、40 种片头字形、动态签名 2.0
 
 ### 工程实战类（2 篇）

@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-11-12 — 记录 OmniGet 工具并建立「工具集」主题页（摘要 + 实体 + 主题）
+
+- **操作**：从推特 @Chenfacai0 链接定位仓库 `OpenSelena/omniget`；抓取 README（55KB）、GitHub 元数据，核对 MCP Server（37 工具）、108 内置工具、跨平台安装
+- **判断**：值得入库——5,595★、GPL-3.0、近期活跃；对 AI 工作流的实际价值是 whisper 转写 + MCP，而非单纯下载
+- **新增页面**：
+  - 原始素材 2 篇（raw/tweets/2026-11-12-omniget-tweet.md 推文；raw/articles/2026-11-12-omniget-readme.md README）
+  - 素材摘要 1 篇（[[OmniGet 工具]]：能力清单、MCP 接入、同类对比）
+  - 实体页 1 篇（[[OmniGet]]：能力矩阵、Agent 集成、评价与风险）
+  - 主题页 1 篇（[[工具集]]：七类工具索引，链接 Claude Code、DSH、MCP、Looseleaf 等已有实体页）
+- **当前知识库规模**：47 篇素材，7 个主题页，39 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-11 — 研究 GIF 工厂开源动效 Skill（摘要页 + 实体页）
 
 - **操作**：从推特 @Leviwoyun 链接定位仓库 `WoYun520/gif-factory`；抓取 README、GUIDE、根 SKILL 与两个子 SKILL（动态签名、电影片头）、40 字形目录、仓库树（769 文件）
