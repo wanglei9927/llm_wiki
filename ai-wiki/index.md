@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：48
-- Wiki 页面总数：100
+- 素材总数：49
+- Wiki 页面总数：102
 
 ---
 
@@ -57,6 +57,7 @@
 - [[OmniGet]] - 开源下载管理器+媒体工具箱：1,800+ 站点、108 工具、whisper 转写、MCP Server
 - [[DeskBox]] - 开源 Windows 桌面整理工具：WinUI 3 文件格子，Fences 替代
 - [[PixelFX]] - 开源像素游戏特效库：21 类 244 个代码化特效，含 Claude Code Skill
+- [[深入理解 AI Agent]] - 李博杰开源书：Agent = LLM + 上下文 + 工具，10 章 + 109 实验
 
 ---
 
@@ -100,7 +101,7 @@
 - [[DeepSeek Word 集成]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[DeepSeek 高效工作十法]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（26 篇）
+### 编程开发类（27 篇）
 
 - [[DeepSeek VSCode 集成]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[DeepSeek 本地部署方案]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -132,6 +133,7 @@
 - [[Google 开源项目盘点]] - Google 开源项目详解：star 前 100 分类清单（每个仓库一句用途）
 - [[OmniGet 工具]] - OmniGet：开源下载管理器+媒体工具箱（108 工具/MCP/whisper 转写）
 - [[GIF 工厂技能]] - 卧云 GIF 工厂：七类动效用途、40 种片头字形、动态签名 2.0
+- [[深入理解 AI Agent（书）]] - 李博杰《深入理解 AI Agent》：10 章原理+工程+109 实验，57,764★
 
 ### 工程实战类（2 篇）
 
