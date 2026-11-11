@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-12 — 补强 PixelFX（仓库已增至 244 特效，新建实体页）
+
+- **操作**：抓取 `patch-gg/pixelfx` 的 README（12KB）与 GitHub 元数据；核对 244 个特效 / 21 分类 / Claude Code Skill / MIT
+- **更新**：
+  - 原素材页 [[PixelFX 游戏特效库]] 更新：232→244 种、6,926★、MIT、Claude Code Skill、代码示例与导出说明
+  - 新增补充素材（raw/articles/2026-11-12-pixelfx-readme.md）
+  - 新建实体页 [[PixelFX]]（分类结构、使用方式、评价）
+  - [[工具集]] 补入「设计与前端」与「待评估」
+- **当前知识库规模**：48 篇素材，7 个主题页，41 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-12 — 记录 DeskBox 桌面整理工具（摘要 + 实体，补入工具集）
 
 - **操作**：抓取 `Tianyu199509/DeskBox` 的 README.zh-CN.md（28KB）与 GitHub 元数据；核对 Native AOT、离线安装、13 语言、格子组/叠放/自动整理等能力
