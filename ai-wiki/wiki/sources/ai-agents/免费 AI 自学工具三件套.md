@@ -95,3 +95,9 @@ pnpm dev
 - [[book-to-skill]]
 - [[OpenMAIC]]
 - [[工具集]]
+
+## 补充素材
+
+- `raw/articles/2026-11-14-deeptutor-readme.md`（DeepTutor README 摘录）
+- `raw/articles/2026-11-14-openmaic-readme.md`（OpenMAIC README 摘录）
+- `raw/articles/2026-11-14-book-to-skill-readme.md`（book-to-skill README 全文）
