@@ -2,7 +2,7 @@
 tags: [DeepSeek Harness, dsh, Python SDK, CLI, 模型配置, Cordis, AI Agent]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/articles/DeepSeek Harness 官方指南.md
+source_path: raw/articles/2026-11-02-deepseek-harness-guides.md
 ---
 
 # DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK

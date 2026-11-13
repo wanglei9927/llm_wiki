@@ -2,7 +2,7 @@
 tags: [DeepSeek Harness, DSH Go, Android, 移动端, 第三方客户端, SSH远程, 桌宠, 社区生态]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/tweets/DeepSeek Harness Go 版.md
+source_path: raw/tweets/2026-11-02-dsh-go-tweet.md
 ---
 
 # DSH Go：把 DeepSeek Harness 装进安卓口袋（社区第三方客户端）

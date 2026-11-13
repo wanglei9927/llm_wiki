@@ -2,7 +2,7 @@
 tags: [EGM, Elephant-Goldfish, Google, Spec-Driven-Development, AI Agent, 设计评审, 开源]
 created: 2026-11-04
 updated: 2026-11-04
-source_path: raw/articles/EGM 设计评审工作流.md
+source_path: raw/articles/2026-11-04-egm-readme.md
 ---
 
 # Elephant-Goldfish Model（EGM）：用「大象 + 金鱼」双角色把 AI 设计评审做成流程

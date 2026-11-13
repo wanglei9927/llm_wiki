@@ -2,7 +2,7 @@
 tags: [DeepSeek, Python, PyCharm, Ollama, 本地部署, CodeGPT]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek 本地部署方案.md
+source_path: raw/articles/2026-04-29-deepseek-python-local-setup.md
 ---
 
 # DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama，零成本编程辅助

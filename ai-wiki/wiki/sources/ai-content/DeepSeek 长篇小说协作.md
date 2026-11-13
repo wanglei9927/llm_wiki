@@ -2,7 +2,7 @@
 tags: [DeepSeek, 长篇小说, Agent, 文明史观, 人机协作]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek 长篇小说协作.md
+source_path: raw/articles/2026-04-29-deepseek-novel-collaboration.md
 ---
 
 # 用 DeepSeek Agent 协作写长篇小说：文明演进系统的深度应用
@@ -56,4 +56,5 @@ source_path: raw/articles/DeepSeek 长篇小说协作.md
 
 ## 相关页面
 
-- （待补充）
+- [[AI内容创作]]
+- [[DeepSeek Agent]]

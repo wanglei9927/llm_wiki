@@ -2,7 +2,7 @@
 tags: [AI, 程序员, 职业发展, 鱼皮]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/鱼皮 AI 指南开篇.md
+source_path: raw/articles/2026-04-29-yupi-ai-guide-intro.md
 ---
 
 # 鱼皮 AI 指南开篇：AI 会淘汰程序员么？

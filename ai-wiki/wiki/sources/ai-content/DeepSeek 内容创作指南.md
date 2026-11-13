@@ -2,7 +2,7 @@
 tags: [DeepSeek, 内容创作, SEO, 自媒体, 写作效率]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek 内容创作指南.md
+source_path: raw/articles/2026-04-29-deepseek-content-creation.md
 ---
 
 # DeepSeek 内容创作全指南：从初稿到 SEO 优化的六大场景
@@ -92,4 +92,6 @@ source_path: raw/articles/DeepSeek 内容创作指南.md
 
 ## 相关页面
 
-- （待补充）
+- [[AI内容创作]]
+- [[DeepSeek]]
+- [[提示词工程]]

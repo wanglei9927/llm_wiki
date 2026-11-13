@@ -2,7 +2,7 @@
 tags: [DeepSeek Harness, 官网, 桌面端, 插件, 创造模式, 自动化任务]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/articles/DeepSeek Harness 官网.md
+source_path: raw/articles/2026-11-02-deepseek-harness-official-site.md
 ---
 
 # DeepSeek Harness 官网：产品形态与功能全景

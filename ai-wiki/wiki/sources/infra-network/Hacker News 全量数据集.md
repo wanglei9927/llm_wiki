@@ -2,7 +2,7 @@
 tags: [HackerNews, 数据集, HuggingFace, Parquet, DuckDB, 开放数据, ClickHouse]
 created: 2026-11-03
 updated: 2026-11-03
-source_path: raw/articles/Hacker News 全量数据集-readme.md
+source_path: raw/articles/2026-11-03-hf-hacker-news-dataset-readme.md
 ---
 
 # open-index/hacker-news：HN 全量存档数据集（每 5 分钟更新）

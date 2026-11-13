@@ -2,7 +2,7 @@
 tags: [DeepSeek, Cline, iOS, App开发, AI编程, 硅基流动]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek 与 Cline 开发 iOS App.md
+source_path: raw/articles/2026-04-29-deepseek-cline-ios-app.md
 ---
 
 # DeepSeek + Cline 零代码开发 iOS App：趣味图片打码实战

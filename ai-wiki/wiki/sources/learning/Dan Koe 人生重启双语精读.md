@@ -2,7 +2,7 @@
 tags: [Dan Koe, 个人成长, 行为改变, 双语精读, 英语学习, 新年决心, 自我提升]
 created: 2026-11-04
 updated: 2026-11-04
-source_path: raw/tweets/Dan Koe 人生重启双语精读.md
+source_path: raw/tweets/2026-11-04-dankoe-article.md
 ---
 
 # Dan Koe《How to fix your entire life in 1 day》中英双语精读

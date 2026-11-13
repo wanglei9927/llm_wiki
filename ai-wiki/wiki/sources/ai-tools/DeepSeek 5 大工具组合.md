@@ -2,7 +2,7 @@
 tags: [DeepSeek, 工具组合, PPT, 视频制作, 3D建模, 会议纪要]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek 5 大工具组合.md
+source_path: raw/articles/2026-04-29-deepseek-5-killer-combinations.md
 ---
 
 # DeepSeek 5 大王炸工具组合：PPT、视频、图片、会议、3D 全流程

@@ -2,7 +2,7 @@
 tags: [DeepSeek, VSCode, Roo Code, 通义灵码, 编程助手]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek VSCode 集成.md
+source_path: raw/articles/2026-04-29-deepseek-vscode-integration.md
 ---
 
 # DeepSeek VSCode 集成：Roo Code 插件 + 通义灵码替代方案

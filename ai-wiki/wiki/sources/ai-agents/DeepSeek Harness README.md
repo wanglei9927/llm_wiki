@@ -2,7 +2,7 @@
 tags: [DeepSeek, DeepSeek Harness, dsh, AI Agent, 插件化, agent harness, 开源项目]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/articles/DeepSeek Harness README.md
+source_path: raw/articles/2026-11-02-deepseek-harness-readme.md
 ---
 
 # DeepSeek Harness 官方 README 与 Web UI 指南

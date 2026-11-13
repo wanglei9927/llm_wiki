@@ -22,6 +22,13 @@ for f in "${ALL_MDS[@]}"; do
   [[ "$rel" == wiki/* ]] && IS_WIKI["$base"]=1
 done
 
+# 非 Markdown 文件（图片等）也参与链接解析：Obsidian 的图片嵌入按文件名全库匹配
+declare -A ASSETS
+while IFS= read -r f; do
+  rel="${f#"$ROOT"/}"
+  ASSETS["$(basename "$f")"]="$rel"
+done < <(find "$ROOT" -type f ! -name '*.md' -not -path '*/.git/*' | sort)
+
 # ---------- 1. 目录统计 ----------
 echo "== 目录统计 =="
 is_llmwiki="否"
@@ -35,7 +42,7 @@ fi
 if [ -d "$ROOT/wiki" ]; then
   for d in "$ROOT"/wiki/*/; do
     [ -d "$d" ] || continue
-    n=$(find "$d" -maxdepth 1 -name '*.md' | wc -l)
+    n=$(find "$d" -name '*.md' | wc -l)
     echo "wiki/$(basename "$d"): $n 页"
   done
 fi
@@ -65,7 +72,7 @@ for f in "${ALL_MDS[@]}"; do
   # 提取 [[...]]，兼容 [[名|别名]] 取名部分（llm-wiki 规范不含别名，这里防御性处理）
   while IFS= read -r link; do
     [ -n "$link" ] || continue
-    if [ -z "${FILES[$link]+x}" ]; then
+    if [ -z "${FILES[$link]+x}" ] && [ -z "${ASSETS[$link]+x}" ]; then
       echo "悬空链接 [[$link]]  <- $rel"
       link_errs=$((link_errs+1))
     else
@@ -92,16 +99,19 @@ echo
 echo "== 疑似未消化素材 =="
 undigested=0
 if [ -d "$ROOT/raw" ]; then
+  # 已消化判定：raw 相对路径被任一 wiki 页面引用（source_path 或正文）
+  CONSUMED="$(mktemp)"
+  find "$ROOT/wiki" -name '*.md' -exec cat {} + > "$CONSUMED" 2>/dev/null || true
   while IFS= read -r f; do
-    stem="$(basename "$f")"; stem="${stem%.*}"
-    stem="$(echo "$stem" | sed -E 's/^[0-9]{4}-[0-9]{2}-[0-9]{2}-//')"
-    if [ -z "${STEMS[$stem]+x}" ]; then
-      echo "${f#"$ROOT"/}"
+    rel="${f#"$ROOT"/}"
+    if ! grep -qF -- "$rel" "$CONSUMED" 2>/dev/null; then
+      echo "$rel"
       undigested=$((undigested+1))
     fi
-  done < <(find "$ROOT/raw" -type f)
+  done < <(find "$ROOT/raw" -type f -name '*.md')
+  rm -f "$CONSUMED"
 fi
-[ "$undigested" -eq 0 ] && echo "raw/ 素材均有同名 wiki 页（启发式判断，请结合内容确认）"
+[ "$undigested" -eq 0 ] && echo "raw/ 素材均被 wiki 页引用（启发式判断，请结合内容确认）"
 
 # ---------- 6. 过短与占位页 ----------
 echo
@@ -117,10 +127,13 @@ for f in "${ALL_MDS[@]}"; do
       short_errs=$((short_errs+1))
     fi ;;
   esac
-  if grep -qE 'TODO|待补充|占位|placeholder|lorem' "$f" 2>/dev/null; then
-    echo "含占位文本: $rel"
-    short_errs=$((short_errs+1))
-  fi
+  # 占位检查只针对 wiki 页；raw 素材和 notes 里出现 placeholder 等词属正常
+  case "$rel" in wiki/*)
+    if grep -qE 'TODO|待补充|placeholder|lorem' "$f" 2>/dev/null; then
+      echo "含占位文本: $rel"
+      short_errs=$((short_errs+1))
+    fi ;;
+  esac
 done
 [ "$short_errs" -eq 0 ] && echo "未发现过短页或占位文本"
 

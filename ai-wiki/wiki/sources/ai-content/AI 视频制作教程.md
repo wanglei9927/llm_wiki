@@ -2,7 +2,7 @@
 tags: [DeepSeek, AI视频, 可灵, 剪映, 分镜脚本]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/AI 视频制作教程.md
+source_path: raw/articles/2026-04-29-deepseek-ai-video-tutorial.md
 ---
 
 # DeepSeek AI 视频制作全流程：分镜脚本 → 生图 → 动效 → 剪辑保姆级教程

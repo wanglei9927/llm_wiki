@@ -2,7 +2,7 @@
 tags: [DeepSeek Harness, Super-agent, dsh-superagent-prototype, AI Agent, 多任务并行, 实验数据]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/tweets/Super-agent 原型推文合集.md
+source_path: raw/tweets/2026-11-02-superagent-prototype-tweets.md
 ---
 
 # dsh-superagent-prototype 发布：两条推文综合（@IAmHuTu、@meow2149）

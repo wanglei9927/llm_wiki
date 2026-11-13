@@ -2,7 +2,7 @@
 tags: [AI, Spring AI, LangChain4j, LangGraph, RAG, MCP, 开发框架, 鱼皮]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/鱼皮 AI 编程技术.md
+source_path: raw/articles/2026-04-29-yupi-ai-guide-programming-tech.md
 ---
 
 # AI 编程技术全景：从开发框架到部署上线的完整知识体系

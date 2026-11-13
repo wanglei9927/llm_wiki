@@ -2,7 +2,7 @@
 tags: [DeepSeek, Word, VBA, API, 办公自动化]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek Word 集成.md
+source_path: raw/articles/2026-04-29-deepseek-word-integration.md
 ---
 
 # DeepSeek Word 集成教程：VBA 脚本一键接入，秒生文档材料

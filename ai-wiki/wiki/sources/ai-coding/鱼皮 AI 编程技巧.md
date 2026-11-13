@@ -2,7 +2,7 @@
 tags: [AI, 编程技巧, Prompt, Cursor, Git, 鱼皮]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/鱼皮 AI 编程技巧.md
+source_path: raw/articles/2026-04-29-yupi-ai-guide-programming-tips.md
 ---
 
 # AI 编程高级技巧：如何让 AI 生成几万行代码不出 Bug

@@ -2,7 +2,7 @@
 tags: [Looseleaf, shadcn, 组件库, 手绘风格, React, Tailwind, 前端UI, 设计系统]
 created: 2026-11-04
 updated: 2026-11-04
-source_path: raw/articles/Looseleaf 手绘组件库-readme.md
+source_path: raw/articles/2026-11-04-looseleaf-readme.md
 ---
 
 # Looseleaf：把 shadcn/ui 画在纸上的手绘风组件库

@@ -2,7 +2,7 @@
 tags: [X推文, 代码理解, 知识图谱, Tree-sitter, LLM Agent, 开源项目, AI编程]
 created: 2026-11-03
 updated: 2026-11-03
-source_path: raw/tweets/Understand Anything 代码理解插件.md
+source_path: raw/tweets/2026-11-03-understand-anything-tweet.md
 ---
 
 # 32 粉丝研究生做出 5.64 万星插件：Understand Anything 把代码库变成知识图谱

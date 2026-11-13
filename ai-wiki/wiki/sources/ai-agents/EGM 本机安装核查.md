@@ -2,7 +2,7 @@
 tags: [EGM, Claude Code, 插件安装, Skill, 设计评审, 本地核查]
 created: 2026-11-04
 updated: 2026-11-04
-source_path: raw/notes/EGM 本机安装核查.md
+source_path: raw/notes/2026-11-04-egm-local-install-check.md
 ---
 
 # EGM 在 Claude Code 的本机安装与调用核查

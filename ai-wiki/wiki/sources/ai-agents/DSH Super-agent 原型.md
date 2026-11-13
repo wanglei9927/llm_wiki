@@ -2,7 +2,7 @@
 tags: [DeepSeek Harness, dsh-superagent, Super-agent, GitHub, coding agent, 开源项目]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/articles/DSH Super-agent 原型-readme.md
+source_path: raw/articles/2026-11-02-dsh-superagent-prototype-readme.md
 ---
 
 # dsh-superagent-prototype：Super-agent 落地原型（仓库 README）

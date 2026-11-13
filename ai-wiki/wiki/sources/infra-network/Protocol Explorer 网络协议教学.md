@@ -2,7 +2,7 @@
 tags: [网络协议, 交互式教学, Protocol Explorer, TCP, TLS, DNS, 可视化, 学习资源]
 created: 2026-11-04
 updated: 2026-11-04
-source_path: raw/articles/Protocol Explorer 网络协议教学.md
+source_path: raw/articles/2026-11-04-protocol-explorer.md
 ---
 
 # Protocol Explorer：逐包看懂互联网协议的交互式教学站

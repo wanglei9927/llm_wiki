@@ -92,3 +92,4 @@ sources: [小红书爆款写作公式, 网文创作完整教程, 公文新闻广
 - 提示词工程
 - DeepSeek Agent
 - AI 网文创作
+- [[2026-04-29-deepseek-content-creation-deep-dive]]

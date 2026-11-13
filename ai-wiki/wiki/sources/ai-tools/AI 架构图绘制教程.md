@@ -2,7 +2,7 @@
 tags: [AI绘图, 架构图, Mermaid, PlantUML, draw.io, Cursor]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/AI 架构图绘制教程.md
+source_path: raw/articles/2026-04-29-ai-architecture-diagram-tutorial.md
 ---
 
 # 程序员 AI 绘图完全指南：5 大方法从入门到精通

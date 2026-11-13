@@ -2,7 +2,7 @@
 tags: [Agent自动化, 自动化中台, CI, 事件驱动, 人机协同, 数字生命卡兹克, AIHOT, 飞书]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/tweets/卡兹克 Agent 自动化系统-article.md
+source_path: raw/tweets/2026-11-02-kazike-agent-automation-article.md
 ---
 
 # 数字生命卡兹克：我这套 Agent 自动化系统（1 年实践长文）

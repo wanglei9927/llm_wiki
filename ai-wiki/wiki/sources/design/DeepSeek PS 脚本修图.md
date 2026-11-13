@@ -2,7 +2,7 @@
 tags: [DeepSeek, Photoshop, 脚本, 修图, 自动化]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek PS 脚本修图.md
+source_path: raw/articles/2026-04-29-deepseek-photoshop-script.md
 ---
 
 # DeepSeek 一句话生成 Photoshop 脚本：三秒日式小清新修图

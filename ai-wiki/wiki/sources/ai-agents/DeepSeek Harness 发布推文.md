@@ -2,7 +2,7 @@
 tags: [DeepSeek, deepseek-harness, Super-agent, AI Agent, 多任务并行, 开源项目]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/tweets/DeepSeek Harness 发布推文.md
+source_path: raw/tweets/2026-11-02-deepseek-harness-tweet.md
 ---
 
 # DeepSeek Harness：Super-agent 双层架构开源项目

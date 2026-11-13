@@ -89,3 +89,7 @@ source_path: raw/articles/2026-11-12-omniget-readme.md
 - [[工具集]]
 - [[MCP 模型上下文协议]]
 - [[GIF 工厂]]
+
+## 补充素材
+
+- `raw/tweets/2026-11-12-omniget-tweet.md`

@@ -128,3 +128,7 @@ python3 skills/dynamic-art-signature/scripts/make_grid.py
 - [[GIF 工厂]]
 - [[DeepSeek Harness]]
 - [[AI编程开发]]
+
+## 补充素材
+
+- `raw/tweets/2026-11-11-gif-factory-tweet.md`

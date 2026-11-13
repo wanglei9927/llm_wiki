@@ -2,7 +2,7 @@
 tags: [AI, 工具, Cursor, 通义灵码, IDE插件, 鱼皮]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/AI 程序员工具链.md
+source_path: raw/articles/2026-04-29-yupi-ai-guide-tools.md
 ---
 
 # AI 程序员实用工具链：从开发到写作的完整指南

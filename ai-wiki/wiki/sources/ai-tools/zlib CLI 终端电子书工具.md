@@ -2,7 +2,7 @@
 tags: [zlib, Z-Library, 电子书, CLI, 终端工具, Agent集成, Kindle]
 created: 2026-11-03
 updated: 2026-11-03
-source_path: raw/tweets/zlib CLI 终端电子书工具-tweet.md
+source_path: raw/tweets/2026-11-03-zlib-cli-tweet.md
 ---
 
 # zlib：把 Z-Library 搬进终端的 CLI（含 Agent 集成）

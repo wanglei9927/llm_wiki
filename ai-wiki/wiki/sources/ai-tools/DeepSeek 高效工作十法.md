@@ -2,7 +2,7 @@
 tags: [DeepSeek, 使用技巧, 提问技巧, 高效工作]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek 高效工作十法.md
+source_path: raw/articles/2026-04-29-deepseek-10-work-tips.md
 ---
 
 # DeepSeek 高效工作十法：从提问小白到驾驭 AI 的完整方法论

@@ -2,7 +2,7 @@
 tags: [PixelFX, 游戏特效, 程序化生成, 开源项目, 游戏开发, 像素风, Claude Code]
 created: 2026-11-02
 updated: 2026-11-12
-source_path: raw/tweets/PixelFX 游戏特效库.md
+source_path: raw/tweets/2026-11-02-pixelfx-tweet.md
 ---
 
 # PixelFX：244 种代码化游戏特效（含 Claude Code Skill）

@@ -2,7 +2,7 @@
 tags: [Google, 开源, 仓库清单, AI-Agent, 基础设施, 学习资料]
 created: 2026-11-04
 updated: 2026-11-04
-source_path: raw/articles/Google 开源项目盘点-full.md
+source_path: raw/articles/2026-11-04-google-oss-full.md
 ---
 
 # Google 开源项目详解：star 前 100（2026-11）

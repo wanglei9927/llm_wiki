@@ -2,7 +2,7 @@
 tags: [Claude Code, 代码审查, 验证循环, AI编程, 安全, 回滚]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: raw/tweets/Claude Code 实战开发术.md
+source_path: raw/tweets/2026-11-02-claude-code-practical-dev-techniques.md
 ---
 
 # Claude Code 实战开发术：让 Claude 自证，人只看不可逆

@@ -2,7 +2,7 @@
 tags: [DeepSeek, Excel, VBA, API, 办公自动化]
 created: 2026-04-29
 updated: 2026-04-29
-source_path: raw/articles/DeepSeek Excel 集成.md
+source_path: raw/articles/2026-04-29-deepseek-excel-integration.md
 ---
 
 # DeepSeek Excel 集成：VBA 实现表格 AI 化，效率提升 10 倍

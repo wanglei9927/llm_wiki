@@ -2,7 +2,7 @@
 tags: [知识库, 梳理, Claude Code Skill, SUMMARY, 健康检查, 自动化]
 created: 2026-11-02
 updated: 2026-11-02
-source_path: .claude/skills/wiki-summarize/SKILL.md
+source_path: ../.claude/skills/wiki-summarize/SKILL.md
 ---
 
 # wiki-summarize：知识库梳理技能
@@ -33,7 +33,7 @@ source_path: .claude/skills/wiki-summarize/SKILL.md
 
 5. **报告结构固定六节。** 总览、主题地图（Mermaid，最多两层、节点 ≤ 20）、分主题要点、素材覆盖、健康检查、待补全建议（≤ 5 条）。
 
-6. **内容铁律优先于好看。** 所有 `[[链接]]` 必须指向真实存在的文件；要点必须来自页面实际内容；禁止编造；缺失页面只能写进“待补全建议”。
+6. **内容铁律优先于好看。** 所有双链必须指向真实存在的文件；要点必须来自页面实际内容；禁止编造；缺失页面只能写进“待补全建议”。
 
 7. **默认不提交。** 只在用户明确要求时 commit / push；推送被拒只能重新 `pull --rebase` 后再推，绝对禁止 `--force`。
 
@@ -94,7 +94,7 @@ git -C "<仓库根>" -c rebase.autoStash=true pull --rebase mywiki main
 > 两个同步点的意义不同：第 0 步保证“读到的是最新的”，第 5 步保证“推上去不会覆盖别人的”。
 > ——`SKILL.md`
 
-> 所有 `[[链接]]` 必须与实际文件名（去 `.md`）精确一致（含空格），禁止悬空链接。
+> 所有双链必须与实际文件名（去 `.md`）精确一致（含空格），禁止悬空链接。
 > ——`SKILL.md`
 
 ## 相关页面
