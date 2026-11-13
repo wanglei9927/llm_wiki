@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：50
-- Wiki 页面总数：104
+- 素材总数：51
+- Wiki 页面总数：108
 - 总览页：[[overview]]
 
 ---
@@ -60,6 +60,9 @@
 - [[PixelFX]] - 开源像素游戏特效库：21 类 244 个代码化特效，含 Claude Code Skill
 - [[深入理解 AI Agent]] - 李博杰开源书：Agent = LLM + 上下文 + 工具，10 章 + 109 实验
 - [[scrcpy]] - Android 投屏与键鼠控制：USB/无线，可脚本化自动连接
+- [[DeepTutor]] - 港大开源终身个性化 AI 家教：学习路径、测验、研究、长期记忆
+- [[book-to-skill]] - 技术书/PDF 一键转跨 Agent Skill，章节按需加载
+- [[OpenMAIC]] - 清华开源多 Agent 互动教室：一键开课、导出 PPT
 
 ---
 
@@ -143,9 +146,10 @@
 - [[CodeArts Telegram 桥]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
 - [[wiki-summarize 知识库梳理技能]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
 
-### 工具与效率类（1 篇）
+### 工具与效率类（2 篇）
 
 - [[DeskBox 桌面整理工具]] - DeskBox：开源 Windows 桌面整理工具（WinUI 3，Fences 免费替代）
+- [[免费 AI 自学工具三件套]] - 免费 AI 自学三件套：DeepTutor + book-to-skill + OpenMAIC（星标与用法核对）
 
 ### 个人成长类（2 篇）
 
