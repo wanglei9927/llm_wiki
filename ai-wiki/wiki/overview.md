@@ -46,8 +46,8 @@
 
 | 类型 | 数量 | 入口 |
 |------|------|------|
-| 素材摘要 | 51 | `wiki/sources/` 目录 |
-| 实体页 | 46 | `wiki/entities/` 目录 |
+| 素材摘要 | 52 | `wiki/sources/` 目录 |
+| 实体页 | 47 | `wiki/entities/` 目录 |
 | 主题页 | 7 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
 | 综合分析 | 4 | `wiki/synthesis/` 目录 |
@@ -56,6 +56,7 @@
 
 ## 最近更新
 
+- **2026-11-14**：收录 Mole 系统清理工具（74,995★ / GPL-3.0）：`mo clean/uninstall/optimize/analyze/status` 一条命令，带 Agent Skill 与 DSH 插件；新增 1 篇摘要 + 1 个实体页（含 Windows 本机安装速查），补入「工具集」的「桌面与效率」，知识库达到 52 篇素材
 - **2026-11-14**：记录「免费 AI 自学三件套」：DeepTutor（58,888★）、book-to-skill（37,769★）、OpenMAIC（43,462★），新增 1 篇摘要 + 3 个实体页，补入「工具集」的「AI 学习与教育」分类，知识库达到 51 篇素材
 - **2026-11-13**：归档本机部署手册《Ubuntu 安卓投屏控制 V2.0》（Surface Go 3 + USB + scrcpy + systemd watchdog）：新增 1 篇摘要 + 1 个 scrcpy 实体页，补入「工具集」，知识库达到 50 篇素材
 - **2026-11-12**：收录李博杰《深入理解 AI Agent：设计原理与工程实践》（57,764★ / Apache-2.0）：10 章围绕「Agent = LLM + 上下文 + 工具」，109 个配套实验、15 种语言，新增 1 篇摘要 + 1 个实体页，知识库达到 49 篇素材
