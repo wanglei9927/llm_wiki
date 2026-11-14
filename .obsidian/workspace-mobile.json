@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f091f4190118183",
+        "id": "ad10dd3c6d65647d",
         "type": "tabs",
         "children": [
           {
-            "id": "be30e1939dbde979",
+            "id": "ccb8f7f77bc14dc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai-wiki/notes/我的笔记与心得.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "我的笔记与心得"
+              "title": "新标签页"
             }
           }
         ]
@@ -173,14 +169,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "6d5964ecaf86a2ea",
+  "active": "ccb8f7f77bc14dc9",
   "lastOpenFiles": [
+    "ai-wiki/notes/我的笔记与心得.md",
     "ai-wiki/wiki/entities/黑客书架.md",
     "ai-wiki/wiki/sources/2026-11-04-google-oss.md",
     "ai-wiki/wiki/entities/Google 开源.md",
     "ai-wiki/wiki/sources/2026-11-03-zlib-cli.md",
     "ai-wiki/wiki/synthesis/Looseleaf 上手指南.md",
-    "ai-wiki/notes/我的笔记与心得.md",
     "ai-wiki/wiki/entities/数字生命卡兹克.md",
     "ai-wiki/wiki/entities/CodeArts CLI.md",
     "ai-wiki/wiki/sources/2026-11-01-fq-book.md",
