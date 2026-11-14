@@ -3,8 +3,8 @@ type: entity
 name: LangChain4j
 category: 开发框架
 tags: [Java, AI框架, Agent, 智能体]
-sources: [2026-04-29-yupi-ai-guide-programming-tech]
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
+sources: [鱼皮 AI 编程技术]
+  - 鱼皮 AI 编程技术.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -39,7 +39,7 @@ LangChain4j 是 LangChain 生态的 Java 实现版本，提供了大量现成的
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - 更灵活，更适合开发复杂的智能体
 - 提供大量现成方法提高开发效率
 - 两个框架都要学：先 Spring AI 后 LangChain4j

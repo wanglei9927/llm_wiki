@@ -297,7 +297,7 @@ bash ${SKILL_DIR}/scripts/adapter-state.sh classify-run <source_id> <exit_code> 
    - 与已有素材的关联
    - **实操内容**：代码块、Prompt 模板、配置参数、分步教程——这些内容必须保留，不可丢弃
 
-4. **生成素材摘要页**（`wiki/sources/{日期}-{短标题}.md`）：
+4. **生成素材摘要页**（`wiki/sources/{分类}/{短标题}.md`，分类见 `.wiki-schema.md`；日期写 frontmatter 的 `created`）：
    - 参考 `templates/source-template.md` 的格式
    - 包含：基本信息、核心观点、**实操内容保留**、关键概念、与其他素材的关联、**原文精彩摘录**（至少 2 段）
    - **实操内容保留**（必填）：原文中的代码块、Prompt 模板、分步教程必须原样保留。如原文无此类内容，写"（本文无实操代码/模板/步骤）"

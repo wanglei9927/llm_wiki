@@ -1,14 +1,15 @@
 # 知识库索引
 
-> 最后更新：2026-11-04
+> 最后更新：2026-11-05
 
 ---
 
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：44
-- Wiki 页面总数：90
+- 素材总数：51
+- Wiki 页面总数：108
+- 总览页：[[overview]]
 
 ---
 
@@ -52,6 +53,16 @@
 - [[Looseleaf]] - 手绘纸感 React 组件库：123 个组件全部由代码画成 SVG，API 兼容 shadcn/ui
 - [[Protocol Explorer]] - 逐包看懂互联网协议的交互式教学站：14 协议、逐字节解码、14 种语言
 - [[Google 开源]] - google 组织 2,892 个仓库的盘点：AI Agent 工具链、基础库与工程文化
+- [[英语阅读能力]] - 英语阅读的构成、分级标准与精读/泛读训练方法
+- [[GIF 工厂]] - 卧云开源的动效技能包：七类用途、40 种片头字形、动态签名 2.0
+- [[OmniGet]] - 开源下载管理器+媒体工具箱：1,800+ 站点、108 工具、whisper 转写、MCP Server
+- [[DeskBox]] - 开源 Windows 桌面整理工具：WinUI 3 文件格子，Fences 替代
+- [[PixelFX]] - 开源像素游戏特效库：21 类 244 个代码化特效，含 Claude Code Skill
+- [[深入理解 AI Agent]] - 李博杰开源书：Agent = LLM + 上下文 + 工具，10 章 + 109 实验
+- [[scrcpy]] - Android 投屏与键鼠控制：USB/无线，可脚本化自动连接
+- [[DeepTutor]] - 港大开源终身个性化 AI 家教：学习路径、测验、研究、长期记忆
+- [[book-to-skill]] - 技术书/PDF 一键转跨 Agent Skill，章节按需加载
+- [[OpenMAIC]] - 清华开源多 Agent 互动教室：一键开课、导出 PPT
 
 ---
 
@@ -63,6 +74,7 @@
 - [[AI创意设计]] - 以 DeepSeek 为核心的多工具创意设计工作流
 - [[AI办公自动化]] - VBA + API 深度集成 Office 套件的办公自动化方法论
 - [[AI编程开发]] - 从 IDE 集成到 AI 应用开发的完整知识体系
+- [[工具集]] - 知识库记录过的工具总览：下载、AI 编程、Agent 框架、知识库工具等
 - [[鱼皮 AI 指南]] - 程序员鱼皮两年半积累的 AI 知识体系
 - [[Claude Code 实战开发术]] - 让 Claude 自证、人只看不可逆决策的六条实战术
 
@@ -74,65 +86,75 @@
 
 ### 内容创作类（5 篇）
 
-- [[2026-04-29-yupi-ai-guide-intro]] - 鱼皮 AI 指南开篇：AI 会淘汰程序员么？
-- [[2026-04-29-deepseek-xiaohongshu-formula]] - 小红书爆款写作 6 步公式
-- [[2026-04-29-deepseek-novel-tutorial]] - 网文创作完整教程：从世界观到 IP 衍生
-- [[2026-04-29-deepseek-official-document-tips]] - 三大文体写作技巧：公文、新闻、广告文案
-- [[2026-04-29-deepseek-novel-collaboration]] - DeepSeek Agent 协写长篇小说真实案例
-- [[2026-04-29-deepseek-content-creation]] - 内容创作全指南：从初稿到 SEO 优化
+- [[鱼皮 AI 指南开篇]] - 鱼皮 AI 指南开篇：AI 会淘汰程序员么？
+- [[小红书爆款写作公式]] - 小红书爆款写作 6 步公式
+- [[网文创作完整教程]] - 网文创作完整教程：从世界观到 IP 衍生
+- [[公文新闻广告写作技巧]] - 三大文体写作技巧：公文、新闻、广告文案
+- [[DeepSeek 长篇小说协作]] - DeepSeek Agent 协写长篇小说真实案例
+- [[DeepSeek 内容创作指南]] - 内容创作全指南：从初稿到 SEO 优化
 
 ### 创意设计类（4 篇）
 
-- [[2026-04-29-deepseek-5-killer-combinations]] - 5 大王炸工具组合：PPT、视频、图片、会议、3D
-- [[2026-04-29-deepseek-photoshop-script]] - 一句话生成 PS 脚本，三秒日式小清新修图
-- [[2026-04-29-deepseek-ai-video-tutorial]] - AI 视频制作全流程保姆级教程
-- [[2026-11-04-looseleaf]] - Looseleaf：shadcn/ui 手绘风组件库，代码生成 SVG
+- [[DeepSeek 5 大工具组合]] - 5 大王炸工具组合：PPT、视频、图片、会议、3D
+- [[DeepSeek PS 脚本修图]] - 一句话生成 PS 脚本，三秒日式小清新修图
+- [[AI 视频制作教程]] - AI 视频制作全流程保姆级教程
+- [[Looseleaf 手绘组件库]] - Looseleaf：shadcn/ui 手绘风组件库，代码生成 SVG
 
 ### 办公自动化类（3 篇）
 
-- [[2026-04-29-deepseek-excel-integration]] - DeepSeek Excel VBA 集成，效率提升 10 倍
-- [[2026-04-29-deepseek-word-integration]] - DeepSeek Word 集成：VBA 脚本一键接入
-- [[2026-04-29-deepseek-10-work-tips]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
+- [[DeepSeek Excel 集成]] - DeepSeek Excel VBA 集成，效率提升 10 倍
+- [[DeepSeek Word 集成]] - DeepSeek Word 集成：VBA 脚本一键接入
+- [[DeepSeek 高效工作十法]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（24 篇）
+### 编程开发类（28 篇）
 
-- [[2026-04-29-deepseek-vscode-integration]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
-- [[2026-04-29-deepseek-python-local-setup]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
-- [[2026-04-29-ai-architecture-diagram-tutorial]] - 程序员 AI 绘图完全指南：5 大方法从入门到精通
-- [[2026-04-29-ai-game-development-3h-28w]] - 3 小时开发，10 天赚 28 万：AI 游戏开发革命
-- [[2026-04-29-deepseek-cline-ios-app]] - DeepSeek + Cline 零代码开发 iOS App 实战
-- [[2026-04-29-yupi-ai-guide-core-concepts]] - AI 核心概念大全：16 个关键术语一网打尽
-- [[2026-04-29-yupi-ai-guide-tools]] - AI 程序员实用工具链：从开发到写作的完整指南
-- [[2026-04-29-yupi-ai-guide-programming-tips]] - AI 编程高级技巧：如何让 AI 生成几万行代码不出 Bug
-- [[2026-04-29-yupi-ai-guide-programming-tech]] - AI 编程技术全景：从开发框架到部署上线的完整知识体系
-- [[2026-11-02-pixelfx-tweet]] - PixelFX：232 种代码化游戏特效开源
-- [[2026-11-02-deepseek-harness-tweet]] - DeepSeek Harness：Super-agent 双层架构开源项目
-- [[2026-11-02-deepseek-harness-readme]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
-- [[2026-11-02-deepseek-harness-guides]] - DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
-- [[2026-11-02-claude-code-practical-dev-techniques]] - Claude Code 实战开发术：证据、独立评审、循环上限与安全闭环
-- [[2026-11-02-deepseek-harness-official-site]] - DeepSeek Harness 官网：产品形态与功能全景
-- [[2026-11-02-superagent-prototype-tweets]] - dsh-superagent-prototype 发布推文与实验数据
-- [[2026-11-02-dsh-superagent-prototype]] - dsh-superagent-prototype：Super-agent 落地原型
-- [[2026-11-02-dsh-go-tweet]] - DSH Go：安卓手机运行 DSH 引擎的社区客户端
-- [[2026-11-02-fq-book]] - fq-book《这本书能让你连接互联网》：网络代理与 VPN 学习文档
-- [[2026-11-02-kazike-agent-automation]] - 卡兹克 Agent 自动化系统：事件中台+多模型调度+CI 五步+批奏折决策
-- [[2026-11-03-hackerbooks-site]] - 黑客书架：HN 高频书榜站与 Top 600 书单
-- [[2026-11-03-zlib-cli]] - zlib：Z-Library 终端客户端，官方适配 Claude Code/Codex 插件与 MCP
-- [[2026-11-03-hf-hacker-news-dataset]] - open-index/hacker-news：HN 全量存档数据集（DuckDB 直查+5 分钟实时）
-- [[2026-11-03-understand-anything-tweet]] - 32 粉丝研究生做出 5.64 万星代码理解插件：要点、入门讲解与评价
-- [[2026-11-04-egm-readme]] - Google EGM：大象写设计、金鱼零上下文评审的 AI 设计工作流
-- [[2026-11-04-egm-local-install-check]] - EGM 本机安装核查：v0.1.0 已启用，7 个 skill 必须斜杠调用
-- [[2026-11-04-protocol-explorer]] - Protocol Explorer：逐包可视化 + 逐字节解码的网络协议教学站
-- [[2026-11-04-google-oss]] - Google 开源项目详解：star 前 100 分类清单（每个仓库一句用途）
+- [[DeepSeek VSCode 集成]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
+- [[DeepSeek 本地部署方案]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
+- [[AI 架构图绘制教程]] - 程序员 AI 绘图完全指南：5 大方法从入门到精通
+- [[AI 游戏开发 3 小时 28 万]] - 3 小时开发，10 天赚 28 万：AI 游戏开发革命
+- [[DeepSeek 与 Cline 开发 iOS App]] - DeepSeek + Cline 零代码开发 iOS App 实战
+- [[AI 核心概念 16 讲]] - AI 核心概念大全：16 个关键术语一网打尽
+- [[AI 程序员工具链]] - AI 程序员实用工具链：从开发到写作的完整指南
+- [[鱼皮 AI 编程技巧]] - AI 编程高级技巧：如何让 AI 生成几万行代码不出 Bug
+- [[鱼皮 AI 编程技术]] - AI 编程技术全景：从开发框架到部署上线的完整知识体系
+- [[PixelFX 游戏特效库]] - PixelFX：232 种代码化游戏特效开源
+- [[DeepSeek Harness 发布推文]] - DeepSeek Harness：Super-agent 双层架构开源项目
+- [[DeepSeek Harness README]] - DeepSeek Harness 官方 README 与 Web UI 使用指南
+- [[DeepSeek Harness 官方指南]] - DeepSeek Harness 实操指南：模型配置、CLI 模式与 Python SDK
+- [[Claude Code 实战开发术]] - Claude Code 实战开发术：证据、独立评审、循环上限与安全闭环
+- [[DeepSeek Harness 官网]] - DeepSeek Harness 官网：产品形态与功能全景
+- [[Super-agent 原型推文合集]] - dsh-superagent-prototype 发布推文与实验数据
+- [[DSH Super-agent 原型]] - dsh-superagent-prototype：Super-agent 落地原型
+- [[DeepSeek Harness Go 版]] - DSH Go：安卓手机运行 DSH 引擎的社区客户端
+- [[这本书能让你连接互联网]] - fq-book《这本书能让你连接互联网》：网络代理与 VPN 学习文档
+- [[卡兹克 Agent 自动化系统]] - 卡兹克 Agent 自动化系统：事件中台+多模型调度+CI 五步+批奏折决策
+- [[黑客书架书榜网站]] - 黑客书架：HN 高频书榜站与 Top 600 书单
+- [[zlib CLI 终端电子书工具]] - zlib：Z-Library 终端客户端，官方适配 Claude Code/Codex 插件与 MCP
+- [[Hacker News 全量数据集]] - open-index/hacker-news：HN 全量存档数据集（DuckDB 直查+5 分钟实时）
+- [[Understand Anything 代码理解插件]] - 32 粉丝研究生做出 5.64 万星代码理解插件：要点、入门讲解与评价
+- [[EGM 设计评审工作流]] - Google EGM：大象写设计、金鱼零上下文评审的 AI 设计工作流
+- [[EGM 本机安装核查]] - EGM 本机安装核查：v0.1.0 已启用，7 个 skill 必须斜杠调用
+- [[Protocol Explorer 网络协议教学]] - Protocol Explorer：逐包可视化 + 逐字节解码的网络协议教学站
+- [[Google 开源项目盘点]] - Google 开源项目详解：star 前 100 分类清单（每个仓库一句用途）
+- [[OmniGet 工具]] - OmniGet：开源下载管理器+媒体工具箱（108 工具/MCP/whisper 转写）
+- [[GIF 工厂技能]] - 卧云 GIF 工厂：七类动效用途、40 种片头字形、动态签名 2.0
+- [[深入理解 AI Agent（书）]] - 李博杰《深入理解 AI Agent》：10 章原理+工程+109 实验，57,764★
+- [[Ubuntu 安卓投屏控制]] - Ubuntu 单手机投屏控制：ADB + scrcpy + systemd，登录后自动连接
 
 ### 工程实战类（2 篇）
 
-- [[2026-11-02-codearts-telegram-bridge]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
-- [[2026-11-02-wiki-summarize-skill]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
+- [[CodeArts Telegram 桥]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
+- [[wiki-summarize 知识库梳理技能]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
 
-### 个人成长类（1 篇）
+### 工具与效率类（2 篇）
 
-- [[2026-11-04-dankoe-article]] - Dan Koe 长文中英双语精读：改身份而不是改行为，用一天重启人生
+- [[DeskBox 桌面整理工具]] - DeskBox：开源 Windows 桌面整理工具（WinUI 3，Fences 免费替代）
+- [[免费 AI 自学工具三件套]] - 免费 AI 自学三件套：DeepTutor + book-to-skill + OpenMAIC（星标与用法核对）
+
+### 个人成长类（2 篇）
+
+- [[Dan Koe 人生重启双语精读]] - Dan Koe 长文中英双语精读：改身份而不是改行为，用一天重启人生
+- [[英语阅读课程调研]] - YouTube + Bilibili 英语阅读课程调研：16 组频道 + 28 条课程，按水平分路线
 
 ---
 

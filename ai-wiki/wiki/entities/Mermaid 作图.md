@@ -3,9 +3,9 @@ type: entity
 name: Mermaid 作图
 category: 设计工具
 tags: [图表, 文档, Markdown, 可视化]
-sources: [2026-04-29-yupi-ai-guide-tools, 2026-04-29-ai-architecture-diagram-tutorial]
-  - 2026-04-29-yupi-ai-guide-tools.md
-  - 2026-04-29-ai-architecture-diagram-tutorial.md
+sources: [AI 程序员工具链, AI 架构图绘制教程]
+  - AI 程序员工具链.md
+  - AI 架构图绘制教程.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -85,14 +85,14 @@ pie title 技术栈占比
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-tools]]：
+来自 [[AI 程序员工具链]]：
 - 技术文档作图的标准方法：豆包 + Mermaid
 - 流程图、架构图自动化生成流程
 - 把作图信息提供给豆包或其他 AI
 - AI 生成 Mermaid 文本语法
 - 下载图片或放入渲染工具
 
-来自 [[2026-04-29-ai-architecture-diagram-tutorial]]：
+来自 [[AI 架构图绘制教程]]：
 - 架构图是程序员的第二语言，核心竞争力
 - Mermaid 是程序员 AI 绘图的 5 大方法之一
 - 优势：完全代码化，与代码库同步维护

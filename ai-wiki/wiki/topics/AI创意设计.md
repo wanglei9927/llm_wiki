@@ -2,7 +2,7 @@
 tags: [创意设计, AI, DeepSeek, 视频制作, 3D建模, PPT]
 created: 2026-04-29
 updated: 2026-04-29
-sources: [2026-04-29-deepseek-5-killer-combinations, 2026-04-29-deepseek-photoshop-script, 2026-04-29-deepseek-ai-video-tutorial]
+sources: [DeepSeek 5 大工具组合, DeepSeek PS 脚本修图, AI 视频制作教程]
 ---
 
 # AI 创意设计

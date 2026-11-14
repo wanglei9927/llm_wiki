@@ -4,7 +4,7 @@ name: CodeArts CLI
 category: 开发工具
 tags: [CodeArts, 华为云, CLI, Agent, 无头模式, GLM]
 sources:
-  - 2026-11-02-codearts-telegram-bridge.md
+  - CodeArts Telegram 桥.md
 created: 2026-11-02
 updated: 2026-11-02
 ---
@@ -76,4 +76,4 @@ codearts attach <url>        # 连接到运行中的 server
 
 - [[CodeArts Telegram Bridge]]
 - [[AI编程开发]]
-- [[2026-11-02-codearts-telegram-bridge]]
+- [[CodeArts Telegram 桥]]

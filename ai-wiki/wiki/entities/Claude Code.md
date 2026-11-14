@@ -3,7 +3,7 @@ type: entity
 name: Claude Code
 category: 工程工具
 tags: [Claude Code, Anthropic, CLI, AI编程, 代码审查, 验证]
-sources: [2026-11-02-claude-code-practical-dev-techniques]
+sources: [Claude Code 实战开发术]
 created: 2026-11-02
 updated: 2026-11-02
 ---
@@ -76,7 +76,7 @@ Anthropic 团队的实践可以概括为三点：
 
 ## 不同素材中的观点
 
-来自 [[2026-11-02-claude-code-practical-dev-techniques]]：
+来自 [[Claude Code 实战开发术]]：
 
 - Claude Code 的价值不在于"替你写完"，而在于把验证也变成可委托的流程
 - 人仍然要决定"做什么"，并对发布结果负责
@@ -85,7 +85,7 @@ Anthropic 团队的实践可以概括为三点：
 
 ## 相关页面
 
-- [[2026-11-02-claude-code-practical-dev-techniques]]
+- [[Claude Code 实战开发术]]
 - [[Claude Code 实战开发术]]
 - [[AI编程开发]]
 - [[MCP 模型上下文协议]]

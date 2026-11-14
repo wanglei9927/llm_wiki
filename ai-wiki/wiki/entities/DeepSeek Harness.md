@@ -2,7 +2,7 @@
 tags: [DeepSeek, DeepSeek Harness, dsh, AI Agent, 插件化, agent harness, Cordis, 开源项目]
 created: 2026-11-02
 updated: 2026-11-02
-sources: [2026-11-02-deepseek-harness-readme, 2026-11-02-deepseek-harness-tweet, 2026-11-02-deepseek-harness-guides, 2026-11-02-deepseek-harness-official-site, 2026-11-02-superagent-prototype-tweets, 2026-11-02-dsh-superagent-prototype, 2026-11-02-dsh-go-tweet]
+sources: [DeepSeek Harness README, DeepSeek Harness 发布推文, DeepSeek Harness 官方指南, DeepSeek Harness 官网, Super-agent 原型推文合集, DSH Super-agent 原型, DeepSeek Harness Go 版]
 ---
 
 # DeepSeek Harness
@@ -46,33 +46,33 @@ Agent 的读写文件、执行命令等敏感操作，按当前权限策略在 W
 
 ## 不同素材中的观点
 
-### 来自 2026-11-02-deepseek-harness-readme（官方 README 视角）
+### 来自 DeepSeek Harness README（官方 README 视角）
 - 定位是"开源 agent harness"，构建于"一切皆插件"架构，由 Cordis 驱动
 - 处于 developer preview，快速迭代、将有破坏兼容性变更，运行前须读 SAFETY.md
 - 强调低上手成本：一条 `npx` 命令启动 Web UI，三步（配 API key → 选工作区 → 发任务）开始干活
 - Agent 能力边界明确：读写工作区文件、跑命令、委派工作、维护计划，敏感操作需审批
 
-### 来自 2026-11-02-deepseek-harness-tweet（社区解读视角，@Super_Nius）
+### 来自 DeepSeek Harness 发布推文（社区解读视角，@Super_Nius）
 - 核心卖点被概括为 Super-agent 双层架构（Router/Worker 隔离并行）+ 事件触发 + Watchdog
 - 被定位为"给每个人配一个 24 小时在线的 AI 秘书长"，但作者持观望态度（"我想看的是真能跑起来的那天"）
 - 评论区存在质疑：@r8tba 曾实现类似"会议模式"后删除，认为方向错误并称 Codex 也在走此方向；@Kepler_Nicoles 指出 Claude Code 的 project 机制与之类似
 
-### 来自 2026-11-02-deepseek-harness-official-site（官网产品视角）
+### 来自 DeepSeek Harness 官网（官网产品视角）
 - 桌面端安装包（macOS Apple 芯片 / Windows x64）——免命令行的最简入口
 - 五大能力：日常工作、写代码改仓库、查资料核对、后台耗时任务、插件扩展
 - 创造模式：对话生成插件（官网番茄时钟示例 5 分 24 秒完成开发、安装、验证）
 - 官方插件含"智能体团队（实验性）"——Super-agent 理念的产品化形态；另有自动授权审查、自动化任务（schedule_create 定时）、语音输入等实验性插件
 
-### 来自 2026-11-02-superagent-prototype-tweets（社区视角）
+### 来自 Super-agent 原型推文合集（社区视角）
 - 初步实验数据：Super-agent 任务完成中位数 12.4 分钟、P95 15.7 分钟；传统单会话方案 P95 29.5 分钟——长尾任务提速近一半
 - 乐观解读"24 小时不下班的 AI 团队"；冷静派提醒：常驻只是第一步，权限、回滚、异常提醒、任务拆分与出错暂停机制才是关键，否则"自主推进"变"自主跑偏"
 
-### 来自 2026-11-02-dsh-superagent-prototype（原型仓库视角）
+### 来自 DSH Super-agent 原型（原型仓库视角）
 - Super-agent 落地实现：面向单个 GitHub 仓库的 proactive coding agent（打包为 dsh bundle），监听 GitHub（可选飞书），独立会话+独立目录干活、原对话回 PR、Web 面板显示待人工事项
 - 工作哲学："take as little human attention as possible, and give as much value as possible"——只在被要求或规则允许时行动，只在有人必须行动或能利用结果时说话
 - 官方定位仅为研究原型、非生产就绪（与论文实现不完全一致）；推荐让 coding agent 读 SETUP.md 代为安装
 
-### 来自 2026-11-02-dsh-go-tweet（社区生态视角，@NFT_Chen）
+### 来自 DeepSeek Harness Go 版（社区生态视角，@NFT_Chen）
 - 社区第三方项目 DSH Go 把完整 DSH 引擎装进安卓手机（Android 8+ arm64）：内置 Ubuntu 环境免 Root 免 Termux 本机直接跑；开源一天 3000+ Star，"非官方但完成度极高"
 - 断档接力：SSH/Remote 一键接管电脑/服务器会话；插件、语音输入、图片、屏幕操控全支持，原生界面+网页模式一键切换；桌宠 Deepy 和鲸娘
 - 评论区安全建议（@leehoo48415921）：非官方包单独开一个 API Key 专用于它，勿用主力 Key
@@ -103,7 +103,7 @@ cd deepseek-harness && pnpm install && pnpm run build && pnpm dsh web
 - **第三方**：内置提供商 id——`anthropic`、`openai`、`moonshotai`（Kimi）、`zai`（GLM）
 - **中转站/网关**："自定义模型 API"：Provider ID（小写、永久）+ 基础 URL + 协议三选一（openai-completions / openai-responses / anthropic-messages）+ 密钥，"获取可用模型"可自动探测端点列表
 - **密钥安全**：只写设计，明文只存 `$DSH_HOME/.credentials.yaml`，页面只见脱敏描述符；支持环境变量后备
-- **网关排错**：拒绝所有请求 → `compat.supportsDeveloperRole: false` + `compat.maxTokensField: max_tokens`；关不掉思考 → `compat.thinkingFormat: deepseek`（完整排错表见 [[2026-11-02-deepseek-harness-guides]]）
+- **网关排错**：拒绝所有请求 → `compat.supportsDeveloperRole: false` + `compat.maxTokensField: max_tokens`；关不掉思考 → `compat.thinkingFormat: deepseek`（完整排错表见 [[DeepSeek Harness 官方指南]]）
 
 ### Python SDK（程序化调用）
 
@@ -145,11 +145,11 @@ print(result.final_response)
 - [[DeepSeek]]
 - [[AI Agent 智能体]]
 - [[AI编程开发]]
-- [[2026-11-02-deepseek-harness-tweet]]
-- [[2026-11-02-deepseek-harness-readme]]
-- [[2026-11-02-deepseek-harness-guides]]
-- [[2026-11-02-deepseek-harness-official-site]]
-- [[2026-11-02-superagent-prototype-tweets]]
-- [[2026-11-02-dsh-superagent-prototype]]
-- [[2026-11-02-dsh-go-tweet]]
+- [[DeepSeek Harness 发布推文]]
+- [[DeepSeek Harness README]]
+- [[DeepSeek Harness 官方指南]]
+- [[DeepSeek Harness 官网]]
+- [[Super-agent 原型推文合集]]
+- [[DSH Super-agent 原型]]
+- [[DeepSeek Harness Go 版]]
 - [[DSH 入门学习路径]]

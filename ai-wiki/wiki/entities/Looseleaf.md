@@ -2,7 +2,7 @@
 tags: [Looseleaf, 组件库, shadcn, 手绘风格, React, Tailwind, 设计系统, 前端]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-looseleaf]
+sources: [Looseleaf 手绘组件库]
 ---
 
 # Looseleaf
@@ -95,10 +95,10 @@ export function App() {
 
 ## 不同素材中的观点
 
-- **[来源: [[2026-11-04-looseleaf]]]** README 与仓库研究显示：作者强调「装饰是外衣，语义是标准 Radix」，并用「同一 seed 画出同一条线」把可复现性、SSR 和可访问性做成硬约束；工程侧用消费者安装测试保证 registry 不是摆设。对使用者的实际含义是：**迁移成本低（API 兼容）、视觉辨识度高、但审美取向强**，适合创意类项目而非通用后台。
+- **[来源: [[Looseleaf 手绘组件库]]]** README 与仓库研究显示：作者强调「装饰是外衣，语义是标准 Radix」，并用「同一 seed 画出同一条线」把可复现性、SSR 和可访问性做成硬约束；工程侧用消费者安装测试保证 registry 不是摆设。对使用者的实际含义是：**迁移成本低（API 兼容）、视觉辨识度高、但审美取向强**，适合创意类项目而非通用后台。
 
 ## 相关页面
 
-- [[2026-11-04-looseleaf]]
+- [[Looseleaf 手绘组件库]]
 - [[Looseleaf 上手指南]]（三条使用路线、动效能力与做视频的可行路径）
 - [[AI编程开发]]

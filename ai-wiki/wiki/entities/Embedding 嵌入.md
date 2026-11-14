@@ -3,7 +3,7 @@ type: entity
 name: Embedding 嵌入
 category: 核心技术
 tags: [向量, 向量化, RAG, 相似度匹配]
-sources: [2026-04-29-yupi-ai-guide-core-concepts, 2026-04-29-yupi-ai-guide-programming-tech]
+sources: [AI 核心概念 16 讲, 鱼皮 AI 编程技术]
 created: 2026-04-29
 updated: 2026-04-29
 ---

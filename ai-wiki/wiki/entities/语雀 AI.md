@@ -3,7 +3,7 @@ type: entity
 name: 语雀 AI
 category: AI产品
 tags: [文档协作, 知识库, 蚂蚁集团, DeepSeek]
-sources: [2026-04-29-yupi-ai-guide-tools]
+sources: [AI 程序员工具链]
 created: 2026-04-29
 updated: 2026-04-29
 ---

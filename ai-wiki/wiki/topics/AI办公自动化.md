@@ -2,7 +2,7 @@
 tags: [办公自动化, DeepSeek, Excel, Word, VBA, 效率提升]
 created: 2026-04-29
 updated: 2026-04-29
-sources: [2026-04-29-deepseek-excel-integration, 2026-04-29-deepseek-word-integration, 2026-04-29-deepseek-10-work-tips]
+sources: [DeepSeek Excel 集成, DeepSeek Word 集成, DeepSeek 高效工作十法]
 ---
 
 # AI 办公自动化

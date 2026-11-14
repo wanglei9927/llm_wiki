@@ -2,7 +2,7 @@
 tags: [HackerNews, YCombinator, 技术社区, 数据集, 开放数据]
 created: 2026-11-03
 updated: 2026-11-03
-sources: [2026-11-03-hf-hacker-news-dataset]
+sources: [Hacker News 全量数据集]
 ---
 
 # Hacker News
@@ -25,14 +25,14 @@ sources: [2026-11-03-hf-hacker-news-dataset]
 |---|---|
 | 官方 Firebase API | https://hacker-news.firebaseio.com/v2 ，逐条按 ID 取，实时 |
 | ClickHouse Playground | https://sql.clickhouse.com ，免费公共 SQL 端点，完整镜像 HN 数据 |
-| HF 全量数据集 | open-index/hacker-news（[[2026-11-03-hf-hacker-news-dataset]]）：月度 Parquet + 5 分钟实时，DuckDB hf:// 直查 |
+| HF 全量数据集 | open-index/hacker-news（[[Hacker News 全量数据集]]）：月度 Parquet + 5 分钟实时，DuckDB hf:// 直查 |
 
 ## 不同素材中的观点
 
-- **[来源: [[2026-11-03-hf-hacker-news-dataset]]]** HN 存档价值：LLM 预训练/微调语料、二十年技术趋势分析、社区动力学研究、检索基准；数据含 deleted/dead 条目原样保留，无质量过滤，使用时注意社区偏差与审核痕迹。
+- **[来源: [[Hacker News 全量数据集]]]** HN 存档价值：LLM 预训练/微调语料、二十年技术趋势分析、社区动力学研究、检索基准；数据含 deleted/dead 条目原样保留，无质量过滤，使用时注意社区偏差与审核痕迹。
 
 ## 相关页面
 
-- [[2026-11-03-hf-hacker-news-dataset]]
+- [[Hacker News 全量数据集]]
 - [[黑客书架]]（基于 HN 评论的书榜应用）
 - [[AI编程开发]]

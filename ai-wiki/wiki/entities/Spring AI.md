@@ -3,8 +3,8 @@ type: entity
 name: Spring AI
 category: 开发框架
 tags: [Java, Spring, AI框架, 大模型集成]
-sources: [2026-04-29-yupi-ai-guide-programming-tech]
-  - 2026-04-29-yupi-ai-guide-programming-tech.md
+sources: [鱼皮 AI 编程技术]
+  - 鱼皮 AI 编程技术.md
 created: 2026-04-29
 updated: 2026-04-29
 ---
@@ -45,7 +45,7 @@ Spring AI 是 Pivotal 官方推出的 AI 应用开发框架，无缝集成 Sprin
 
 ## 不同素材中的观点
 
-来自 [[2026-04-29-yupi-ai-guide-programming-tech]]：
+来自 [[鱼皮 AI 编程技术]]：
 - Java 程序员首选框架
 - 和主流 Spring 无缝集成
 - 上手难度低，学习曲线平缓

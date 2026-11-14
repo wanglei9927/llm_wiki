@@ -2,7 +2,7 @@
 tags: [EGM, 学习手册, 规格驱动开发, AI Agent, 设计评审, 工作流]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-egm-readme, 2026-11-04-egm-local-install-check]
+sources: [EGM 设计评审工作流, EGM 本机安装核查]
 ---
 
 # EGM 学习手册（中文入门）
@@ -162,12 +162,12 @@ docs/designs/
 
 你 IP 工作区已经在用 speckit（specify → plan → tasks → implement）和 architect 评审。EGM 和它们是**同层但不同侧重**：
 
-| EGM 环节 | speckit 对应 | 差异 |
-|---|---|---|
-| brainstorm | specify / clarify | EGM 更强调多轮追问 + 多视角压测 |
-| draft | plan | EGM 输出 `docs/designs/`，speckit 输出 `specs/<feature>/` |
-| review | architect 评审 | EGM 用零上下文子代理自动评审，architect 是人类点名的角色 |
-| drift-report | （无对应） | EGM 独有，可补 speckit 的长期维护缺口 |
+| EGM 环节       | speckit 对应        | 差异                                                   |
+| ------------ | ----------------- | ---------------------------------------------------- |
+| brainstorm   | specify / clarify | EGM 更强调多轮追问 + 多视角压测                                  |
+| draft        | plan              | EGM 输出 `docs/designs/`，speckit 输出 `specs/<feature>/` |
+| review       | architect 评审      | EGM 用零上下文子代理自动评审，architect 是人类点名的角色                  |
+| drift-report | （无对应）             | EGM 独有，可补 speckit 的长期维护缺口                            |
 
 **落地建议**：在 IP 工作区里，把 EGM 的 review 当作 architect 评审之前的「机器初筛」——先让金鱼挑一遍，人类架构师再看剩下的硬问题。注意那边的红线：AI 不碰 git 状态，设计文档写完由人提交。
 
@@ -218,8 +218,8 @@ docs/designs/
 ## 相关页面
 
 - [[Elephant-Goldfish Model]]
-- [[2026-11-04-egm-readme]]
-- [[2026-11-04-egm-local-install-check]]
+- [[EGM 设计评审工作流]]
+- [[EGM 本机安装核查]]
 - [[AI编程开发]]
 - [[Claude Code]]
 - [[DeepSeek Harness]]

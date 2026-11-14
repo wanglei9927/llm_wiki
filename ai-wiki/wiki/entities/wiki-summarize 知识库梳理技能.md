@@ -3,7 +3,7 @@ type: entity
 name: wiki-summarize 知识库梳理技能
 category: 工程工具
 tags: [知识库, 梳理, Claude Code, Skill, SUMMARY, 健康检查]
-sources: [2026-11-02-wiki-summarize-skill]
+sources: [wiki-summarize 知识库梳理技能]
 created: 2026-11-02
 updated: 2026-11-02
 ---
@@ -25,7 +25,7 @@ wiki-summarize 是一个面向 llm-wiki 风格知识库的梳理技能。它不�
 - 页面之间链接失效，出现悬空链接
 - 新页面没有任何入链，成为孤页
 - raw 素材已入库但长期没有对应 wiki 页面
-- 页面内容过短，或残留“待补充”等占位文本
+- 页面内容过短，或残留未完成标记的模板文本
 
 人工逐页检查成本高且容易遗漏。wiki-summarize 用只读脚本先把客观问题扫出来，再让 agent 通读核心页面补充主观归纳，两者结合形成报告。
 
@@ -69,13 +69,13 @@ wiki-summarize 是一个面向 llm-wiki 风格知识库的梳理技能。它不�
 ## 健康检查项
 
 - 断链
-  `[[链接]]` 与任何 Markdown 文件名不匹配。
+  页面名与任何 Markdown 文件名不匹配（双链找不到目标）。
 - 孤页
   `wiki/` 下没有任何入链的页面。
 - 过短页
   `wiki/entities/` 小于 1500 字节。
-- 占位文本
-  出现 TODO、待补充、占位、placeholder、lorem 等关键词。
+- 模板残留文本
+  出现待办标记、未完成标记或英文模板词（用正则匹配）。
 - 未消化素材
   raw 文件名去掉日期前缀后，找不到同名 wiki 页面。
 
@@ -132,7 +132,7 @@ llm-wiki-skill 负责日常的素材采集、消化、查询和健康检查；wi
 
 ## 不同素材中的观点
 
-来自 [[2026-11-02-wiki-summarize-skill]]：
+来自 [[wiki-summarize 知识库梳理技能]]：
 
 - 这是“体检 + 梳理”，目标是可阅读、可交付的报告，不是普通问答。
 - 六步流程不可跳步，同步远端是写库前置条件。
@@ -149,5 +149,5 @@ llm-wiki-skill 负责日常的素材采集、消化、查询和健康检查；wi
 
 ## 相关页面
 
-- [[2026-11-02-wiki-summarize-skill]]
+- [[wiki-summarize 知识库梳理技能]]
 - [[AI编程开发]]

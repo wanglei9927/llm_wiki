@@ -2,7 +2,7 @@
 tags: [网络协议, 教学工具, 可视化, TCP, TLS, DNS, 交互式学习]
 created: 2026-11-04
 updated: 2026-11-04
-sources: [2026-11-04-protocol-explorer]
+sources: [Protocol Explorer 网络协议教学]
 ---
 
 # Protocol Explorer
@@ -68,9 +68,9 @@ https://protocol-explorer-alpha.vercel.app/
 
 ## 不同素材中的观点
 
-- **[来源: [[2026-11-04-protocol-explorer]]]** 站点 meta 与 JS 内教学文本显示：它把「可视化 + 字节级解码 + 完整链路」作为核心卖点，且技术实现为纯前端静态应用（严格 CSP、无外部请求），对隐私友好。对学习者的实际含义是：**适合建立直觉，但不能替代抓包实践**。
+- **[来源: [[Protocol Explorer 网络协议教学]]]** 站点 meta 与 JS 内教学文本显示：它把「可视化 + 字节级解码 + 完整链路」作为核心卖点，且技术实现为纯前端静态应用（严格 CSP、无外部请求），对隐私友好。对学习者的实际含义是：**适合建立直觉，但不能替代抓包实践**。
 
 ## 相关页面
 
-- [[2026-11-04-protocol-explorer]]
+- [[Protocol Explorer 网络协议教学]]
 - [[AI编程开发]]
