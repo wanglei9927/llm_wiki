@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：我的 Linux 系统配置
-- 素材总数：8
-- Wiki 页面总数：16
+- 素材总数：9
+- Wiki 页面总数：17
 
 ---
 
@@ -46,6 +46,7 @@
 - [[2026-11-01-aliyunpan部署记录]] - aliyunpan v0.4.0 部署，systemd 同步服务落地，端到端验证通过
 - [[2026-11-01-aliyunpan目录重构]] - 五 XDG 目录 upload 备份架构落地，配置目录 /etc/aliyunpan 发现
 - [[2026-11-14-zlib安装与使用]] - zlib v0.0.14 安装、doctor→login→tui 三步、命令速查、MCP 接入指南
+- [[2026-11-14-zlib技能创建]] - zlib skill 六工作流建成、四条铁律、SKILLS_DOC 刷新踩坑
 
 ---
 

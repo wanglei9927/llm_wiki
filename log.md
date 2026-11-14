@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-11-14 ingest | zlib技能创建
+
+- **操作**：消化配套产出事实（~/.claude/skills/zlib/SKILL.md 建成，完整处理）
+- **新增页面**：
+  - 素材摘要：wiki/sources/2026-11-14-zlib技能创建.md
+- **更新页面**：
+  - wiki/entities/zlib.md（简介/关键信息表/不同素材中的观点/相关页面追加 skill 产出）
+  - wiki/topics/Linux系统配置.md（电子书资源子方向补 skill 事实；素材汇总表、相关页面同步更新）
+  - index.md、wiki/overview.md
+- **原始素材**：raw/notes/2026-11-14-zlib技能创建.md（SKILL.md 副本）
+- **产出结果**：skill ~/.claude/skills/zlib/SKILL.md（六工作流+四铁律）；技能清单已刷新（SKILLS_DOC 环境变量覆盖脚本 Windows 硬编码路径——踩坑已记录）
+- **关联**：登录已完成（Standard，日配额 10），CLI 通道端到端验证通过
+
+---
+
 ## 2026-11-14 ingest | zlib安装与使用
 
 - **操作**：消化安装与使用事实（heartleo/zlib Z-Library CLI，完整处理）

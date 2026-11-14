@@ -2,12 +2,12 @@
 tags: [zlib, Z-Library, 电子书, CLI, TUI, MCP, Kindle, 微信读书]
 created: 2026-11-14
 updated: 2026-11-14
-sources: [2026-11-14-zlib安装与使用]
+sources: [2026-11-14-zlib安装与使用, 2026-11-14-zlib技能创建]
 ---
 
 # zlib
 
-> heartleo/zlib——Z-Library 开源命令行工具（Go 编写，MIT 协议），定位"给你和你的 AI Agent 用的 Z-Library CLI"。2026-11-14 本机安装 v0.0.14，尚未登录。
+> heartleo/zlib——Z-Library 开源命令行工具（Go 编写，MIT 协议），定位"给你和你的 AI Agent 用的 Z-Library CLI"。2026-11-14 本机安装 v0.0.14 并完成登录，配套 skill 已建成。
 
 ## 简介
 
@@ -22,6 +22,8 @@ zlib（zlib-cli）是 heartleo 维护的 Z-Library 客户端（GitHub 1.9k star 
 | 官网 | zlib.heartleo.dev |
 | AI 集成 | MCP server（`zlib mcp`，可 `--read-only`）+ Claude Code / Codex 插件 |
 | 本机版本 | v0.0.14，/usr/local/bin/zlib（2026-11-14 install.sh 安装） |
+| 账号 | leiwang9927@gmail.com（Standard，日配额 10 本） |
+| 配套 skill | ~/.claude/skills/zlib/SKILL.md（六工作流，2026-11-14 建） |
 | 前置条件 | Z-Library 账号；免费账号有每日下载配额 |
 
 ## 核心特性
@@ -36,6 +38,7 @@ zlib（zlib-cli）是 heartleo 维护的 Z-Library 客户端（GitHub 1.9k star 
 ## 不同素材中的观点
 
 - 来自 [[2026-11-14-zlib安装与使用]]：安装与首次使用三步（doctor→login→tui）；15 个子命令速查；TUI 键位表；MCP 注册命令；配额/域名漂移/cookie 登录等注意事项；本机 v0.0.14 走代理安装的事实。
+- 来自 [[2026-11-14-zlib技能创建]]：配套 skill（~/.claude/skills/zlib/SKILL.md，六工作流：status/search/download/kindle/weread/browse）已建成并登记本机技能清单；四条铁律（下载先征同意、先查配额、完整 id:hash、密码不进对话）；搜索标准动作（--json 必加，候选表格呈现）；技能清单刷新脚本在本机须 SKILLS_DOC 环境变量覆盖 Windows 硬编码路径。
 
 ## 实用信息
 
@@ -47,5 +50,6 @@ zlib（zlib-cli）是 heartleo 维护的 Z-Library 客户端（GitHub 1.9k star 
 ## 相关页面
 
 - [[2026-11-14-zlib安装与使用]]
+- [[2026-11-14-zlib技能创建]]
 - [[aliyunpan]]
 - [[Linux系统配置]]

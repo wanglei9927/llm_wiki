@@ -4,7 +4,7 @@
 
 | 类别 | 数量 | 入口 |
 |------|------|------|
-| 素材 | 8 | yazi快捷键速查、用户词典、vim-init、iphone互传、zram部署、aliyunpan部署、aliyunpan重构、zlib安装与使用 |
+| 素材 | 9 | yazi快捷键速查、用户词典、vim-init、iphone互传、zram部署、aliyunpan部署、aliyunpan重构、zlib安装与使用、zlib技能创建 |
 | 实体 | 7 | [[yazi]]、[[vim-init]]、[[LocalSend]]、[[zram]]、[[aliyunpan]]、[[zlib]]、[[ibus-libpinyin]] |
 | 主题 | 1 | [[Linux系统配置]] |
 | 对比分析 | 0 | （待积累） |
@@ -16,7 +16,8 @@
 
 ## 最近更新
 
-- **2026-11-14**：安装 zlib v0.0.14（Z-Library 开源 CLI，官方 install.sh 经代理装 /usr/local/bin）；消化为 [[zlib]] 实体页与素材摘要，[[Linux系统配置]] 新增"电子书资源"子方向；尚未登录。
+- **2026-11-14**：zlib 登录完成（Standard，日配额 10）并端到端验证；配套 skill（~/.claude/skills/zlib/，六工作流+四铁律）建成并登记本机技能清单；消化为 [[2026-11-14-zlib技能创建]] 摘要页并更新 [[zlib]] 实体页。
+- **2026-11-14**：安装 zlib v0.0.14（Z-Library 开源 CLI，官方 install.sh 经代理装 /usr/local/bin）；消化为 [[zlib]] 实体页与素材摘要，[[Linux系统配置]] 新增"电子书资源"子方向。
 - **2026-11-01**：aliyunpan 同步架构重构：云盘目录改名 `/surface-go-ubuntu`，本机五个 XDG 目录（公共/视频/图片/文档/音乐）全部 upload 增量备份到云盘；发现配置目录真相 /etc/aliyunpan；消化为目录重构素材并更新 [[aliyunpan]] 实体页。
 - **2026-11-01**：部署 aliyunpan v0.4.0（apt 源）+ systemd 同步服务，端到端验证通过；生成 aliyunpan-sync skill 与使用手册；消化为 [[aliyunpan]] 实体页与素材摘要。
 - **2026-10-31**：部署 zram（lz4/3.6G/优先级 100）+ 磁盘 swap 分级交换，交换总量 4G→7.6G（内核优化项目第一项），消化为 [[zram]] 实体页与素材摘要。
