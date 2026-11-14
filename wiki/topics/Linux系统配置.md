@@ -1,8 +1,8 @@
 ---
 tags: [Linux, Ubuntu, Surface, 系统配置, 运维]
 created: 2026-10-31
-updated: 2026-10-31
-sources: [2026-10-31-yazi快捷键速查, 2026-10-31-ibus-libpinyin用户词典, 2026-10-31-vim-init安装配置记录, 2026-10-31-iphone-linux互传方案, 2026-10-31-zram部署记录, 2026-11-01-aliyunpan部署记录]
+updated: 2026-11-14
+sources: [2026-10-31-yazi快捷键速查, 2026-10-31-ibus-libpinyin用户词典, 2026-10-31-vim-init安装配置记录, 2026-10-31-iphone-linux互传方案, 2026-10-31-zram部署记录, 2026-11-01-aliyunpan部署记录, 2026-11-14-zlib安装与使用]
 ---
 
 # Linux系统配置
@@ -23,6 +23,8 @@ sources: [2026-10-31-yazi快捷键速查, 2026-10-31-ibus-libpinyin用户词典,
 10. **内存分级交换：zram（lz4）优先 + 磁盘兜底**：8GB 内存设备部署 zram 3.6G（lz4 算法，priority 100）优先承接换出页，磁盘 /swap.img 4G（priority -1）兜底，交换总量 4G → 7.6G；换出速度提升几十倍且不磨损 SSD；zram 不支持休眠（需持久 swap，现有 4G 磁盘 swap 本就不足以休眠 7.2G 内存）。（来源：[[zram]]、[[2026-10-31-zram部署记录]]）
 11. **云存储备份：aliyunpan CLI + systemd 常驻服务（五目录 upload）**：阿里云盘官方无 Linux 客户端，采用开源 CLI（v0.4.0，apt 源）配 systemd user service，将本机五个 XDG 目录（公共/视频/图片/文档/音乐）增量备份到云盘 `/surface-go-ubuntu/`（increment，本机删除不传播）；apt 版配置目录在 **/etc/aliyunpan**；自动化必须用直接子命令模式（管道模式会 panic）。（来源：[[aliyunpan]]、[[2026-11-01-aliyunpan部署记录]]、[[2026-11-01-aliyunpan目录重构]]）
 
+12. **电子书获取：zlib CLI（CLI+TUI+MCP 三形态）**：Z-Library 开源命令行工具（Go 单二进制 v0.0.14，install.sh 经代理安装），doctor 探测可达镜像解决域名漂移痛点，支持推送 Kindle 与微信读书，MCP server 可接入 AI Agent（read-only 收窄权限）。（来源：[[zlib]]、[[2026-11-14-zlib安装与使用]]）
+
 ## 素材汇总表
 
 | 素材 | 类型 | 核心内容 | 摘要页 |
@@ -34,6 +36,7 @@ sources: [2026-10-31-yazi快捷键速查, 2026-10-31-ibus-libpinyin用户词典,
 | zram部署记录（2026-10-31） | 内核优化部署 | zram 3.6G/lz4/priority 100 落地，交换 4G→7.6G，四个踩坑点 | [[2026-10-31-zram部署记录]] |
 | aliyunpan部署记录（2026-11-01） | 部署+验证记录 | apt 源 v0.4.0、OAuth 登录、systemd 同步服务落地、管道 panic 踩坑 | [[2026-11-01-aliyunpan部署记录]] |
 | aliyunpan目录重构（2026-11-01） | 架构变更记录 | 云盘目录改名 surface-go-ubuntu，五 XDG 目录 upload 备份，配置目录 /etc/aliyunpan 发现 | [[2026-11-01-aliyunpan目录重构]] |
+| zlib安装与使用（2026-11-14） | 安装+使用指南 | Z-Library CLI v0.0.14 安装、doctor→login→tui 三步、命令速查、MCP 接入 | [[2026-11-14-zlib安装与使用]] |
 
 ## 知识体系
 
@@ -51,6 +54,9 @@ GNOME（Ubuntu 26.04.1 默认）+ Ptyxis 终端。Ptyxis 的配置是扁平 dcon
 
 ### 云存储与备份
 阿里云盘经开源 CLI（aliyunpan v0.4.0）接入：systemd user service 常驻，本机五个 XDG 目录（公共/视频/图片/文档/音乐）→ 云盘 `/surface-go-ubuntu/` 增量备份（upload/increment，删除不传播）；配置目录 /etc/aliyunpan；临时下载/上传单命令随时可用；配套 skill（~/.claude/skills/aliyunpan-sync/）与使用手册（~/文档/aliyunpan使用手册.md）。iCloud 照片自动备份（icloudpd）为待评估备选。
+
+### 电子书资源
+Z-Library 经开源 CLI（zlib v0.0.14）接入：单二进制覆盖 CLI/TUI/MCP 三形态；首次使用 doctor→login→tui 三步（需 Z-Library 账号）；doctor 镜像探测 + mirrors 自定义域名 + 代理配置三层网络兜底；下载的书可推 Kindle（SMTP）或导入微信读书（扫码）；尚未登录，MCP 接入待使用后评估。
 
 ### 中文输入
 ibus-libpinyin 智能拼音 + 296 条用户词典（数据库、备份恢复、API 等术语，频率 100）；词典源文件 `~/文档/user_dictionary.txt` 需自行备份（引擎无导出功能）。
@@ -81,7 +87,9 @@ sudoers.d 全部免密 + AI Agent（CodeArts）直接执行 root 操作的模式
 - [[LocalSend]]
 - [[zram]]
 - [[aliyunpan]]
+- [[zlib]]
 - [[ibus-libpinyin]]
+- [[2026-11-14-zlib安装与使用]]
 - [[2026-10-31-yazi快捷键速查]]
 - [[2026-10-31-ibus-libpinyin用户词典]]
 - [[2026-10-31-vim-init安装配置记录]]

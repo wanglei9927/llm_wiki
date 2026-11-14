@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-11-14 ingest | zlib安装与使用
+
+- **操作**：消化安装与使用事实（heartleo/zlib Z-Library CLI，完整处理）
+- **新增页面**：
+  - 素材摘要：wiki/sources/2026-11-14-zlib安装与使用.md
+  - 实体页：wiki/entities/zlib.md
+- **更新页面**：
+  - wiki/topics/Linux系统配置.md（新增观点 12：电子书获取；新增"电子书资源"知识体系子方向；素材汇总表、相关页面同步更新）
+  - index.md、wiki/overview.md
+- **原始素材**：raw/notes/2026-11-14-zlib安装与使用.md
+- **部署结果**：v0.0.14 官方 install.sh 经代理 127.0.0.1:7897 安装到 /usr/local/bin/zlib；尚未登录（需 Z-Library 账号，doctor→login→tui 三步待用户执行）
+
+---
+
 ## 2026-11-01 ingest | aliyunpan目录重构
 
 - **操作**：消化同步架构变更（用户要求：云盘目录改名 surface-go-ubuntu、废弃 ~/阿里云盘同步、五个 XDG 目录纳入同步）

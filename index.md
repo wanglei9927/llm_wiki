@@ -1,14 +1,14 @@
 # 知识库索引
 
-> 最后更新：2026-11-01
+> 最后更新：2026-11-14
 
 ---
 
 ## 概览
 
 - 主题：我的 Linux 系统配置
-- 素材总数：7
-- Wiki 页面总数：14
+- 素材总数：8
+- Wiki 页面总数：16
 
 ---
 
@@ -21,6 +21,7 @@
 - [[LocalSend]] - 开源 AirDrop 替代品，本机与 iPhone 互传主力（v1.18.2，局域网直传不经云端）
 - [[zram]] - 内核压缩内存块设备，Surface Go 3 内核优化第一项（lz4，3.6G，priority 100）
 - [[aliyunpan]] - 阿里云盘开源 CLI，本机五 XDG 目录自动备份到云盘（v0.4.0，systemd 常驻服务）
+- [[zlib]] - Z-Library 开源 CLI（Go 单二进制 v0.0.14），搜书/下载/推 Kindle 与微信读书，MCP 可接 AI Agent
 - [[ibus-libpinyin]] - IBus 智能拼音引擎，本机用户词典定制 296 条数据库/运维高频术语
 
 ---
@@ -44,6 +45,7 @@
 - [[2026-10-31-zram部署记录]] - zram 部署（lz4/3.6G/优先级 100），交换 4G→7.6G，四个踩坑点
 - [[2026-11-01-aliyunpan部署记录]] - aliyunpan v0.4.0 部署，systemd 同步服务落地，端到端验证通过
 - [[2026-11-01-aliyunpan目录重构]] - 五 XDG 目录 upload 备份架构落地，配置目录 /etc/aliyunpan 发现
+- [[2026-11-14-zlib安装与使用]] - zlib v0.0.14 安装、doctor→login→tui 三步、命令速查、MCP 接入指南
 
 ---
 
