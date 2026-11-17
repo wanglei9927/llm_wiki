@@ -36,7 +36,7 @@
 - **前端 UI 与设计系统**：Looseleaf 手绘风组件库，代码生成 SVG
 - **网络协议与基础设施**：Protocol Explorer 逐包可视化教学（DNS→TCP→TLS→HTTP）
 - **开源生态盘点**：Google 开源 2,892 仓库地图（AI Agent / 基础库 / 工程文化）
-- **英语学习**：阅读能力的分级路线与精读/泛读课程清单（YouTube + Bilibili）
+- **英语学习**：阅读能力的方法论、课程调研与资源清单（Awesome English），覆盖听说读写 + AI 工具
 
 ---
 
@@ -46,9 +46,9 @@
 
 | 类型 | 数量 | 入口 |
 |------|------|------|
-| 素材摘要 | 55 | `wiki/sources/` 目录 |
-| 实体页 | 50 | `wiki/entities/` 目录 |
-| 主题页 | 7 | `wiki/topics/` 目录 |
+| 素材摘要 | 56 | `wiki/sources/` 目录 |
+| 实体页 | 51 | `wiki/entities/` 目录 |
+| 主题页 | 8 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
 | 综合分析 | 4 | `wiki/synthesis/` 目录 |
 
@@ -56,6 +56,7 @@
 
 ## 最近更新
 
+- **2026-11-18**：收录 Awesome English（英语学习资源清单，4,571★）+ 新建「英语学习」主题页打通已有英语内容（阅读能力 + 课程调研 + 双语精读）：新增 1 篇摘要 + 1 个实体页 + 1 个主题页，知识库达到 56 篇素材
 - **2026-11-17**：收录 OpenCodeReview（阿里 AI 代码评审 CLI，53.5k★）+《The Software Engineering Handbook》（James C. Davis，受控变更/判断决策视角）：新增 2 篇摘要 + 2 个实体页，补入「工具集」与「AI编程开发」，知识库达到 55 篇素材
 - **2026-11-17**：收录 XFeed 信息聚合站（https://xfeed.ai）：X 平台 AI 创作者内容聚合站，按主题/类型/时间筛选 + 入门专题 + 作者精选；新增 1 篇摘要 + 1 个实体页，补入「工具集」新增「资讯与内容发现」分类，知识库达到 53 篇素材
 - **2026-11-14**：收录 Mole 系统清理工具（74,995★ / GPL-3.0）：`mo clean/uninstall/optimize/analyze/status` 一条命令，带 Agent Skill 与 DSH 插件；新增 1 篇摘要 + 1 个实体页（含 Windows 本机安装速查），补入「工具集」的「桌面与效率」，知识库达到 52 篇素材

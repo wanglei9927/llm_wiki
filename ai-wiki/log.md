@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-11-18 — 收录 Awesome English + 新建「英语学习」主题页（打通英语内容）
+
+- **操作**：抓取 yvoronoy/awesome-english readme.md（34KB）；梳理已有英语内容（英语阅读能力实体 + 英语阅读课程调研 + Dan Koe 双语精读）
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-18-awesome-english.md）
+  - 素材摘要 1 篇（[[Awesome English 英语学习资源]]：14 大类资源清单 + 5 方法 + AI 学英语）
+  - 实体页 1 篇（[[Awesome English]]：资源地图，四大技能 + AI 工具）
+  - 主题页 1 篇（[[英语学习]]：方法论→资源→课程→实践四层打通）
+- **同步**：[[英语阅读能力]] 追加 Awesome English 观点并回填 sources；index/overview 计数器更新
+- **当前知识库规模**：56 篇素材，8 个主题页，51 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-17 — 收录 OpenCodeReview + 软件工程手册（2 摘要 + 2 实体）
 
 - **操作**：抓取 alibaba/open-code-review 主分支 README（16KB）+ 下载《The Software Engineering Handbook》PDF（155 页）并提取正文
