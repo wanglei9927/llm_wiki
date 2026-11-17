@@ -1,8 +1,8 @@
 ---
 tags: [AI编程, DeepSeek, Cursor, 开发效率, 架构图, 游戏开发, Spring AI, RAG, Agent]
 created: 2026-04-29
-updated: 2026-11-02
-sources: [DeepSeek VSCode 集成, DeepSeek 本地部署方案, AI 架构图绘制教程, AI 游戏开发 3 小时 28 万, DeepSeek 与 Cline 开发 iOS App, 鱼皮 AI 指南开篇, AI 核心概念 16 讲, AI 程序员工具链, 鱼皮 AI 编程技巧, 鱼皮 AI 编程技术, DeepSeek Harness 发布推文, DeepSeek Harness README, Claude Code 实战开发术, DeepSeek Harness 官方指南, DeepSeek Harness 官网, Super-agent 原型推文合集, DSH Super-agent 原型, 卡兹克 Agent 自动化系统]
+updated: 2026-11-17
+sources: [DeepSeek VSCode 集成, DeepSeek 本地部署方案, AI 架构图绘制教程, AI 游戏开发 3 小时 28 万, DeepSeek 与 Cline 开发 iOS App, 鱼皮 AI 指南开篇, AI 核心概念 16 讲, AI 程序员工具链, 鱼皮 AI 编程技巧, 鱼皮 AI 编程技术, DeepSeek Harness 发布推文, DeepSeek Harness README, Claude Code 实战开发术, DeepSeek Harness 官方指南, DeepSeek Harness 官网, Super-agent 原型推文合集, DSH Super-agent 原型, 卡兹克 Agent 自动化系统, OpenCodeReview 代码评审工具, 软件工程手册（书）]
 ---
 
 # AI 编程开发全景
@@ -383,6 +383,28 @@ IDE: PyCharm Community Edition（免费）
 
 相关实体：[[数字生命卡兹克]] · 相关主题：[[Claude Code 实战开发术]]（同款"评审最多 3 次"纪律）
 
+## 代码评审工具：OpenCodeReview（2026-11）
+
+来自 [[OpenCodeReview 代码评审工具]]：
+
+- 阿里开源 AI 代码评审 CLI（53.5k★），源自集团内部官方 AI 代码评审助手（两年识别数百万缺陷）
+- 核心是「确定性工程 × LLM Agent」混合：确定性工程做硬约束（文件选择、智能打包成 sub-agent、模板规则匹配、外部定位+反思），Agent 只做动态决策（场景化 prompt + 场景化工具集）——解决通用 agent 审代码的「覆盖不全 / 位置漂移 / 质量不稳」三大痛点
+- 基准（AACR-Bench：50 仓库/200 PR/10 语言/1,505 条专家标注）：同模型下 precision/F1 高于 Claude Code、token 约 1/9，但 Recall 更低（用召回换精准、减少误报）
+- 双模式：Native（自配模型）+ Delegation（复用宿主 agent 模型，无需单独 key）；`npm i -g @alibaba-group/open-code-review` 得 `ocr` 命令，或 `npx skills add alibaba/open-code-review`
+- 与 [[Elephant-Goldfish Model]] 对照：EGM 是「大象写规格、金鱼零上下文挑刺」的角色化工作流，OpenCodeReview 是工程化评审流水线
+
+相关实体：[[OpenCodeReview]]、[[Claude Code]]、[[Elephant-Goldfish Model]]
+
+## 软件工程手册：受控变更视角（2026-11）
+
+来自 [[软件工程手册（书）]]：
+
+- 《The Software Engineering Handbook》（James C. Davis）把软件工程定义为「受控变更的工程学科」，用 `Model → Property → Observation → Evidence → Judgment` 统一范式组织全书
+- 关键主张：技术只是「移动瓶颈」——GenAI 让写代码变充裕后，工程约束转移到控制、协调与决策；「GenAI 引入可替代的能力」直接改写团队能力等式
+- 适合作为建立 SE 心智模型的底本，与本页的「程序员角色转变 = AI 操控师」判断互相印证
+
+相关实体：[[软件工程手册]]、[[AI Agent 智能体]]
+
 ## 相关页面
 
 - [[DeepSeek]]
@@ -396,3 +418,5 @@ IDE: PyCharm Community Edition（免费）
 - [[DeepSeek Harness]]
 - [[Claude Code]]
 - [[Claude Code 实战开发术]]
+- [[OpenCodeReview]]
+- [[软件工程手册]]

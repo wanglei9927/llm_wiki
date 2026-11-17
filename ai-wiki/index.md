@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：53
-- Wiki 页面总数：112
+- 素材总数：55
+- Wiki 页面总数：116
 - 总览页：[[overview]]
 
 ---
@@ -65,6 +65,8 @@
 - [[OpenMAIC]] - 清华开源多 Agent 互动教室：一键开课、导出 PPT
 - [[Mole]] - tw93 开源电脑清理工具：`mo clean/uninstall/analyze/status`，74,995★
 - [[XFeed]] - X 平台 AI 创作者内容聚合站：实测/教程/工具，按主题/类型/时间筛选
+- [[OpenCodeReview]] - 阿里开源的 AI 代码评审 CLI：确定性流水线 + LLM Agent，行级精准评论
+- [[软件工程手册]] - James C. Davis 的软件工程手册：受控变更 + 判断决策视角
 
 ---
 
@@ -108,7 +110,7 @@
 - [[DeepSeek Word 集成]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[DeepSeek 高效工作十法]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（28 篇）
+### 编程开发类（29 篇）
 
 - [[DeepSeek VSCode 集成]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[DeepSeek 本地部署方案]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -142,6 +144,7 @@
 - [[GIF 工厂技能]] - 卧云 GIF 工厂：七类动效用途、40 种片头字形、动态签名 2.0
 - [[深入理解 AI Agent（书）]] - 李博杰《深入理解 AI Agent》：10 章原理+工程+109 实验，57,764★
 - [[Ubuntu 安卓投屏控制]] - Ubuntu 单手机投屏控制：ADB + scrcpy + systemd，登录后自动连接
+- [[OpenCodeReview 代码评审工具]] - OpenCodeReview：阿里 AI 代码评审工具，确定性工程 × LLM Agent
 
 ### 工程实战类（2 篇）
 
@@ -154,10 +157,11 @@
 - [[Mole 系统清理工具]] - Mole：开源 Mac/Windows 清理工具（CLI + 原生 App，GPL-3.0，74,995★）
 - [[免费 AI 自学工具三件套]] - 免费 AI 自学三件套：DeepTutor + book-to-skill + OpenMAIC（星标与用法核对）
 
-### 个人成长类（2 篇）
+### 个人成长类（3 篇）
 
 - [[Dan Koe 人生重启双语精读]] - Dan Koe 长文中英双语精读：改身份而不是改行为，用一天重启人生
 - [[英语阅读课程调研]] - YouTube + Bilibili 英语阅读课程调研：16 组频道 + 28 条课程，按水平分路线
+- [[软件工程手册（书）]] - 软件工程手册：受控变更的工程学科，判断与决策视角（155 页 / 12 章）
 
 ---
 

@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-17 — 收录 OpenCodeReview + 软件工程手册（2 摘要 + 2 实体）
+
+- **操作**：抓取 alibaba/open-code-review 主分支 README（16KB）+ 下载《The Software Engineering Handbook》PDF（155 页）并提取正文
+- **新增页面**：
+  - 原始素材 2 篇（raw/articles/2026-11-17-open-code-review.md、raw/pdfs/2026-11-17-se-handbook.md）
+  - 素材摘要 2 篇（[[OpenCodeReview 代码评审工具]]、[[软件工程手册（书）]]）
+  - 实体页 2 篇（[[OpenCodeReview]]：确定性工程 × LLM Agent 架构；[[软件工程手册]]：受控变更 + 判断决策框架）
+- **同步**：[[工具集]] 补入「AI 编程与 Agent」；[[AI编程开发]] 新增「代码评审工具」「软件工程手册」两节；index/overview 计数器更新
+- **当前知识库规模**：55 篇素材，7 个主题页，50 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-17 — 收录 XFeed 信息聚合站（摘要 + 实体）
 
 - **操作**：抓取 https://xfeed.ai 首页，提取站点定位与功能（追踪 X 平台 AI 创作者动态的聚合站）
