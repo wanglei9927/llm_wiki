@@ -4,6 +4,19 @@
 
 ---
 
+## 2026-11-22 — 收录 iPhoneMirror（Windows iPhone 投屏，摘要 + 实体）
+
+- **操作**：抓取 RayrenSX/iPhoneMirror 主分支 README（32KB，v1.8.5-pre5），研究平台支持与耗电特性
+- **新增页面**：
+  - 原始素材 1 篇（raw/articles/2026-11-22-iphonemirror.md）
+  - 素材摘要 1 篇（[[iPhoneMirror 投屏工具]]：平台边界、双通道、安装步骤、耗电分层）
+  - 实体页 1 篇（[[iPhoneMirror]]：iOS 版 scrcpy，功能/实用信息/耗电说明）
+- **同步**：[[scrcpy]] 补 iPhoneMirror 交叉引用；[[工具集]] 补入「桌面与效率」；index/overview 计数器更新
+- **当前知识库规模**：57 篇素材，8 个主题页，52 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-18 — 收录 Awesome English + 新建「英语学习」主题页（打通英语内容）
 
 - **操作**：抓取 yvoronoy/awesome-english readme.md（34KB）；梳理已有英语内容（英语阅读能力实体 + 英语阅读课程调研 + Dan Koe 双语精读）

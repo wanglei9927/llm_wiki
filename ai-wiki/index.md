@@ -8,8 +8,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：56
-- Wiki 页面总数：119
+- 素材总数：57
+- Wiki 页面总数：121
 - 总览页：[[overview]]
 
 ---
@@ -61,6 +61,7 @@
 - [[PixelFX]] - 开源像素游戏特效库：21 类 244 个代码化特效，含 Claude Code Skill
 - [[深入理解 AI Agent]] - 李博杰开源书：Agent = LLM + 上下文 + 工具，10 章 + 109 实验
 - [[scrcpy]] - Android 投屏与键鼠控制：USB/无线，可脚本化自动连接
+- [[iPhoneMirror]] - Windows 上的 iPhone/iPad 投屏与反向控制：USB + AirPlay，OBS 友好
 - [[DeepTutor]] - 港大开源终身个性化 AI 家教：学习路径、测验、研究、长期记忆
 - [[book-to-skill]] - 技术书/PDF 一键转跨 Agent Skill，章节按需加载
 - [[OpenMAIC]] - 清华开源多 Agent 互动教室：一键开课、导出 PPT
@@ -113,7 +114,7 @@
 - [[DeepSeek Word 集成]] - DeepSeek Word 集成：VBA 脚本一键接入
 - [[DeepSeek 高效工作十法]] - DeepSeek 高效工作十法：从提问小白到驾驭 AI
 
-### 编程开发类（29 篇）
+### 编程开发类（30 篇）
 
 - [[DeepSeek VSCode 集成]] - DeepSeek VSCode 集成：Roo Code + 通义灵码
 - [[DeepSeek 本地部署方案]] - DeepSeek 本地部署完整方案：PyCharm + CodeGPT + Ollama
@@ -147,6 +148,7 @@
 - [[GIF 工厂技能]] - 卧云 GIF 工厂：七类动效用途、40 种片头字形、动态签名 2.0
 - [[深入理解 AI Agent（书）]] - 李博杰《深入理解 AI Agent》：10 章原理+工程+109 实验，57,764★
 - [[Ubuntu 安卓投屏控制]] - Ubuntu 单手机投屏控制：ADB + scrcpy + systemd，登录后自动连接
+- [[iPhoneMirror 投屏工具]] - iPhoneMirror：Windows 上 iPhone/iPad 投屏，USB + AirPlay + OBS
 - [[OpenCodeReview 代码评审工具]] - OpenCodeReview：阿里 AI 代码评审工具，确定性工程 × LLM Agent
 
 ### 工程实战类（2 篇）
