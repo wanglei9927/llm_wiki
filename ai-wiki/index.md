@@ -8,8 +8,8 @@
 ## 概览
 
 - 主题：AI 学习笔记
-- 素材总数：57
-- Wiki 页面总数：121
+- 素材总数：58
+- Wiki 页面总数：122
 - 总览页：[[overview]]
 
 ---
@@ -156,11 +156,12 @@
 - [[CodeArts Telegram 桥]] - CodeArts Telegram Bridge：把手机变成 CodeArts 远程终端
 - [[wiki-summarize 知识库梳理技能]] - wiki-summarize：知识库整体盘点与 SUMMARY.md 生成技能
 
-### 工具与效率类（3 篇）
+### 工具与效率类（4 篇）
 
 - [[DeskBox 桌面整理工具]] - DeskBox：开源 Windows 桌面整理工具（WinUI 3，Fences 免费替代）
 - [[Mole 系统清理工具]] - Mole：开源 Mac/Windows 清理工具（CLI + 原生 App，GPL-3.0，74,995★）
 - [[免费 AI 自学工具三件套]] - 免费 AI 自学三件套：DeepTutor + book-to-skill + OpenMAIC（星标与用法核对）
+- [[AI 一手资讯源清单]] - 追 AI 前沿的 7 个一手渠道：AI News / The Batch / HF Papers / alphaXiv / arXiv / LMArena / Artificial Analysis
 
 ### 个人成长类（4 篇）
 

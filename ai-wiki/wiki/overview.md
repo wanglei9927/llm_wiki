@@ -46,7 +46,7 @@
 
 | 类型 | 数量 | 入口 |
 |------|------|------|
-| 素材摘要 | 57 | `wiki/sources/` 目录 |
+| 素材摘要 | 58 | `wiki/sources/` 目录 |
 | 实体页 | 52 | `wiki/entities/` 目录 |
 | 主题页 | 8 | `wiki/topics/` 目录 |
 | 对比分析 | 0 | `wiki/comparisons/` 目录 |
@@ -56,6 +56,7 @@
 
 ## 最近更新
 
+- **2026-11-25**：收录 @Huahuazo 推文「追 AI 前沿的 7 个一手渠道」：AI News / The Batch / HF Papers / alphaXiv / arXiv / LMArena / Artificial Analysis；新增 1 篇摘要，补入「工具集」，知识库达到 58 篇素材
 - **2026-11-22**：收录 iPhoneMirror（Windows 上 iPhone/iPad 投屏，1,961★）：USB + AirPlay 双通道、多设备、OBS 友好，定位为 iOS 版 scrcpy；新增 1 篇摘要 + 1 个实体页，补入「工具集」，知识库达到 57 篇素材
 - **2026-11-18**：收录 Awesome English（英语学习资源清单，4,571★）+ 新建「英语学习」主题页打通已有英语内容（阅读能力 + 课程调研 + 双语精读）：新增 1 篇摘要 + 1 个实体页 + 1 个主题页，知识库达到 56 篇素材
 - **2026-11-17**：收录 OpenCodeReview（阿里 AI 代码评审 CLI，53.5k★）+《The Software Engineering Handbook》（James C. Davis，受控变更/判断决策视角）：新增 2 篇摘要 + 2 个实体页，补入「工具集」与「AI编程开发」，知识库达到 55 篇素材

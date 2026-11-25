@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-11-25 — 收录 AI 一手资讯源清单（@Huahuazo 推文，7 渠道）
+
+- **操作**：抓取 X @Huahuazo 推文《追 AI 前沿要直奔源头》（fxtwitter API），提取 7 个一手渠道及链接
+- **新增页面**：
+  - 原始素材 1 篇（raw/tweets/2026-11-25-huahuazo-ai一手资讯源.md）
+  - 素材摘要 1 篇（[[AI 一手资讯源清单]]：AI News / The Batch / HF Papers / alphaXiv / arXiv / LMArena / Artificial Analysis 七渠道清单）
+- **同步**：[[工具集]] 补入「待评估/最近记录」；index/overview 计数器更新
+- **当前知识库规模**：58 篇素材，8 个主题页，52 个实体页，4 篇综合分析
+- **状态**：完成
+
+---
+
 ## 2026-11-22 — 收录 iPhoneMirror（Windows iPhone 投屏，摘要 + 实体）
 
 - **操作**：抓取 RayrenSX/iPhoneMirror 主分支 README（32KB，v1.8.5-pre5），研究平台支持与耗电特性
